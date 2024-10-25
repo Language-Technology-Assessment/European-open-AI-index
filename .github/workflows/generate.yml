@@ -15,6 +15,7 @@ on:
 
 permissions:
   actions: read
+  id-token: write
 
 jobs:
   trigger:
