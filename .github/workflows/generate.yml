@@ -14,14 +14,11 @@ on:
         required: true
 
 permissions:
-  contents: write
-  pages: write
-  id-token: write
+  actions: read
 
 jobs:
   trigger:
     runs-on: ubuntu-latest
-
     steps:
       - name: Trigger Workflow in Language-Technology-Assessment/website
         run: |
