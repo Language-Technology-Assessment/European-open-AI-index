@@ -1,5 +1,4 @@
 name: Trigger Generate Website
-
 on:
   push:
     branches: ["main"]
