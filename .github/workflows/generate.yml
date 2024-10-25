@@ -3,7 +3,7 @@ name: Trigger Generate Website
 on:
   push:
     branches: ["main"]
-    
+
   workflow_dispatch:
     inputs:
       target_service:
@@ -16,7 +16,7 @@ on:
 permissions:
   contents: read
   pages: read
-  id-token: read
+  id-token: write
 
 jobs:
   trigger:
