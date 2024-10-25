@@ -1,0 +1,36 @@
+items:
+  - url: https://www.un.org/sites/un2.un.org/files/governing_ai_for_humanity_final_report_en.pdf
+    title: Governing AI for humanity
+    source: UN AI Advisory Body
+    image: images/un-aib.png
+    date: 01-09-2024
+  - url: https://proton.me/blog/google-docs-ai-scraping
+    title: Is your data safe from Google Docs AI scraping? 
+    source: Proton
+    image: images/proton.png
+    date: 12-07-2024
+  - url: https://openuk.uk/openmanifesto/
+    title: The Open Manifesto 2024
+    source: OPEN UK
+    image: images/openuk.png
+    date: 03-07-2024
+  - url: https://opensource.org/blog/open-source-ai-definition-weekly-update-july-1
+    title: Open Source AI Definition – Weekly update July 1
+    source: Open Source Initiative
+    image: images/osinitiative.png
+    date: 01-07-2024
+  - url: https://www.nature.com/articles/d41586-024-02012-5
+    title: "Not all ‘open source’ AI models are actually open: here’s a ranking"
+    source: Nature
+    image: images/nature.png
+    date: 19-06-2024
+  - url: https://www.theatlantic.com/technology/archive/2024/01/ai-transparency-meta-microsoft/677022/
+    title: There Was Never Such a Thing as ‘Open’ AI
+    source: The Atlantic
+    image: images/the-atlantic.png
+    date: 04-01-2024
+  - url: https://www.volkskrant.nl/nieuws-achtergrond/verantwoord-een-chatbot-gebruiken-chatgpt-is-de-slechtste-keuze~b734f31e/
+    title: Verantwoord een chatbot gebruiken? ‘ChatGPT is de slechtste keuze’
+    source: De Volkskrant
+    image: images/devolkskrant.png
+    date: 21-07-2023

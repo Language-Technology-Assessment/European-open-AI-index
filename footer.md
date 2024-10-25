@@ -1,0 +1,1 @@
+Supported by the Centre for Language Studies and the Dutch Research Council. Website design & development © 2024 by [BSTN](https://www.bstn.nl). This version of the index generated :versionlink{repo=data}, website content last updated :versionlink{repo=website}.

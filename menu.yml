@@ -1,0 +1,15 @@
+left:
+  - link: /the-index
+    name: The Index
+  - name: Guides
+    link: /#guides
+  - name: News
+    link: /#news
+right:
+  - name: About
+    link: /about
+  - name: Contribute
+    link: /contribute
+  - link: https://github.com/Language-Technology-Assessment/
+    target: _blank
+    icon: bi:github
