@@ -24,7 +24,7 @@ jobs:
         run: |
           repo_owner="Language-Technology-Assessment" 
           repo_name="website"  
-          event_type="triggered by content" 
+          event_type="trigger-workflow" 
           service="${{ github.event.inputs.target_service }}"
           version="${{ github.event.inputs.target_version }}"
   
