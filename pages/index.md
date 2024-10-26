@@ -10,7 +10,6 @@ action:
   text: Explore the index
   link: /the-index
 ---
-<!-- # European Open Source AI Index  -->
 
 We are evaluating ‘open-source’ _generative_ AI systems based on European Union regulation. 
 
