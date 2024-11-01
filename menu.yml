@@ -1,6 +1,4 @@
 left:
-  - link: /
-    name: Home
   - link: /the-index
     name: The Index
   - name: Guides
