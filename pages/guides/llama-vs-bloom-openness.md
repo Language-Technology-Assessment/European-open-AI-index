@@ -1,19 +1,17 @@
 ---
-title: The evolution of Llama models
-description: You can add a description to this page
+title: Comparing Llama and Bloom
+description: Comparing two models that claim to be open
 date: 12-10-2024
 ---
-# Guide 1 — The evolution of Llama models
+# Llama and Bloom: shades of openness
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+Generative AI models have many moving parts. This guide provides a survey of the most important openness dimensions by comparing two models both self-billed as "open". **BloomZ** (Bloom for short) was introduced by the BigScience Workshop team in May 2023 as an open source instruction-tuned LLM; **Llama 3.1** (Llama for short) was introduced by Meta as “the next generation of our open source large language model”.
 
 ::the-index
 ---
 hideFilters: true
 filters: 
-  models: olmo-7b-instruct, bloomz, open-assistant
-  opencode: [1]
-  llmdata: [0.5,1]
+  models: llama-3.1, bloomz
 ---
 ::
 
