@@ -1,5 +1,5 @@
 --- 
-title: Aleph-Alpha: the language model that wasn't
+title: "Aleph-Alpha: the language model that wasn't"
 description: In which we trace the silent demise of a hyped German large language model
 date: 05-11-2024
 ---
