@@ -19,4 +19,4 @@ Today, with untold millions spent on nobody knows what, Aleph-Alpha announces a 
 
 > “The world changed. Just having an European LLM is not sufficient as a business model. It doesn’t justify the investment.”
 
-The model details for Luminous are shown as "deprecated". So much for the kind of transparency that was good enough to earn a top spot in the FMTI index. We're left wondering whether Aleph-Alpha actually ever _had_ its own LLM.
+The model details for Luminous are shown as "deprecated". We're left wondering whether Aleph-Alpha actually ever _had_ its own LLM.
