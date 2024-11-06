@@ -13,8 +13,10 @@ Based, presumably, on this same documentation, the Stanford Foundation Model Tra
 
 ![FMTI scores showing Aleph Alpha's Luminous model at third place](/images/fmti-total-scores-may2024.png "FMTI Scores May 2024")
 
-Today, a year after its $500 million VC funding round, Aleph-Alpha announces a pivot away from creating their own models. As founder Jonas Andrulis [told Bloomberg](https://archive.ph/fbUK2), 
+Aleph-Alpha managed to collect half a billion in that funding round, and the company was much hyped in Europe, where it was widely touted as a home-grown alternative to ChatGPT along the same lines as French-made Mistral. [Positioning itself](https://aleph-alpha.com/aleph-alpha-raises-a-total-investment-of-more-than-half-a-billion-us-dollars-from-a-consortium-of-industry-leaders-and-new-investors/) as a key player in "global AI race", it certainly profited handsomely from the hype and general nervousness of markets surrounding AI offerings.
+
+Today, with untold millions spent on nobody knows what, Aleph-Alpha announces a major pivot away from creating their own models. As founder Jonas Andrulis [told Bloomberg](https://archive.ph/fbUK2), 
 
 > “The world changed. Just having an European LLM is not sufficient as a business model. It doesn’t justify the investment.”
 
-We're left wondering whether Aleph-Alpha actually ever _had_ its own LLM.
+The model details for Luminous are shown as "deprecated". So much for the kind of transparency that was good enough to earn a top spot in the FMTI index. We're left wondering whether Aleph-Alpha actually ever _had_ its own LLM.
