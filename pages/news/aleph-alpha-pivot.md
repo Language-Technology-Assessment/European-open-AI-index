@@ -9,7 +9,7 @@ At the European Open Source AI Index we take an interest in large language model
 
 The Aleph Alpha website advertised a language model called "Luminous". We had contemplated adding this model to our own index, but had not been able to locate it! The company website did offer quite some [documentation](https://docs.aleph-alpha.com/docs/Deprecated%20Luminous/Deprecated-Luminous/Deprecated-Luminous/) but finding the model itself was proving quite elusive.
 
-Based, presumably, on this same documentation, the Stanford Foundation Model Transparency Index _did_ include Aleph-Alpha's Luminous model, and in fact listed it near the top of its index, where it stayed at least until May 2024:
+Based, presumably, on this same documentation, Stanford FMTI _did_ include Aleph-Alpha's Luminous model, and in fact listed it near the top of its index, where it stayed at least until May 2024:
 
 ![FMTI scores showing Aleph Alpha's Luminous model at third place](/images/fmti-total-scores-may2024.png "FMTI Scores May 2024")
 
@@ -19,6 +19,6 @@ But in September 2024, Aleph-Alpha announced a major pivot away from creating th
 
 > “The world changed. Just having an European LLM is not sufficient as a business model. It doesn’t justify the investment.”
 
-The model details for Luminous are now shown as "deprecated". In the absence of any open demonstrations and documentaiton, we're left wondering whether it was ever a functioning LLM at all (it may have been a fine-tune of another model, or even a white-label proprietary LLM piped through an API). 
+The model details for Luminous are now shown as "deprecated". In the absence of any demos or documentation, we're left wondering whether Luminous was ever a functioning LLM at all. It was certainly not a transparent one.
 
-However, a new model dubbed [Pharia LLM](https://huggingface.co/Aleph-Alpha/Pharia-1-LLM-7B-control/blob/main/README.md) has made an appearance. It appears this model is an outcome of Aleph-Alpha's [partnership](https://aleph-alpha.com/aleph-alpha-and-silo-ai-enter-a-strategic-partnership-to-advance-open-source-ai-and-enterprise-grade-solutions-in-europe/) with Silo AI, a private AI lab "building market leading open source LLMs".
+However, a new Aleph-Alpha model dubbed [Pharia LLM](https://huggingface.co/Aleph-Alpha/Pharia-1-LLM-7B-control/blob/main/README.md) has made an appearance. It appears this model is an outcome of Aleph-Alpha's [partnership](https://aleph-alpha.com/aleph-alpha-and-silo-ai-enter-a-strategic-partnership-to-advance-open-source-ai-and-enterprise-grade-solutions-in-europe/) with Silo AI, a private AI lab "building market leading open source LLMs". We'll be keeping our eyes peeled for new developments.
