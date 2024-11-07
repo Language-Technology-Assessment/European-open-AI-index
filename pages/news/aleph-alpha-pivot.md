@@ -13,10 +13,12 @@ Based, presumably, on this same documentation, the Stanford Foundation Model Tra
 
 ![FMTI scores showing Aleph Alpha's Luminous model at third place](/images/fmti-total-scores-may2024.png "FMTI Scores May 2024")
 
-Aleph-Alpha managed to collect half a billion in that funding round, and the company was much hyped in Europe, where it was widely touted as a home-grown alternative to ChatGPT along the same lines as French-made Mistral. [Positioning itself](https://aleph-alpha.com/aleph-alpha-raises-a-total-investment-of-more-than-half-a-billion-us-dollars-from-a-consortium-of-industry-leaders-and-new-investors/) as a key player in "global AI race", it certainly profited handsomely from the hype and general nervousness of markets surrounding AI offerings.
+Aleph-Alpha managed to collect half a billion of VC funding in 2023, and the company was much hyped in Europe, where it leaned into a reputation as a home-grown alternative to ChatGPT along the same lines as French-made Mistral. [Positioning itself](https://aleph-alpha.com/aleph-alpha-raises-a-total-investment-of-more-than-half-a-billion-us-dollars-from-a-consortium-of-industry-leaders-and-new-investors/) as a key player in "global AI race", it certainly profited handsomely from the hype and general nervousness of markets surrounding AI offerings.
 
-Today, with untold millions spent on nobody knows what, Aleph-Alpha announces a major pivot away from creating their own models. As founder Jonas Andrulis [told Bloomberg](https://archive.ph/fbUK2), 
+But in September 2024, Aleph-Alpha announced a major pivot away from creating their own models. As founder Jonas Andrulis [told Bloomberg](https://archive.ph/fbUK2), 
 
 > “The world changed. Just having an European LLM is not sufficient as a business model. It doesn’t justify the investment.”
 
-The model details for Luminous are shown as "deprecated". We're left wondering whether Aleph-Alpha actually ever _had_ its own LLM.
+The model details for Luminous are now shown as "deprecated". In the absence of any open demonstrations and documentaiton, we're left wondering whether it was ever a functioning LLM at all (it may have been a fine-tune of another model, or even a white-label proprietary LLM piped through an API). 
+
+However, a new model dubbed [Pharia LLM](https://huggingface.co/Aleph-Alpha/Pharia-1-LLM-7B-control/blob/main/README.md) has made an appearance. It appears this model is an outcome of Aleph-Alpha's [partnership](https://aleph-alpha.com/aleph-alpha-and-silo-ai-enter-a-strategic-partnership-to-advance-open-source-ai-and-enterprise-grade-solutions-in-europe/) with Silo AI, a private AI lab "building market leading open source LLMs".
