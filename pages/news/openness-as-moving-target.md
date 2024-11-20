@@ -1,9 +1,9 @@
 --- 
-title: Openness as composite and gradient
+title: Navigating the Open Source AI landscape
 description: "In which we introduce the European Open Source AI Index and explain how to follow a moving target"
-date: 06-11-2024
+date: 1-12-2024
 ---
-# Openness as gradient and composite: Introducing the European Open Source AI Index
+# Navigating the Open Source AI landscape
 
 For the longest time, open-source software has been the key mental model for the notion of _open source_. Even if there was a large crop of licenses that differ on the finer points of redistribution, attribution, and so on, most people would agree that open source means the _source_ of a piece software can be openly inspected, adjusted, and redistributed. Developers like open source because it allows them to poke around to see how things work and contribute improvements and bug fixes. Users like open source because it provides a degree of transparency and security that is unmatched by a lot of software from proprietary vendors. As Linus' Law has it, many eyeballs make all bugs shallow.
 
@@ -25,9 +25,16 @@ filters:
 
 **Openness is composite.** Openness is composed of multiple elements. This means it is more like press freedom than like temperature. The World Press Freedom Index ranks countries by their press freedom, but this itself takes into account measures on multiple dimensions, including political context, sociocultural context, and legal framework. Likewise, the European Open Source AI index gathers information on the openness of generative AI systems in terms of three broad categories (each in turn composed of finer-grained features): availability, documentation, and access. Recognising the composite nature of openness makes it possible to be concrete about what is open about a model and to what extent. It allows us to answer the question: _How_ is it open?
 
-Hovering over any model in our index will display the evidence we have of its openness across the three dimensions, further broken up into 15 features. You can also click "compare" to see multiple models side by side.
+Hovering over any model in our index will display the evidence we have of its openness across the three dimensions, further broken up into 15 features. You can also click "compare" to see multiple models side by side. Example screenshot:
 
 ![Screenshot of OLMo openness features](/images/osai-index-olmo-openness-screenshot.png "OLMo openness features")
+
+## Solving the TMI problem
+When we launched [Opening Up ChatGPT](https://opening-up-chatgpt.github.io/) in July 2023, it was the first global openness index for instruction-tuned large language models. Soon it featured over 50 models from >25 model providers. However, not everyone likes looking at enormous tables with more models and features than you can handle. Often, what people need is specific guidance on the [best models to use in education](https://www.osai-index.eu/guides/open-llms-education), a comparison [Llama versus Bloom](https://www.osai-index.eu/guides/llama-vs-bloom-openness), or just a quick list of [all models that provide source code as well as scientific documentation](https://www.osai-index.eu/the-index?type=text&preprint=1&trainingcode=1).
+
+We designed the European Open Source AI index to facilitate this form of flexible information sharing. You can check out a growing number of [guides](https://www.osai-index.eu/#guides), or sift through the [model index](https://www.osai-index.eu/the-index) using fulltext search and a comprehensive set of filters. We welcome your requests for guides and your suggestions for new models to include or data points to update. [See here](https://www.osai-index.eu/contribute) for how to contribute.
+
+Happy browsing!
 
 ## Further reading
 
