@@ -11,6 +11,7 @@ Generative AI models have many moving parts. This guide provides a survey of the
 ---
 hideFilters: true
 filters: 
+  view: grid
   models: llama-3.1, bloomz
 ---
 ::
