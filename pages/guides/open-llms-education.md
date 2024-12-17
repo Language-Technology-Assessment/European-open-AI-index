@@ -10,6 +10,7 @@ Proprietary generative AI models like ChatGPT are easy to access, but designed i
 ---
 hideFilters: true
 filters: 
+  view: grid
   models: olmo-7b-instruct, amber, pythia-chat-base-7B
 ---
 ::
