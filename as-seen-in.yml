@@ -34,3 +34,8 @@ items:
     source: De Volkskrant
     image: images/devolkskrant.png
     date: 21-07-2023
+  - url: https://www.theregister.com/2024/10/25/opinion_open_washing/
+    title: The open secret of open washing – why companies pretend to be open source
+    source: The Register 
+    image: images/theregister.png
+    date: 25-10-2024
