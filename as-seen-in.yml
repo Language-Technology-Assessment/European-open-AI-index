@@ -20,7 +20,7 @@ items:
     image: images/osinitiative.png
     date: 01-07-2024
   - url: https://www.nature.com/articles/d41586-024-02012-5
-    title: "Not all ‘open source’ AI models are actually open: here’s a ranking"
+    title: Not all ‘open source’ AI models are actually open: here’s a ranking
     source: Nature
     image: images/nature.png
     date: 19-06-2024
@@ -39,3 +39,8 @@ items:
     source: The Register 
     image: images/theregister.png
     date: 25-10-2024
+  - url: https://spectrum.ieee.org/open-source-llm-not-open
+    title: Llama and ChatGPT Are Not Open-Source Few ostensibly open-source LLMs live up to the openness claim
+    source: IEEE Spectrum
+    image: images/ieee.png
+    date: 27-07-2023
