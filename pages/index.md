@@ -6,7 +6,7 @@ description: Evaluating ‘open-source’ generative AI systems based on Europea
 
 ::landing
 
-A community-driven public resource on open-source generative AI systems in the European Union. The OSAI index collects information on model openness, licensing, and EU regulation of generative AI systems and providers.     
+A community-driven public resource on open-source generative AI systems in the European Union.     
 
 [Read more](/about) [Explore the index](/the-index)
 
