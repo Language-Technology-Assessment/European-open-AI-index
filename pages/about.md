@@ -1,7 +1,7 @@
 ## What is the European Open-Source AI index?
-The European Open-Source AI Index surveys and evaluates ‘open-source’ generative AI systems based on European Union regulation. 
+The European Open-Source AI Index collects information on model openness, licensing, and EU regulation of generative AI systems and providers.
 
-The index is maintained by [Andreas Liesenfeld](https://www.ru.nl/en/people/liesenfeld-a) and [Mark Dingemanse](https://markdingemanse.net) and affiliated to the [Centre of Language and Speech Technology, Radboud University, The Netherlands](https://www.ru.nl/en/cls/clst). 
+The index is a non-profit public resource hosted at the [Centre of Language and Speech Technology, Radboud University, The Netherlands](https://www.ru.nl/en/cls/clst), maintained by a small team of academics and community members.
 
 ## Why is open-source AI important?
 Open-source software and systems are a crucial building block of innovative technology ecosystems and provide an important alternative to proprietary, closed systems for users and builders of generative AI systems. True openness fosters innovation that not only serves commercial interests, but also contributes to knowledge access, free education, and a more informed public debate about this emerging technology.
