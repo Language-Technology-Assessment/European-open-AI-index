@@ -1,6 +1,6 @@
 ---
 title: European Open Source AI Index 
-description: Evaluating ‘open-source’ generative AI systems based on European Union regulation. 
+description: A community-driven public resource on open-source generative AI systems in the European Union. 
 ---
 
 
