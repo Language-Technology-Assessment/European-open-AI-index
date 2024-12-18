@@ -6,12 +6,12 @@ description: Evaluating ‘open-source’ generative AI systems based on Europea
 
 ::landing
 
-We are evaluating ‘open-source’ _generative_ AI systems based on European Union regulation. 
+A community-driven public resource on open-source generative AI systems in the European Union. The OSAI index collects information on model openness, licensing, and EU regulation of generative AI systems and providers.     
 
 [Read more](/about) [Explore the index](/the-index)
 
 #notes
-The index is maintained by [Andreas Liesenfeld](https://www.ru.nl/en/people/liesenfeld-a){:target="_blank"} and [Mark Dingemanse](https://markdingemanse.net){:target="_blank"} and affiliated to the [Centre of Language and Speech Technology, Radboud University, The Netherlands](https://www.ru.nl/en/cls/clst){:target="_blank"}.
+The index is hosted at the [Centre of Language and Speech Technology, Radboud University, The Netherlands](https://www.ru.nl/en/cls/clst){:target="_blank"}.
 ::
 
 ::guides
