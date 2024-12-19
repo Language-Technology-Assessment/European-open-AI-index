@@ -1,6 +1,7 @@
 --- 
 title: Navigating the Open Source AI landscape
 description: "In which we introduce the European Open Source AI Index and explain how to follow a moving target"
+author: Mark Dingemanse
 date: 1-12-2024
 ---
 # Navigating the Open Source AI landscape
