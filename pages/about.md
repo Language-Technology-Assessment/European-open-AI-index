@@ -12,6 +12,7 @@ __Mark Dingemanse__ is co-founder and Associate Professor at Radboud University.
 #### Contributors: 
 
 __Dick Blankvoort__
+
 __Adem Kaya__
 
 ## Why is open-source AI important?
