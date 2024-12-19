@@ -11,7 +11,7 @@ __Andreas Liesenfeld__ is co-founder of the index and Assistant Professor at Rad
 
 <img src="https://markdingemanse.net/elpaco/wp-content/uploads/sites/3/2024/01/MarkDingemanse08square800.jpg" align="left" alt="Andreas Liesenfeld" style="height: 100px; width:100px;"/>
 
-__Mark Dingemanse__ is co-founder of the index and Associate Professor at Radboud University. He carries out field work, experiments and simulations in order to find out why languages are the way they are. In 2020 he was awarded the Heineken Young Scientists Award in Humanities and he also won an Ig Nobel Prize for discovering that the word ‘huh?’ is universal.
+__Mark Dingemanse__ is co-founder of the EU OSAI index and Associate Professor at Radboud University. He carries out field work, experiments and simulations in order to find out why languages are the way they are. In 2020 he was awarded the Heineken Young Scientists Award in Humanities and he also won an Ig Nobel Prize for discovering that the word ‘huh?’ is universal.
 
 
 
