@@ -14,6 +14,7 @@ __Andreas Liesenfeld__ is co-founder of the index and Assistant Professor at Rad
 __Mark Dingemanse__ is co-founder of the index and Associate Professor at Radboud University. He carries out field work, experiments and simulations in order to find out why languages are the way they are. In 2020 he was awarded the Heineken Young Scientists Award in Humanities and he also won an Ig Nobel Prize for discovering that the word ‘huh?’ is universal.
 
 
+
 #### Contributors: 
 
 __Dick Blankvoort__
