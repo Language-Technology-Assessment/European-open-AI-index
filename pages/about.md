@@ -4,6 +4,7 @@ The European Open-Source AI Index collects information on model openness, licens
 The index is a non-profit public resource hosted at the [Centre of Language and Speech Technology, Radboud University, The Netherlands](https://www.ru.nl/en/cls/clst), maintained by a small team of academics and community members.
 
 <img src="https://markdingemanse.net/elpaco/wp-content/uploads/sites/3/2022/04/thumbnail_Steentjes-Andreas-Liesenfeld-3-square.jpg" align="left" alt="Andreas Liesenfeld" style="height: 100px; width:100px;"/>
+
 __Andreas Liesenfeld__ is co-founder and maintainer of the EU OSAI Index and an Assistant Professor at Radboud University where he researches the societal and regulatory implications of emerging language technologies. His current work focuses on technology assessment, open source generative AI, and comparative AI regulation. At the Centre for Language Studies (CLS), Andreas Liesenfeld is a member of the language technology expertise group and, in collaboration with the Netherlands eScience center, develops open source research software for computational linguistics and natural language processing.
 
 <img src="https://markdingemanse.net/elpaco/wp-content/uploads/sites/3/2024/01/MarkDingemanse08square800.jpg" align="left" alt="Andreas Liesenfeld" style="height: 100px; width:100px;"/>
