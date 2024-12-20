@@ -5,7 +5,7 @@ The index is a non-profit public resource hosted at the [Centre of Language and 
 
 #### Founders
 
-<img style="float: left;" src="/images/al.jpg" alt="Andreas Liesenfeld"  style="height: 100px; width:100px;" >
+<p><img style="float: left;" src="/images/al.jpg" alt="Andreas Liesenfeld"  style="height: 100px; width:100px;" ></p>
 
 __Andreas Liesenfeld__ is co-founder of the index and Assistant Professor at Radboud University where he researches the societal and regulatory implications of emerging language technologies. His current work focuses on technology assessment, open source generative AI, and comparative AI regulation. At the Centre for Language Studies (CLS), Andreas Liesenfeld is a member of the language technology expertise group and, in collaboration with the Netherlands eScience center, develops open source research software for natural language processing.
 
