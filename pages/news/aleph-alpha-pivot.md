@@ -4,7 +4,7 @@ description: In which we trace the silent demise of a hyped German large languag
 author: Mark Dingemanse
 date: 05-11-2024
 ---
-# The language model that wasn't
+# Luminous: the language model that wasn't
 
 At the European Open Source AI Index we take an interest in large language models that bill themselves as open, so we perked up last year when German AI company Aleph Alpha [described itself](https://aleph-alpha.com/aleph-alpha-raises-a-total-investment-of-more-than-half-a-billion-us-dollars-from-a-consortium-of-industry-leaders-and-new-investors/), in a VC funding round, as "committed to reproducibility, excellence and sharing innovation through open source."
 
