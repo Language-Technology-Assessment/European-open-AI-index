@@ -5,11 +5,11 @@ The index is a non-profit public resource hosted at the [Centre of Language and 
 
 #### Founders: 
 
-<img src="/images/al.jpg" align="left" alt="Andreas Liesenfeld" style="height: 100px; width:100px;"/>
+<img src="/images/al.jpg" alt="Andreas Liesenfeld" style="height: 100px; width:100px;"/>
 
 __Andreas Liesenfeld__ is co-founder of the index and Assistant Professor at Radboud University where he researches the societal and regulatory implications of emerging language technologies. His current work focuses on technology assessment, open source generative AI, and comparative AI regulation. At the Centre for Language Studies (CLS), Andreas Liesenfeld is a member of the language technology expertise group and, in collaboration with the Netherlands eScience center, develops open source research software for natural language processing.
 
-<img src="/images/md.png" align="left" alt="Andreas Liesenfeld" style="height: 100px; width:100px;"/>
+<img src="/images/md.png" alt="Andreas Liesenfeld" style="height: 100px; width:100px;"/>
 
 __Mark Dingemanse__ is co-founder of the EU OSAI index and Associate Professor at Radboud University. He carries out observational studies, experiments and simulations in order to find out why languages are the way they are. In 2020 he was awarded the Heineken Young Scientists Award in Humanities, and he directs a research group _[Futures of Language](https://markdingemanse.net/futures)_ funded by a VICI talent grant from the Dutch Research Council (2024-2029). His current research looks at the intersection of language and technology, from the artisanal tools that people use in everyday conversation to the artificial techniques of large language models, voice user interfaces, and "AI".
 
