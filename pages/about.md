@@ -3,7 +3,7 @@ The European Open-Source AI Index collects information on model openness, licens
 
 The index is a non-profit public resource hosted at the [Centre of Language and Speech Technology, Radboud University, The Netherlands](https://www.ru.nl/en/cls/clst), maintained by a small team of academics and community members.
 
-#### Founders: 
+#### Founders
 
 <img style="float: left;" src="/images/al.jpg" alt="Andreas Liesenfeld"  style="height: 100px; width:100px;" >
 
@@ -13,7 +13,7 @@ __Andreas Liesenfeld__ is co-founder of the index and Assistant Professor at Rad
 
 __Mark Dingemanse__ is co-founder of the EU OSAI index and Associate Professor at Radboud University. He carries out observational studies, experiments and simulations in order to find out why languages are the way they are. In 2020 he was awarded the Heineken Young Scientists Award in Humanities, and he directs a research group _[Futures of Language](https://markdingemanse.net/futures)_ funded by a VICI talent grant from the Dutch Research Council (2024-2029). His current research looks at the intersection of language and technology, from the artisanal tools that people use in everyday conversation to the artificial techniques of large language models, voice user interfaces, and "AI".
 
-#### Contributors: 
+#### Contributors
 
 __Dick Blankvoort__
 
