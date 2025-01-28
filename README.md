@@ -1,0 +1,1 @@
+This is the repository through which we manage the European Open Source AI Index website. The index itself is maintained in a [separate repository](https://github.com/Language-Technology-Assessment/main-database).
