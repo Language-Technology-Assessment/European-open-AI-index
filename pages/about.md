@@ -10,7 +10,7 @@ __Andreas Liesenfeld__ is co-founder of the index and Assistant Professor at Rad
 ::
 
 ::person{image="/images/md.png" name="Mark Dingemanse"}
-__Mark Dingemanse__ is co-founder of the EU OSAI index and Associate Professor at Radboud University. He carries out observational studies, experiments and simulations in order to find out why languages are the way they are. In 2020 he was awarded the Heineken Young Scientists Award in Humanities, and he directs a research group _[Futures of Language](https://markdingemanse.net/futures)_ funded by a VICI talent grant from the Dutch Research Council (2024-2029). His current research looks at the intersection of language and technology, from the artisanal tools that people use in everyday conversation to the artificial techniques of large language models, voice user interfaces, and "AI".
+__Mark Dingemanse__ is co-founder of the EU OSAI index and Associate Professor at Radboud University. He carries out observational studies, experiments and simulations in order to find out why languages are the way they are. He directs the research programme _[Futures of Language](https://markdingemanse.net/futures "Futures of Language")_ funded by a VICI talent grant from the Dutch Research Council (2024-2029). His current research looks at the intersection of language and technology, from the artisanal tools that people use in everyday conversation to the artificial techniques of large language models, voice user interfaces, and "AI".
 ::
 
 ## Contributors
@@ -18,6 +18,8 @@ __Mark Dingemanse__ is co-founder of the EU OSAI index and Associate Professor a
 __Dick Blankvoort__
 
 __Adem Kaya__
+
+__Ada Lopez__
 
 ## Why is open-source AI important?
 Open-source software and systems are a crucial building block of innovative technology ecosystems and provide an important alternative to proprietary, closed systems for users and builders of generative AI systems. True openness fosters innovation that not only serves commercial interests, but also contributes to knowledge access, free education, and a more informed public debate about this emerging technology.
