@@ -1,15 +1,25 @@
 ---
-title: How Open-Source is DeepSeek-R1?
+title: How Open is DeepSeek?
 description: Investigating the open-source status of DeepSeek-R1
 date: 29-01-2025
-author: Dick Blankvoort
+author: Dick Blankvoort & Mark Dingemanse
 ---
-# How Open-Source is DeepSeek-R1?
+# How Open is DeepSeek-R1?
 <author :author="author"></author>
 
 In the past few weeks, the DeepSeek model family has attracted a great deal of attention. Their own release claims superior performance to GPT-4o while having been trained at a fraction of the cost and with great efficiency. Claims of "open source" status are a prominent part of its appeal. In this post, we dive into the development history of DeepSeek and investigate its place in the larger open-source landscape.
 
 **TL;DR:** DeepSeek represents interesting technical developments, but it is at best "open weights", not open source: crucial elements of the training process, pre-training data and instruction-tuning data remain behind closed doors. In our [openness index](https://www.osai-index.eu/the-index), DeepSeek's models end up somewhere in the middle of the pack: more open than some big name rivals, but too closed to enable serious auditing or scientific scrutiny.
+
+
+::the-index
+---
+hideFilters: true
+filters: 
+  view: grid
+  models: olmo-7b-instruct, deepseek-R1, llama-3.1
+---
+::
 
 
 ## Development of DeepSeek
