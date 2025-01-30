@@ -6,12 +6,18 @@ description: A community-driven public resource on open-source generative AI sys
 
 ::landing
 
-A community-driven public resource on open-source generative AI systems in the European Union.     
+An EU-based community-driven public resource on open-source generative AI systems.     
 
 [Read more](/about) [Explore the index](/the-index)
 
 #notes
 The index is hosted at the [Centre of Language and Speech Technology, Radboud University, The Netherlands](https://www.ru.nl/en/cls/clst){:target="_blank"}.
+::
+
+::news
+---
+perpage: 3
+---
 ::
 
 ::guides
@@ -20,11 +26,6 @@ perpage: 3
 ---
 ::
 
-::news
----
-perpage: 3
----
-::
 
 :as-seen-in
 
