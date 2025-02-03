@@ -4,22 +4,12 @@ description: Investigating the open-source status of DeepSeek-R1
 date: 29-01-2025
 author: Dick Blankvoort & Mark Dingemanse
 ---
-# How Open is DeepSeek-R1?
+# How Open is DeepSeek?
 <author :author="author"></author>
 
 In the past few weeks, the DeepSeek model family has attracted a great deal of attention. Their own release claims superior performance to GPT-4o while having been trained at a fraction of the cost and with great efficiency. Claims of "open source" status are a prominent part of its appeal. In this post, we dive into the development history of DeepSeek and investigate its place in the larger open-source landscape.
 
-**TL;DR:** DeepSeek represents interesting technical developments, but it is at best "open weights", not open source: crucial elements of the training process, pre-training data and instruction-tuning data remain behind closed doors. In our [openness index](https://www.osai-index.eu/the-index), DeepSeek's models end up somewhere in the middle of the pack: more open than some big name rivals, but too closed to enable serious auditing or scientific scrutiny.
-
-
-::the-index
----
-hideFilters: true
-filters: 
-  view: grid
-  models: olmo-7b-instruct, deepseek-R1, llama-3.1
----
-::
+**TL;DR:** DeepSeek represents interesting technical developments, but it is at best "open weights", not open source: crucial elements of the training process, pre-training data and instruction-tuning data remain behind closed doors. In our [openness index](https://www.osai-index.eu/the-index), DeepSeek's models end up somewhere in the middle of the pack: more open than some big name rivals, but too closed to enable serious auditing or scientific scrutiny. Read on for details.
 
 
 ## Development of DeepSeek
@@ -39,30 +29,38 @@ The next publicly-released fine-tuning attempt was DeepSeek-V3. This model exper
 DeepSeek R1 was the third fine-tuning attempt, and this ended up drawing most attention. The key idea here was to take the approach used to train DeepSeek-R1-Zero while prepending a small phase of `traditional' instruct-tuning in an attempt to resolve the observed instabilities. This turned out to indeed be the case. DeepSeek's own technical reports claim that performance of this model rivals GPT-4o.
 
 ## How open is DeepSeek?
-The term "open source" gets bandied about a lot in the current Generative AI landscape, often in the service of [open-washing](https://dl.acm.org/doi/10.1145/3630106.3659005 "Rethinking open source generative AI: open-washing and the EU AI Act"): projecting an image of transparency without doing much of the work required to count as meaningfully open. How does DeepSeek fare in this respect? Knowing this is important because it determines how others can audit, trust, scrutinize, and build on its models. Here we provide a walk-through of the most relevant dimensions of openness:
+The term "open source" gets bandied about a lot in the current Generative AI landscape, often in the service of [open-washing](https://dl.acm.org/doi/10.1145/3630106.3659005 "Rethinking open source generative AI: open-washing and the EU AI Act"): projecting an image of transparency without doing much of the work required to count as meaningfully open. How does DeepSeek fare in this respect? Knowing this is important because it determines how others can audit, trust, scrutinize, and build on its models. 
 
-### Training and fine-tuning data
+For a first quick impression, let's compare DeepSeek to two other well-known models: OLMO 7B and Llama. As is clear from this comparison, DeepSeek is a little more open than Llama (mainly on account of providing easier access to model weights and an API), but does not come close to the degree of openness of the current open source industry standard: AllenAI's OLMO. Read on to see the elements of openness that enter into this comparison.
+
+::the-index
+---
+hideFilters: true
+filters: 
+  view: grid
+  models: olmo-7b-instruct, deepseek-R1, llama-3.1
+---
+::
+
+### Training data and model weights
 For both training and chat-tuning, DeepSeek makes use of a proprietary dataset that is not disclosed. Though the paper of the original DeepSeek-LLM suggests that this data is primarily obtained from the CommonCrawl, a lack of transparancy of how and what data is gathered means that the exact data mixture is unknown. Methods for deduplicating and curating the data are described in earlier papers, however in too abstract terms to enable accurate reproduction.
 
 It could be that this is a deliberate strategy on the part of DeepSeek, as it seems that their primary strategic advantage lies in their highly curated and high-quality dataset. By not publishing it, they are free to publish the techniques involved in training their models without having to worry about a superior-performance competitor emerging in the near future. In any case, further insight is warranted into the datasets used in training DeepSeek.
 
-### Base / end model weights
 DeepSeek publishes both the base and the end model weights of all of their chat-tuned models. This allows for researchers to use these models as a foundation to fine-tune their own LLMs. However, merely publishing the weights of a model is not sufficient for it to be considered truly open-source. In fact, model weights are "the most inscrutable portion" [1](https://dl.acm.org/doi/10.1145/3630106.3659005) of a generative AI system, and they cannot be meaningfully inspected, understood or tinkered with in the absence of open data and code.
 
-### Training code
+### Code and technical documentation
 We find that training and fine-tuning code is quite sparse overall and certainly not sufficient to replicate the training process of any of these models. The repository of the base model DeepSeek-V3-Base contains very limited code for building on the model; such code is not available for DeepSeek-R1. In general, the DeepSeek team is not very forthcoming when it comes to publishing the code used to train their model. In the repository for DeepSeek-V3-Base they provide code for loading and quantizing the model, not much else. This leaves the development process quite obscured and clashes directly with the claimed "open source" status. The source of DeepSeek is not open.
 
-### Documentation of code and model architecture
 Given the limited extent to which code was published for DeepSeek, the documentation of this code is also very limited. The architecture, however, is documented a lot better. It is described in considerable detail in multiple technical reports published by the DeepSeek team on GitHub. This documentation provides some insight into the model architecture and is the main source for some of the reporting on technical innovations. 
 
-### Preprint / paper
 The technical reports for DeepSeek models are more detailed than those of several other model providers. However, without corresponding code and training data, it is impossible to verify any of the claims made in these reports. None of them have undergone scientific scrutiny in the form of peer review or independent auditing. DeepSeek is far from alone in making this choice; indeed glossy technical reports have become standard fare in the generative AI landscape. This is another sense in which the work is less than fully open.
 
 ### Model card and data sheet
 Model cards and data sheet represent standardized ways for reporting key aspects of model architecture, use cases, limitations, and biases. DeepSeek comes with a model card that is only partly filled out. In particular, it lacks a risk assessment, a discussion of limitations of the model, and a description of biases the makers are aware of. Given that no source data has been published, no data sheet has been released either, which is another sense in which DeepSeek's model are less than fully open.
 
 ### Access and licensing
-DeepSeek-R1 integrates well with many widely-used packages. An API is also available, and an app has been published which allows users to try out the model with a very low barrier of entry. The openly avaialble model weights also mean that advanced users can run DeepSeek models locally.
+DeepSeek-R1 integrates well with many widely-used packages. An API is also available, and an app has been published which allows users to try out the model with a very low barrier of entry. The openly available model weights also mean that advanced users can [run DeepSeek models locally](https://docs.unsloth.ai/basics/tutorial-how-to-run-deepseek-r1-on-your-own-local-device), though this will in most cases require specialized hardware owing to the size of the model.
 
 As for licensing, part of the code is released under a standard MIT software license, while the weights are released under a custom DeepSeek Model License, the open-source status of which is in doubt. A surface-level read suggests that the license is not overly restrictive, but greater scrutiny is by legal experts is required.
 
@@ -70,4 +68,3 @@ As for licensing, part of the code is released under a standard MIT software lic
 DeepSeek's popularity is due to the coupling of remarkable performance and wide availability. However, nominally free availability should not be confused with "open source". DeepSeek is highly similar to Meta's Llama in terms of the release strategy and the strategic appropriation of the term "open source" (though it is marginally more open on some dimensions). For both model families, key aspects of training data and model development are strategically obscured. 
 
 DeepSeek's claim to openness appears to be to an attempt to align with other open-weights models more than a true signal of open source status. The technical advances of DeepSeek rightly arouse a lot of interest, but only meaningful openness of training data and code will make it possible for anyone to assess claims of superior performance and advance truly open generative AI.
-
