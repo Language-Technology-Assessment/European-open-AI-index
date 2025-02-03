@@ -3,6 +3,7 @@ title: Introducing the European Open Source AI Index
 description: "In which we introduce the European Open Source AI Index and explain how to follow a moving target"
 author: Mark Dingemanse & Andreas Liesenfeld
 date: 28-01-2024
+status: published
 ---
 
 # Introducing the European Open Source AI Index

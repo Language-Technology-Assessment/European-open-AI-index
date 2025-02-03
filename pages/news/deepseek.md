@@ -3,6 +3,7 @@ title: How Open is DeepSeek?
 description: Investigating the open-source status of DeepSeek-R1
 date: 29-01-2025
 author: Dick Blankvoort & Mark Dingemanse
+status: published
 ---
 # How Open is DeepSeek?
 <author :author="author"></author>
