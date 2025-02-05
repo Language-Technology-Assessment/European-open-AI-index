@@ -10,7 +10,7 @@ __Andreas Liesenfeld__ is co-founder of the index and Assistant Professor at Rad
 ::
 
 ::person{image="/images/md.png" name="Mark Dingemanse"}
-__Mark Dingemanse__ is co-founder of the EU OSAI index and Associate Professor at Radboud University. He carries out observational studies, experiments and simulations in order to find out why languages are the way they are. He directs the research programme _[Futures of Language](https://markdingemanse.net/futures "Futures of Language")_ funded by a VICI talent grant from the Dutch Research Council (2024-2029). His current research looks at the intersection of language and technology, from the artisanal tools that people use in everyday conversation to the artificial techniques of large language models, voice user interfaces, and "AI".
+__Mark Dingemanse__ is co-founder of the EU OSAI index and Associate Professor at Radboud University. His current research looks at the intersection of language and technology, from the artisanal tools that people use in everyday conversation to the artificial techniques of large language models, voice user interfaces, and "AI". He directs the research programme _[Futures of Language](https://markdingemanse.net/futures "Futures of Language")_ funded by a VICI talent grant from the Dutch Research Council (2024-2029). 
 ::
 
 ## Contributors
