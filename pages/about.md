@@ -39,4 +39,5 @@ Evidence-based openness assessment can help foster a generative AI landscape in 
 For scientific background on this project, check out these peer-reviewed papers:
 
 - Liesenfeld, A., & Dingemanse, M. (2024). Rethinking open source generative AI: open-washing and the EU AI Act. _Proceedings of the 2024 ACM Conference on Fairness, Accountability, and Transparency_ (FAccT ’24). doi: [10.1145/3630106.3659005](https://dl.acm.org/doi/10.1145/3630106.3659005) 
+- Liesenfeld, A., Lopez, A., & Dingemanse, M. (2023). Opening up ChatGPT: tracking openness, transparency, and accountability in instruction-tuned text generators. _CUI ’23: Proceedings of the 5th International Conference on Conversational User Interfaces_. doi: [10.1145/3571884.3604316](https://doi.org/10.1145/3571884.3604316)
 - Solaiman, I. (2023). The Gradient of Generative AI Release: Methods and Considerations. _Proceedings of the 2023 ACM Conference on Fairness, Accountability, and Transparency_, 111–122. doi: [10.1145/3593013.3593981](https://doi.org/10.1145/3593013.3593981)
