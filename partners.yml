@@ -1,4 +1,9 @@
 items:
   - url: https://aial.ie/
     title: AI Accountability Lab
-    image: images/aial.png
+    image: images/partner-aial.png
+
+  - url: https://ihub.ru.nl/
+    title: iHub interdisciplinary research hub on digitalization and society
+    image: images/partner-ihub.png
+
