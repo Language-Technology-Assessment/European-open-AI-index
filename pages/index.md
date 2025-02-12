@@ -6,12 +6,8 @@ description: A community-driven public resource on open-source generative AI sys
 
 ::landing
 
-An EU-based community-driven public resource on open-source generative AI systems.     
+The index is a non-profit public resource hosted at the [Centre of Language and Speech Technology, Radboud University, The Netherlands](https://www.ru.nl/en/cls/clst)
 
-[Read more](/about) [Explore the index](/the-index)
-
-#notes
-The index is hosted at the [Centre of Language and Speech Technology, Radboud University, The Netherlands](https://www.ru.nl/en/cls/clst){:target="_blank"}.
 ::
 
 ::news
