@@ -44,3 +44,8 @@ items:
     source: IEEE Spectrum
     image: images/ieee.png
     date: 27-07-2023
+  - url: https://www.lemonde.fr/pixels/article/2025/02/14/la-part-d-ombre-des-intelligences-artificielles-qui-se-disent-open-source_6546078_4408996.html
+    title: La part d’ombre des intelligences artificielles qui se disent « open source »
+    source: Le Monde
+    image: images/lemonde.png
+    date: 14-02-2025
