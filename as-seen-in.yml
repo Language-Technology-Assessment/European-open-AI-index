@@ -1,6 +1,6 @@
 items:
   - url: https://www.un.org/sites/un2.un.org/files/governing_ai_for_humanity_final_report_en.pdf
-    title: Governing AI for humanity
+    title: "Featured in report 'Governing AI for humanity'"
     source: UN AI Advisory Body
     image: images/un-aib.png
     date: 01-09-2024
@@ -40,7 +40,12 @@ items:
     image: images/theregister.png
     date: 25-10-2024
   - url: https://spectrum.ieee.org/open-source-llm-not-open
-    title: Llama and ChatGPT Are Not Open-Source Few ostensibly open-source LLMs live up to the openness claim
+    title: "Llama and ChatGPT Are Not Open-Source: Few ostensibly open-source LLMs live up to the openness claim"
     source: IEEE Spectrum
     image: images/ieee.png
     date: 27-07-2023
+  - url: https://www.lemonde.fr/pixels/article/2025/02/14/la-part-d-ombre-des-intelligences-artificielles-qui-se-disent-open-source_6546078_4408996.html
+    title: La part d’ombre des intelligences artificielles qui se disent « open source »
+    source: Le Monde
+    image: images/lemonde.png
+    date: 14-02-2025

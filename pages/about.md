@@ -17,6 +17,8 @@ __Mark Dingemanse__ is co-founder of the EU OSAI index and Associate Professor a
 
 __Dick Blankvoort__
 
+__Nityaa Kalra__
+
 __Adem Kaya__
 
 __Ada Lopez__
