@@ -2,14 +2,14 @@
 title: "Luminous: the language model that wasn't"
 description: In which we trace the silent demise of a hyped German large language model
 author: Mark Dingemanse
-date: 05-11-2024
+date: 17-02-2025
 status: published
 ---
 # Luminous: the language model that wasn't
 
-At the European Open Source AI Index we take an interest in large language models that bill themselves as open, so we perked up last year when German AI company Aleph Alpha [described itself](https://aleph-alpha.com/aleph-alpha-raises-a-total-investment-of-more-than-half-a-billion-us-dollars-from-a-consortium-of-industry-leaders-and-new-investors/), in a VC funding round, as "committed to reproducibility, excellence and sharing innovation through open source."
+At the European Open Source AI Index we take an interest in large language models that bill themselves as open, so we perked up when German AI company Aleph Alpha [described itself](https://aleph-alpha.com/aleph-alpha-raises-a-total-investment-of-more-than-half-a-billion-us-dollars-from-a-consortium-of-industry-leaders-and-new-investors/), in a VC funding round, as "committed to reproducibility, excellence and sharing innovation through open source."
 
-The Aleph Alpha website advertised a language model called "Luminous". We had contemplated adding this model to our own index, but had not been able to locate it! The company website did offer quite some [documentation](https://docs.aleph-alpha.com/docs/Deprecated%20Luminous/Deprecated-Luminous/Deprecated-Luminous/) but finding the model itself was proving quite elusive.
+The Aleph Alpha website long advertised a language model called "Luminous". We had contemplated adding this model to our own index, but had not been able to locate it! The company website did offer quite some [documentation](https://docs.aleph-alpha.com/docs/Deprecated%20Luminous/Deprecated-Luminous/Deprecated-Luminous/) but finding the model itself was proving quite elusive.
 
 Based, presumably, on this same documentation, Stanford FMTI _did_ include Aleph-Alpha's Luminous model, and in fact listed it near the top of its index, where it stayed at least until May 2024:
 
@@ -21,6 +21,6 @@ But in September 2024, Aleph-Alpha announced a major pivot away from creating th
 
 > “The world changed. Just having an European LLM is not sufficient as a business model. It doesn’t justify the investment.”
 
-The model details for Luminous are now shown as "deprecated". In the absence of any demos or documentation, we're left wondering whether Luminous was ever a functioning LLM at all. It was certainly not a transparent one.
+The model details for Luminous are now shown as "deprecated". In the absence of any demos or documentation, we're left wondering whether Luminous was ever a functioning LLM at all. It was certainly not a transparent one. One possibility is that it was built on top of some other provider's white-label LLM service. 
 
-However, a new Aleph-Alpha model dubbed [Pharia LLM](https://huggingface.co/Aleph-Alpha/Pharia-1-LLM-7B-control/blob/main/README.md) has made an appearance. It appears this model is an outcome of Aleph-Alpha's [partnership](https://aleph-alpha.com/aleph-alpha-and-silo-ai-enter-a-strategic-partnership-to-advance-open-source-ai-and-enterprise-grade-solutions-in-europe/) with Silo AI, a private AI lab "building market leading open source LLMs". We'll be keeping our eyes peeled for new developments.
+Recently, a new Aleph-Alpha model dubbed [Pharia LLM](https://huggingface.co/Aleph-Alpha/Pharia-1-LLM-7B-control/blob/main/README.md) has made an appearance. It appears this model is an outcome of Aleph-Alpha's [partnership](https://aleph-alpha.com/aleph-alpha-and-silo-ai-enter-a-strategic-partnership-to-advance-open-source-ai-and-enterprise-grade-solutions-in-europe/) with Silo AI, a private AI lab "building market leading open source LLMs". We'll be keeping our eyes peeled for new developments.
