@@ -2,7 +2,7 @@
 title: "Luminous: the language model that wasn't"
 description: In which we trace the silent demise of a hyped German large language model
 author: Mark Dingemanse
-date: 17-02-2025
+date: 2025-02-17
 status: published
 ---
 # Luminous: the language model that wasn't
