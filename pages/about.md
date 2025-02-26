@@ -15,9 +15,13 @@ __Mark Dingemanse__ is co-founder of the EU OSAI index and Associate Professor a
 
 ## Contributors
 
-__Dick Blankvoort__
+::person{}
+__Dick Blankvoort__ has no bio yet
+::
 
-__Nityaa Kalra__
+::person{}
+__Nityaa Kalra__ has no bio yet
+::
 
 __Adem Kaya__
 
