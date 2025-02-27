@@ -23,6 +23,8 @@ __Dick Blankvoort__ has no bio yet
 __Nityaa Kalra__ has no bio yet
 ::
 
+## Contributors
+
 __Adem Kaya__
 
 __Ada Lopez__
