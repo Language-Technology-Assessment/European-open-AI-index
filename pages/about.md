@@ -16,7 +16,7 @@ __Mark Dingemanse__ is co-founder of the EU OSAI index and Associate Professor a
 ## Researchers
 
 ::person{image="/images/headshot-db.jpg" name="Dick Blankvoort"}
-__Dick Blankvoort__ has no bio yet
+__Dick Blankvoort__ is a student at Radboud University and an intern at the Open Source AI Index. His primary interest lies in the field of Data Science, focusing both on the applications of generative AI and on their mathematical underpinnings. He is currently pursuing his internship at OSAI along with following an honours lab about applications of generative AI in education, as well as teaching the course Computer Algebra at FNWI.
 ::
 
 ::person{image="/images/headshot-nk.jpg" name="Nityaa Kalra"}
