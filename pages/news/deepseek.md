@@ -1,12 +1,13 @@
 ---
 title: How Open is DeepSeek?
 description: Investigating the open-source status of DeepSeek-R1
-date: 29-01-2025
+date: 2025-01-25
 author: Dick Blankvoort & Mark Dingemanse
 status: published
 ---
 # How Open is DeepSeek?
 <author :author="author"></author>
+<date :date="date"></date>
 
 In the past few weeks, the DeepSeek model family has attracted a great deal of attention. Their own release claims superior performance to GPT-4o while having been trained at a fraction of the cost and with great efficiency. Claims of "open source" status are a prominent part of its appeal. In this post, we dive into the development history of DeepSeek and investigate its place in the larger open-source landscape.
 
