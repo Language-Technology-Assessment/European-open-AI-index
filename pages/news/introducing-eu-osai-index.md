@@ -8,6 +8,7 @@ status: published
 
 # Introducing the European Open Source AI Index
 <author :author="author"></author>
+<date :date="date"></date>
 
 New generative AI models are popping up everywhere and claims about openness abound. When we launched [Opening Up ChatGPT](https://opening-up-chatgpt.github.io/) in July 2023, it was the first global openness index for instruction-tuned large language models. Soon it featured over 50 models from >25 model providers. However, not everyone likes looking at enormous tables with more models and features than you can handle. Often, what people need is specific guidance on the [best models to use in education](https://www.osai-index.eu/guides/open-llms-education), a comparison [Llama versus Bloom](https://www.osai-index.eu/guides/llama-vs-bloom-openness), or just a quick list of [all models that provide source code as well as scientific documentation](https://www.osai-index.eu/the-index?type=text&preprint=1&trainingcode=1).
 
