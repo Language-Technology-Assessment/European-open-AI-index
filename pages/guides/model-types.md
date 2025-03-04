@@ -1,7 +1,7 @@
 ---
 title: An overview of AI model types
 description: Providing an overview of the different types of AI models available
-date: 25-02-2025
+date: 2025-02-25
 author: Dick Blankvoort
 status: published
 ---
