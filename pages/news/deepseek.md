@@ -40,7 +40,7 @@ For a first quick impression, let's compare DeepSeek to two other well-known mod
 hideFilters: true
 filters: 
   view: grid
-  models: olmo-7b-instruct, deepseek-R1, llama-3.1
+  models: OLMo, deepseek-R1, llama-3.1
 ---
 ::
 
