@@ -4,11 +4,11 @@ description: Comparing two models that claim to be open
 date: 12-10-2024
 author: Mark Dingemanse
 ---
-# Llama and Bloom: shades of openness
+# Llama and BloomZ: shades of openness
 <author :author="author"></author>
 <date :date="date"></date>
 
-Generative AI models have many moving parts. This guide provides a survey of the most important openness dimensions by discussing two models both self-billed as "open". **BloomZ** (Bloom for short) was introduced by the BigScience Workshop team in May 2023 as an early open source large model model; **Llama 3.1** (Llama for short) was introduced by Facebook Research as “the next generation of our open source large language model”. However, a glance at the openness scores below shows that the models differ quite a lot in terms of overall openness.
+Generative AI models have many moving parts. This guide provides a survey of the most important openness dimensions by discussing two models both self-billed as "open". **BloomZ** was introduced by the BigScience Workshop team in May 2023 as an early open source large model model; **Llama 3.1** (Llama for short) was introduced by Facebook Research as “the next generation of our open source large language model”. However, a glance at the openness scores below shows that the models differ quite a lot in terms of overall openness.
 
 ::the-index
 ---
@@ -23,9 +23,9 @@ filters:
 Hovering over the openness indicators below makes visible the 14 dimensions by which we judge model openness. In this guide, we summarise the dimensions in terms of three areas: availability, documentation and access.
 
 ## Availability
-When it comes to open _code_, we find that BloomZ makes available source code for training, fine-tuning and running the model, while for Llama none of the model's source code is made available, only scripts for running the model are shared. The _LLM data_ underlying the base model is documented in great detail by Bloom, while for Llama only the vaguest details are provided in a corporate preprint: “a new mix of data from publicly available sources, which does not include data from Meta's products or services”. The statement is clearly designed to minimise legal exposure. 
+When it comes to open _code_, we find that BloomZ makes available source code for training, fine-tuning and running the model, while for Llama none of the model's source code is made available, only scripts for running the model are shared. The _LLM data_ underlying the base model is documented in great detail by BloomZ, while for Llama only the vaguest details are provided in a corporate preprint: “a new mix of data from publicly available sources, which does not include data from Meta's products or services”. The statement is clearly designed to minimise legal exposure. 
 
-Both systems make available _model weights_, though for Llama access is restricted through a consent form. The training data for instruction tuning (RL data) is described and documented by Bloom as consisting of xP3 (Crosslingual Public Pool of Prompts); for Llama, the corporate preprint notes that fine-tuning was done based on “a large dataset of over 1 million binary comparisons based on humans applying our specified guidelines, which we refer to as Meta reward modeling data”, and which remains undisclosed. (The same preprint mentions that for evaluation, Meta did build on several RLHF datasets openly shared by others.) Model weights for the instruction-tuned version (RL weights) are made openly available by BloomZ, while for Llama they require an access request.
+Both systems make available _model weights_, though for Llama access is restricted through a consent form. The training data for instruction tuning (RL data) is described and documented by BloomZ as consisting of xP3 (Crosslingual Public Pool of Prompts); for Llama, the corporate preprint notes that fine-tuning was done based on “a large dataset of over 1 million binary comparisons based on humans applying our specified guidelines, which we refer to as Meta reward modeling data”, and which remains undisclosed. (The same preprint mentions that for evaluation, Meta did build on several RLHF datasets openly shared by others.) Model weights for the instruction-tuned version (RL weights) are made openly available by BloomZ, while for Llama they require an access request.
 
 ## Documentation
 The BloomZ code is not just available, it is also _well-documented_. For Llama on the other hand, no no documentation of source code is available (as the source code itself is not open). _Model architecture_ is described for BloomZ in multiple scientific papers and supported by a github repository of code and recipes on HuggingFace; for Llama, the architecture is described in less detail and scattered across corporate websites and a preprint.
