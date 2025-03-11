@@ -36,7 +36,7 @@ Here are two models at opposite ends of our openness scale. Both bill themselves
 ---
 hideFilters: true
 filters: 
-  models: llama-3.1, olmo-7b-instruct
+  models: llama-3.1, OLMo
 ---
 ::
 
@@ -49,7 +49,7 @@ Hovering over any model in our index will display the evidence we have of its op
 hideFilters: true
 filters: 
   view: grid
-  models: olmo-7b-instruct
+  models: OLMo
 ---
 ::
 

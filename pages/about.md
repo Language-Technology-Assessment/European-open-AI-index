@@ -20,7 +20,7 @@ __Dick Blankvoort__ is a student at Radboud University and a researcher at the O
 ::
 
 ::person{image="/images/headshot-nk.jpg" name="Nityaa Kalra"}
-__Nityaa Kalra__ has no bio yet
+__Nityaa Kalra__  is a student at Radboud University and a researcher at the Open Source AI Index. Her interests lie in NLP, explainable AI, and building responsible AI systems. As part of her thesis, she is currently investigating bias in book recommender systems, examining how thematic and genre biases shape book recommendations. She has also been a teaching assistant for a course on Text and Multimedia Mining.
 ::
 
 ## Contributors

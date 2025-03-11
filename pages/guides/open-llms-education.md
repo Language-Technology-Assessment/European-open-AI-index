@@ -11,13 +11,13 @@ Proprietary generative AI models like ChatGPT are easy to access, but designed i
 hideFilters: true
 filters: 
   view: grid
-  models: olmo-7b-instruct, amber, pythia-chat-base-7B
+  models: OLMo, amber, Pythia
 ---
 ::
 
 One of the most important LLM-related skills students need today is _critical AI literacy_. Anyone can follow a 10 minute Youtube tutorial on prompt engineering, or read the latest research papers on jailbreaking ChatGPT, Gemini, or similar proprietary models. But for critical AI literacy, more is needed. It should be possible to inspect the training data of a model; to understand how exactly its fine-tuning makes it appear so docile and helpful; and to test prompts and output in easily accessible ways.
 
-The Venn diagrams of truly open models and models with utility in education overlap to a large degree, but not fully. For instance, a model like BloomZ is admirably open on all fronts, but at 175B parameters it can also be prohibitively heavy to deploy in an educational setting. Three models stand out currently for their high degree of openness, exemplary documentation, and ease of access for demonstration purposes: **OlMO Instruct** by Allen AI, **Amber Chat** by LLM360, and **Pythia Chat** by TogetherComputer. All three are small to mid-range models that nonetheless provide the basic behaviour that users have come to expect from instruction-tuned LLMs.
+The Venn diagrams of truly open models and models with utility in education overlap to a large degree, but not fully. For instance, a model like BloomZ is admirably open on all fronts, but at 175B parameters it can also be prohibitively heavy to deploy in an educational setting. Three models stand out currently for their high degree of openness, exemplary documentation, and ease of access for demonstration purposes: **OLMo Instruct** by Allen AI, **Amber Chat** by LLM360, and **Pythia Chat** by TogetherComputer. All three are small to mid-range models that nonetheless provide the basic behaviour that users have come to expect from instruction-tuned LLMs.
 
 These 7B models are relatively "small" in terms of parameters, but make up for it in terms of openness and accessibility. Running the largest models typically takes a lot of compute, which is why they tend to be provided only through (paid) APIs. Smaller models are easier to deploy in educational and research settings. The three models featured in this guide stand out in terms of the available documentation and code for doing so, as well as in being relatively light weight and easily deployable locally.
 
