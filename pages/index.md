@@ -27,6 +27,16 @@ perpage: 3
 ::
 
 
+::the-index
+---
+hideFilters: true
+filters: 
+  models: bloomz, deepseek, Qwen, llama-3.1
+---
+::
+
+[Explore the index](/the-index)
+
 :as-seen-in
 
 ::partners
