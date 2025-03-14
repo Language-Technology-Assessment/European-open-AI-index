@@ -32,7 +32,7 @@ perpage: 3
 
 <br />
 
-The European Open Source AI Index provides evidence-based assessments of open source transformer-based systems for generating [text](https://osai-index.eu/the-index?type=text "Text models in the European Open Source AI Index"), [images](https://osai-index.eu/the-index?type=image "Image models in the European Open Source AI Index"), [code](https://osai-index.eu/the-index?type=code "Code models in the European Open Source AI Index"), [video](https://osai-index.eu/the-index?type=video "Video models in the European Open Source AI Index"), and [audio](https://osai-index.eu/the-index?type=audio "Audio and voice models in the European Open Source AI Index"). Here are some popular text models ranked by openness. [Explore more in the full index](/the-index)
+The European Open Source AI Index provides evidence-based assessments of open source transformer-based systems for generating [text](/the-index?type=text "Text models in the European Open Source AI Index"), [images](/the-index?type=image "Image models in the European Open Source AI Index"), [code](/the-index?type=code "Code models in the European Open Source AI Index"), [video](/the-index?type=video "Video models in the European Open Source AI Index"), and [audio](/the-index?type=audio "Audio and voice models in the European Open Source AI Index"). Here are some popular text models ranked by openness. [Explore more in the full index](/the-index)
 
 ::the-index
 ---
