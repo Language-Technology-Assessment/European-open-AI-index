@@ -26,12 +26,14 @@ perpage: 3
 ---
 ::
 
+## The index
+We provide evidence-based assessments of open source transformer-based systems for generating [text](https://osai-index.eu/the-index?type=text), [images](https://osai-index.eu/the-index?type=image), [code](https://osai-index.eu/the-index?type=code), [video](https://osai-index.eu/the-index?type=video), and [audio](https://osai-index.eu/the-index?type=audio). Here are some popular text models:
 
 ::the-index
 ---
 hideFilters: true
 filters: 
-  models: bloomz, deepseek, Qwen, llama-3.1
+  models: bloomz, deepseek-v3, Qwen, llama-3.1
 ---
 ::
 
