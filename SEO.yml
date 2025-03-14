@@ -3,4 +3,4 @@ models:
   description: "{system.name} open source evidence. Public openness assessment for source code, training data, model architecture and more."
 compare:
   title: Compare {names}
-  description: Here you can compare the latest open source models.
+  description: Comparison of {names} in terms of openness of source code, training data, licensing and more.
