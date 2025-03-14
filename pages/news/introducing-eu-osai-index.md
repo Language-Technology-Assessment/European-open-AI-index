@@ -30,13 +30,13 @@ Today, **openness is a moving target**: single or simple definitions of "open so
 
 **Openness is gradient.** Some systems are more open than others. A commercial model provider like Meta (or Facebook AI Research) agressively markets its Llama models as "open source", but very little about Llama is actually open except for the model weights — the most inscrutable component. Smaller scale research-focused labs like AllenAI provide models like [OLMo](/model/OLMo) that are much more open, as our index shows. The gradience of openness should make you wary of any simple claim of "open source AI". Inquiring minds want to know: _How open is it?_ 
 
-Here are two models at opposite ends of our openness scale. Both bill themselves as "open source". Only one of them is. In views like this you can also click "compare" to see multiple models side by side. Here's a direct link to [compare Llama 3.1 and OLMo 7B](/compare?models=OLMo,llama-3.1 "Comparison of Llama 3.3 and OLMo"). 
+Here are two models at opposite ends of our openness scale. Both bill themselves as "open source". Only one of them is. In views like this you can also click "compare" to see multiple models side by side. Here's a direct link to [compare Llama 3.3 and OLMo 7B](/compare?models=OLMo,llama-3.3 "Comparison of Llama and OLMo). 
 
 ::the-index
 ---
 hideFilters: true
 filters: 
-  models: llama-3.1, OLMo
+  models: llama-3.3, OLMo
 ---
 ::
 
