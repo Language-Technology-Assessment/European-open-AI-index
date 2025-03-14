@@ -38,7 +38,7 @@ The European Open Source AI Index provides evidence-based assessments of open so
 ---
 hideFilters: true
 filters: 
-  models: bloomz, deepseek-v3, Qwen, llama-3.1
+  models: bloomz, deepseek-v3, Qwen, llama-3.1, Phi
 ---
 ::
 
