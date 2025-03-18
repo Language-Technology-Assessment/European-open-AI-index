@@ -6,3 +6,15 @@ items:
   - url: https://ihub.ru.nl/
     title: iHub interdisciplinary research hub on digitalization and society, Radboud University
     image: images/partner-ihub.png
+
+  - url: https://www.itas.kit.edu/english/
+    title: Institute for Technology Assessment and Systems Analysis (ITAS), Karlsruhe Institute of Technology
+    image: images/partner-itas.png
+
+  - url: https://aipolicylab.se
+    title: AI Policy Lab, Umeå University
+    image: images/partner-ai-policy-lab.png
+
+  - url:https://www.ai-lab.nrw/#/home
+    title: NRW AI Lab by KI.NRW and Fraunhofer IAIS
+    image: images/partner-nrw-ai-lab.png
