@@ -26,20 +26,13 @@ perpage: 3
 ---
 ::
 
-<hr />
-
-<br />
-
-<br />
-
-The European Open Source AI Index provides evidence-based assessments of open source "AI" systems for generating [text](/the-index?type=text "Text models in the European Open Source AI Index"), [images](/the-index?type=image "Image models in the European Open Source AI Index"), [code](/the-index?type=code "Code models in the European Open Source AI Index"), [video](/the-index?type=video "Video models in the European Open Source AI Index"), and [audio](/the-index?type=audio "Audio and voice models in the European Open Source AI Index"). Here are some popular text models ranked by openness. [Explore more in the full index](/the-index)
-
-::the-index
+::splotlight
 ---
 hideFilters: true
 filters: 
   models: bloomz, deepseek-v3, Qwen, llama-3.1, Phi
 ---
+The European Open Source AI Index provides evidence-based assessments of open source "AI" systems for generating [text](/the-index?type=text "Text models in the European Open Source AI Index"), [images](/the-index?type=image "Image models in the European Open Source AI Index"), [code](/the-index?type=code "Code models in the European Open Source AI Index"), [video](/the-index?type=video "Video models in the European Open Source AI Index"), and [audio](/the-index?type=audio "Audio and voice models in the European Open Source AI Index"). Here are some popular text models ranked by openness. [Explore more in the full index](/the-index)
 ::
 
 :as-seen-in
