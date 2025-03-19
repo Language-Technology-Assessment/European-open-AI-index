@@ -26,7 +26,7 @@ perpage: 3
 ---
 ::
 
-::splotlight
+::spotlight
 ---
 hideFilters: true
 filters: 
