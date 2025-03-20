@@ -19,10 +19,10 @@ items:
     title: NRW AI Lab by KI.NRW and Fraunhofer IAIS
     image: images/partner-nrw-ai-lab.png
 
-  - url: https://laion.ai
-    title: LAION Large-scale Artificial Intelligence Open Network
-    image: images/partner-laion.png
-
-  - url: https://openml.org
-    title: OpenML A worldwide machine learning lab
-    image: images/partner-openml.png
+#  - url: https://laion.ai
+#    title: LAION Large-scale Artificial Intelligence Open Network
+#    image: images/partner-laion.png
+#
+#  - url: https://openml.org
+#    title: OpenML A worldwide machine learning lab
+#    image: images/partner-openml.png
