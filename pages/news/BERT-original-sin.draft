@@ -1,10 +1,33 @@
 --- 
-title: "BERT: The original sin of openwashing large language models"
+title: "BERT: The original sin of open-washing large language models"
 description: Already in 2018 Google actively marketed the pioneering LLM BERT as "open source", leading the entire field down a dubious path.
 date: 19-12-2024
 ---
 
-# BERT: The original sin of openwashing large language models
+# BERT: The original sin of open-washing large language models
 
 
+In late 2018, long before LLMs became mainstream, Google released a large language model that was bound to shake up the natural language processing (NLP) research community. 
+The model dramatically improved the state-of-the-art for many benchmarks in the field, trailblazing the upcoming explosion of interest in LLMs. 
+Amidst the buzz, the community seemed awe-struck at what this model could do and on the novel aspects of its machine learning architecture, that few even thought about asking about the training data it was built on.
+
+To date, the scientific publication that introduced BERT gained widespread attention in the field (over 125k citations, see Google Scholar). 
+Similarly, in subsequent years, work related to the model focussed on its uses, capabilities, and enhancement - rarely asking (critical) questions about how it was built in the first place. 
+Dazzled by this technological marvel, xx asked "What We Know About How BERT Works", examining what BERT knows - without mentioning or asking about training data.
+
+We still don't know exactly how the model was built or what data went into it.
+
+
+this milestone in the history of the field of NLP is also a testament of a longstanding lack of attention to training data over model architecture
+
+
+
+Refs:
+https://en.wikipedia.org/wiki/BERT_(language_model)
+https://en.wikipedia.org/wiki/BookCorpus
 https://research.google/blog/open-sourcing-bert-state-of-the-art-pre-training-for-natural-language-processing/
+
+
+Papers:
+https://aclanthology.org/N19-1423.pdf
+https://direct.mit.edu/tacl/article/doi/10.1162/tacl_a_00349/96482/A-Primer-in-BERTology-What-We-Know-About-How-BERT

@@ -1,9 +1,9 @@
 ---
-title: Best models for education
+title: Good models for education
 description: Which open source LLMs afford responsible use in education and teaching?
 ---
 
-# Best large language models for education
+# Good large language models for education
 Proprietary generative AI models like ChatGPT are easy to access, but designed in ways that make transparent and responsible use impossible. Widely advertised "open" solutions like Llama are open in weights only, providing no access to training code or to the all-important instruction-tuning data. This guide offers some recommendations for models that can be used in open scholarship and teaching.
 
 ::the-index
