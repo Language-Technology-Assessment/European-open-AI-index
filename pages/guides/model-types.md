@@ -51,7 +51,7 @@ filters:
 
 **Reasoning models** are the most recent types of models which have emerged in the AI space, exemplified by models such as [DeepSeek-R1](https://huggingface.co/deepseek-ai/DeepSeek-R1) and basing themselves off techniques pioneered by models such as [Eurus](https://huggingface.co/openbmb/Eurus-70b-nca). Such reasoning models are better able to handle multi-step reasoning tasks by breaking them up into separate steps.
 
-It is worth noting that reasoning LLMs do not strictly 'reason' in the common sense. Instead, they are tuned in the same way as chat models are tuned to do particularly well at a task known as chain-of-thought reasoning. In chain-of-thought reasoning, the LLM does not commit to a final response right away but iterates over multiple steps (a 'chain of thought'), adding all intermediate steps to the context window, allowing them to contribute to the final answer. This process is designed to mimic ([though it might not entirely reflect](https://arxiv.org/abs/2307.13702)), the process of human thinking and self-reflection.
+It is worth noting that reasoning LLMs do not strictly 'reason' in the common sense. Instead, they are tuned in the same way as chat models are tuned to do particularly well at a task known as chain-of-thought reasoning. In chain-of-thought reasoning, the LLM does not commit to a final response right away but iterates over multiple steps (a 'chain of thought'), adding all intermediate steps to the context window, allowing them to contribute to the final answer. This process is designed to mimic ([though it might not entirely reflect](https://arxiv.org/abs/2307.13702)) the process of human thinking and self-reflection.
 
 ## Code LLMs
 ::the-index
@@ -63,7 +63,7 @@ filters:
 ---
 ::
 
-**Code LLMs** are LLMs specializing in handling code. There are two main ways of creating a code LLM. Firstly, it is possible to further train a regular base, chat or instruct model using code data (possibly adding some code-integrating instructions) to arrive at a model which can understand and generate code in a conversational setting. The model this produces is akin to the 'chat' functionality of GitHub Copilot, with the model serving as a helpful assistant for aiding in code-related tasks.
+**Code LLMs** are LLMs specializing in handling code. There are two main ways of creating a code LLM. Firstly, it is possible to further train a regular base, chat or instruct model using code data (possibly adding some code-integrating instructions) to arrive at a model which can understand and generate code in a conversational setting. The model this produces is akin to the 'chat' functionality of [GitHub Copilot](https://github.com/features/copilot), with the model serving as a helpful assistant for aiding in code-related tasks.
 
 The second way of creating a code LLM is to train a model from scratch using code data. This results in a model which does not necessarily understand human language, but understands how to complete code very well. As such, models produced in this way are primarily useful as code autocompletion agents.
 
@@ -111,7 +111,7 @@ filters:
 ---
 ::
 
-**Video-generating models** are often variations on the theme of image-generating models. The key challenge for video models compared to image-generating models is to provide consistency between frames, which they accomplish by conditioning subsequent frames on previous frames in various ways. Currently, video-generating models run into issues when attempting to generate longer videos, videos of variable length, and videos of varying resolution. Similar to agentic models, they also commonly suffer from a lack of open-sourceness. In particular, the question of how to create a video model using open-source data has not yet been entirely settled. In general, though video-generating models have already seen some adoption, for now they remain quite experimental.
+**Video-generating models** are often variations on the theme of image-generating models. The key challenge for video models compared to image-generating models is to provide consistency between frames, which they accomplish by conditioning subsequent frames on previous frames in various ways. Currently, video-generating models run into issues when attempting to generate longer videos, videos of variable length, and videos of varying resolution. It is also an open question how well a video-generating model can be constructed using solely open-source data. In general, though video-generating models have already seen some adoption, for now they remain quite experimental.
 
 ### World models
 An aspirational fine-tune of the video model is the world model. World models seek to ground the video they generate into a virtual world and allow for some degree of control, creating a video-game-like experience. The aim of world models is to allow for the generation of grounded digital worlds. Though some large players in the AI space have already committed to the development of world models, in general this type of model still remains very experimental.
