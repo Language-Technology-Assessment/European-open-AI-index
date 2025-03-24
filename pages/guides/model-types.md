@@ -10,7 +10,7 @@ status: published
 
 In recent years, the field of AI has grown dramatically. Besides the introduction of ChatGPT and the subsequent revolution in text-based LLMs, there has been a revolution of no lesser significance in image-based diffusion models. The surge of new models can make it challenging to see what types of model are available and how current models should be categorized. Here we provide an overview of the most common types of AI models currently available, with the aim of helping the reader to get a better grasp on the AI landscape as a whole.
 
-Throughout this blog post, we provide references to relevant models in our index, if available, using a grid view.
+Throughout this blog post, we provide references to example models in our index, if available, using a grid view.
 
 ## Text-based large language models
 ::the-index
@@ -51,7 +51,7 @@ filters:
 
 **Reasoning models** are the most recent types of models which have emerged in the AI space, exemplified by models such as [DeepSeek-R1](https://huggingface.co/deepseek-ai/DeepSeek-R1) and basing themselves off techniques pioneered by models such as [Eurus](https://huggingface.co/openbmb/Eurus-70b-nca). Such reasoning models are better able to handle multi-step reasoning tasks by breaking them up into separate steps.
 
-It is worth noting that reasoning LLMs do not strictly 'reason' in the common sense. Instead, they are tuned in the same way as chat models are tuned to do particularly well at a task known as chain-of-thought reasoning. In chain-of-thought reasoning, part of the output of an LLM is dedicated to thinking and reflecting about a problem before giving a definite answer.
+It is worth noting that reasoning LLMs do not strictly 'reason' in the common sense. Instead, they are tuned in the same way as chat models are tuned to do particularly well at a task known as chain-of-thought reasoning. In chain-of-thought reasoning, the LLM does not commit to a final response right away but iterates over multiple steps (a 'chain of thought'), adding all intermediate steps to the context window, allowing them to contribute to the final answer. This process is designed to mimic ([though it might not entirely reflect](https://arxiv.org/abs/2307.13702)), the process of human thinking and self-reflection.
 
 ## Code LLMs
 ::the-index
@@ -82,7 +82,7 @@ Lastly, [recent approaches](https://huggingface.co/internlm/internlm2-math-base-
 ### Agentic LLMs
 **Agentic LLMs** are LLMs specifically tuned to interface with tools or to perform web-based tasks. Given that both the approaches taken and the applications for which agentic LLMs are designed vary widely, it is difficult to say anything about this group in a general sense. However, a few common facts hold. Firstly, agentic LLMs tend to specialize in either augmenting an LLM to interface well with external tools (e.g. a way of constructing and running programs), or in acting as sophisticated web-based agents. Agentic LLMs also tend to be quite experimental, with each adopting novel techniques for optimizing agentic actions.
 
-Given the emergent nature of agentic models, there are many potential issues still to work out. Most notably, agentic LLMs are usually not sufficiently open-source and [potentially pose inherent security risks](https://techcrunch.com/2025/03/07/signal-president-meredith-whittaker-calls-out-agentic-ai-as-having-profound-security-and-privacy-issues/). Future research remains to demonstrate the potential utility of such models and investigate how they can be constructed in an open manner.
+Given the emergent nature of agentic models, there are many potential barriers that still need to be addressed. Most notably, agentic LLMs are usually not sufficiently open-source and [potentially pose inherent security risks](https://techcrunch.com/2025/03/07/signal-president-meredith-whittaker-calls-out-agentic-ai-as-having-profound-security-and-privacy-issues/). Future research remains to demonstrate the potential utility of such models and investigate how they can be constructed in an open manner.
 
 ## Image, video, and audio models
 Although text-based LLMs represent the most popular use case and have seen the most activity in terms of model development, there is also a wide variety of AI models capable of generating audiovisual media of various kinds. Here we highlight the most notable types.
@@ -126,7 +126,7 @@ filters:
 ---
 ::
 
-Audio models are models for generating music and other auditory information. By and large they are equally as experimental as video models, though they have arguably seen slightly more adoption. Audio models are by and large still quite closed, leading to difficulty establishing their typical construction. Nonetheless, they have been shown capable of generating high-quality melodies, vocals, instrument tracks, and even entire pop songs.
+Audio models are models for generating music and other auditory information. By and large they are equally as experimental as video models, though they have arguably seen slightly more adoption. Audio models are by and large still quite closed, leading to difficulty establishing their typical construction. Nonetheless, they have been shown capable of generating high-quality melodies, vocals, instrument tracks, and even entire songs.
 
 ## Multimodal LLMs
 Multimodal LLMs are perhaps the most varied of all LLM categories. Very broadly, multimodal LLMs seek to incorporate information from modalities other than text in order to enhance the utility of LLMs. The simplest and most common variant of a multimodal LLM is an image-text-to-text model, which can process images as well as text. However, many variants of multimodal LLMs exist. Notably, some multimodal models have grown to allow for both the processing and generation images and text, and one has proven capable of processing text, images, video, and audio and generating both text and audio.
