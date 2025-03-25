@@ -51,7 +51,7 @@ filters:
 
 **Reasoning models** are the most recent types of models which have emerged in the AI space, exemplified by models such as [DeepSeek-R1](https://huggingface.co/deepseek-ai/DeepSeek-R1) and basing themselves off techniques pioneered by models such as [Eurus](https://huggingface.co/openbmb/Eurus-70b-nca). Such reasoning models are better able to handle multi-step reasoning tasks by breaking them up into separate steps.
 
-It is worth noting that reasoning LLMs do not strictly 'reason' in the common sense. Instead, they are tuned in the same way as chat models are tuned to do particularly well at a task known as chain-of-thought reasoning. In chain-of-thought reasoning, the LLM does not commit to a final response right away but iterates over multiple steps (a 'chain of thought'), adding all intermediate steps to the context window, allowing them to contribute to the final answer. This process is designed to mimic ([though it might not entirely reflect](https://arxiv.org/abs/2307.13702)) the process of human thinking and self-reflection.
+It is worth noting that reasoning LLMs do not strictly 'reason' in the common sense. Instead, a bit like chat models, they are tuned to do particularly well at a task known as chain-of-thought reasoning, in which they reproduce patterns of stepwise reasoning that they have been exposed to in training data. Since the output of intermediate steps becomes part of the context window, this can improve the final answer. The stepwise procedure gives the appearance of the LLM thinking and reflecting on a prompt.
 
 ## Code LLMs
 ::the-index
