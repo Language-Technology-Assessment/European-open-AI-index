@@ -30,7 +30,7 @@ perpage: 3
 ---
 hideFilters: true
 filters: 
-  models: bloomz, deepseek-v3, Qwen, llama-3.1, Phi
+  models: OLMo, deepseek-v3, Qwen, llama-3.1, Phi
 ---
 We assess the openness of "AI" systems for generating [text](/the-index?type=text "Text models in the European Open Source AI Index"), [images](/the-index?type=image "Image models in the European Open Source AI Index"), [code](/the-index?type=code "Code models in the European Open Source AI Index"), [video](/the-index?type=video "Video models in the European Open Source AI Index"), and [audio](/the-index?type=audio "Audio and voice models in the European Open Source AI Index"). Here are some popular text models ranked by openness. [Explore more in the full index](/the-index)
 ::
