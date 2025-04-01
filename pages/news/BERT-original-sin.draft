@@ -20,13 +20,15 @@ We still don't know exactly how the model was built or what data went into it.
 
 this milestone in the history of the field of NLP is also a testament of a longstanding lack of attention to training data over model architecture
 
+Book corpus dataset 
+
 
 
 Refs:
 https://en.wikipedia.org/wiki/BERT_(language_model)
 https://en.wikipedia.org/wiki/BookCorpus
 https://research.google/blog/open-sourcing-bert-state-of-the-art-pre-training-for-natural-language-processing/
-
+https://huggingface.co/datasets/defunct-datasets/bookcorpusopen
 
 Papers:
 https://aclanthology.org/N19-1423.pdf
