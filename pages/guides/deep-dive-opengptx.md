@@ -1,8 +1,9 @@
 ---
 title: "Deep Dive: OpenGPT-X"
+description: Digging into OpenGPT-X's Teuken models
 date: 2025-03-24
 author: Dick Blankvoort & Jenia Jitsev
-status: 
+status: published
 ---
 # Deep Dive: OpenGPT-X
 <author :author="author"></author>
