@@ -36,6 +36,7 @@ Secondly, reconstruction is further hampered by a lack of a clear and open sourc
   table {
     margin: auto;
     border-collapse: collapse;
+    margin-bottom: 20px;
   }
   th, td {
     border: 1px solid black;
