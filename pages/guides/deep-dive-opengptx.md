@@ -104,7 +104,7 @@ In general, the data used to train the Teuken models is not as open as might app
 hideFilters: true
 filters: 
   view: grid
-  models: OLMo, Command-R
+  models: OLMo, command-r
 ---
 ::
 
@@ -161,6 +161,6 @@ OpenGPT-X has been marketed as a European model [comparable with even DeepSeek](
 hideFilters: true
 filters: 
   view: grid
-  models: Teuken, DeepSeek-V3
+  models: Teuken, deepseek-v3
 ---
 ::
