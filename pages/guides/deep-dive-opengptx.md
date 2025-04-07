@@ -32,50 +32,19 @@ A first observation is that no downloadable version of the full dataset is publi
 
 Secondly, reconstruction is further hampered by a lack of a clear and open source codebase that documents the processes of data collection, curation, filtering and processing. The model does offer a preprint documenting at least some elements of the data pipeline. Within this preprint, however, even though the sources used for constructing the data mixture are shared, this is not done in sufficient detail to make reproduction feasible. See the following table for a selection of problematic data sources. 
 
-<centering>
-<table>
-  <tr>
-    <th>Data source</th>
-    <th>Reason for highlighting</th>
-  </tr>
-  <tr>
-    <td>Corpus of Contemporary Irish</td>
-    <td><a href="https://www.gaois.ie/en/corpora/monolingual">Replaced by newer dataset</a></td>
-  </tr>
-  <tr>
-    <td>medi_notice dataset, <br>Swiss Legislation Corpus</td>
-    <td><a href="https://pub.cl.uzh.ch/wiki/public/pacoco/medi-notice">Inaccessible without a University of Zürich account</a></td>
-  </tr>
-  <tr>
-    <td>Open Legal Data German court decisions</td>
-    <td><a href="https://openlegaldata.io/research/2019/02/19/court-decision-dataset.html">Listed twice with different word and document count</a></td>
-  </tr>
-  <tr>
-    <td>Norwegian Colossal Corpus</td>
-    <td><a href="https://huggingface.co/datasets/NbAiLab/NCC">Newspapers removed after model release</a></td>
-  </tr>
-  <tr>
-    <td>Various subsets of The Pile</td>
-    <td><a href="https://pile.eleuther.ai/">No subsets provided, only The Pile and <br>(for some subsets) scrapers</a></td>
-  </tr>
-  <tr>
-    <td>PRINCIPLE bilingual English-Irish datasets</td>
-    <td><a href="https://elrc-share.eu/repository/search/?q=PRINCIPLE&selected_facets=languageNameFilter_exact%3AIrish">Not clear which datasets were taken</a></td>
-  </tr>
-  <tr>
-    <td>Unknown Slovak Dataset</td>
-    <td><a href="https://nlp.ffzg.unizg.hr/resources/corpora/slwac/">404 Error</a></td>
-  </tr>
-  <tr>
-    <td>Swiss Policy Documents</td>
-    <td><a href="https://opendata.swiss/en/dataset?keywords_en=environmental--policy&keywords_en=policy-analysis">Links to a search query with a single result</a></td>
-  </tr>
-  <tr>
-    <td>Various Wikimedia sites</td>
-    <td><a href="https://en.wikipedia.org/wiki/Main_Page">Link to sites, not datasets</a></td>
-  </tr>
-</table>
-</centering>
++ ----------------------------------- +
+| Data source | Reason for highlighting |
++ ======== + ========= +
+| Corpus of Contemporary Irish     | [Replaced by newer dataset](https://www.gaois.ie/en/corpora/monolingual)     |
+| medi_notice dataset, Swiss Legislation Corpus     | [Inaccessible without a University of Zürich account](https://pub.cl.uzh.ch/wiki/public/pacoco/medi-notice)     |
+| Open Legal Data German court decisions     | [Listed twice with different word and document count](https://openlegaldata.io/research/2019/02/19/court-decision-dataset.html)     |
+| Norwegian Colossal Corpus     | [Newspapers removed after model release](https://huggingface.co/datasets/NbAiLab/NCC)     |
+| Various subsets of The Pile     | [No subsets provided, only The Pile and (for some subsets) scrapers](https://pile.eleuther.ai/)     |
+| PRINCIPLE bilingual English-Irish datasets      | [Not clear which datasets were taken](https://elrc-share.eu/repository/search/?q=PRINCIPLE&selected_facets=languageNameFilter_exact%3AIrish)     |
+| Unknown Slovak Dataset     | [404 Error](https://nlp.ffzg.unizg.hr/resources/corpora/slwac/)     |
+| Swiss Policy Documents     | [Links to a search query with a single result](https://opendata.swiss/en/dataset?keywords_en=environmental--policy&keywords_en=policy-analysis)     |
+| Various Wikimedia sites     | [Link to sites, not datasets](https://en.wikipedia.org/wiki/Main_Page)     |
++ ----------------------------------- +
 
 The sources listed include 404 pages, pages inaccessible without a specific university account, and links to sites without specific directions on versioning and access methods. Without an exhaustive list of data sources and clarity on data processing procedures, it is not feasible to reproduce the training procedure.
 
