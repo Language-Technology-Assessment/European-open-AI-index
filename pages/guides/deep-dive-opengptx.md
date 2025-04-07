@@ -8,6 +8,30 @@ status: published
 # Deep Dive: OpenGPT-X
 <author :author="author"></author>
 
+<!--
+# Relevant links
+### HF pages
+- Org page: https://huggingface.co/openGPT-X
+- Research model: https://huggingface.co/openGPT-X/Teuken-7B-instruct-research-v0.4
+- Commercial model: https://huggingface.co/openGPT-X/Teuken-7B-instruct-commercial-v0.4
+
+### GH pages:
+- Org page: https://github.com/OpenGPTX
+
+### Sites
+- Main site: https://opengpt-x.de/en/
+
+### Papers
+- Towards multilingual LLM evaluation: https://arxiv.org/pdf/2410.08928
+- Data processing: https://arxiv.org/pdf/2410.08800
+- Progress report: https://arxiv.org/pdf/2410.03730v1
+- Models: https://arxiv.org/pdf/2410.03730
+- MinHash/LSH algorithm: https://link.springer.com/chapter/10.1007/978-3-031-82481-4_27
+- Tokenizer: https://arxiv.org/pdf/2310.08754
+
+# Main narration brainstorming
+-->
+
 ### Introduction
 [The OpenGPT-X initiative](https://opengpt-x.de/en/) is an organization seeking to create open-source AI models 'Made in Germany'. In this first of a series of blog posts, we evaluate its flagship [Teuken](https://opengpt-x.de/models/teuken-7b-de/) models through the lens of open-source. In collaboration with Jenia Jitsev of LAION and JSC, we explore some of the project's strengths and weaknesses. In general, we demonstrate that even though the OpenGPT-X initiative claims to be developing fully open-source models, there is a dissonance between the claims made and their actual capabilities.
 
@@ -32,58 +56,46 @@ A first observation is that no downloadable version of the full dataset is publi
 
 Secondly, reconstruction is further hampered by a lack of a clear and open source codebase that documents the processes of data collection, curation, filtering and processing. The model does offer a preprint documenting at least some elements of the data pipeline. Within this preprint, however, even though the sources used for constructing the data mixture are shared, this is not done in sufficient detail to make reproduction feasible. See the following table for a selection of problematic data sources. 
 
-<style>
-  table {
-    margin: auto;
-    border-collapse: collapse;
-    margin-bottom: 20px;
-  }
-  th, td {
-    border: 1px solid black;
-    padding: 10px;
-  }
-</style>
-
-<table>
+<table style="margin: auto; border-collapse: collapse; margin-bottom: 20px;">
   <tr>
-    <th>Data source</th>
-    <th>Reason for highlighting</th>
+    <th style="border: 1px solid black; padding: 10px;">Data source</th>
+    <th style="border: 1px solid black; padding: 10px;">Reason for highlighting</th>
   </tr>
   <tr>
-    <td>Corpus of Contemporary Irish</td>
-    <td><a href="https://www.gaois.ie/en/corpora/monolingual">Replaced by newer dataset</a></td>
+    <td style="border: 1px solid black; padding: 10px;">Corpus of Contemporary Irish</td>
+    <td style="border: 1px solid black; padding: 10px;"><a href="https://www.gaois.ie/en/corpora/monolingual">Replaced by newer dataset</a></td>
   </tr>
   <tr>
-    <td>medi_notice dataset, Swiss Legislation Corpus</td>
-    <td><a href="https://pub.cl.uzh.ch/wiki/public/pacoco/medi-notice">Inaccessible without a University of Zürich account</a></td>
+    <td style="border: 1px solid black; padding: 10px;">medi_notice dataset, Swiss Legislation Corpus</td>
+    <td style="border: 1px solid black; padding: 10px;"><a href="https://pub.cl.uzh.ch/wiki/public/pacoco/medi-notice">Inaccessible without a University of Zürich account</a></td>
   </tr>
   <tr>
-    <td>Open Legal Data German court decisions</td>
-    <td><a href="https://openlegaldata.io/research/2019/02/19/court-decision-dataset.html">Listed twice with different word and document count</a></td>
+    <td style="border: 1px solid black; padding: 10px;">Open Legal Data German court decisions</td>
+    <td style="border: 1px solid black; padding: 10px;"><a href="https://openlegaldata.io/research/2019/02/19/court-decision-dataset.html">Listed twice with different word and document count</a></td>
   </tr>
   <tr>
-    <td>Norwegian Colossal Corpus</td>
-    <td><a href="https://huggingface.co/datasets/NbAiLab/NCC">Newspapers removed after model release</a></td>
+    <td style="border: 1px solid black; padding: 10px;">Norwegian Colossal Corpus</td>
+    <td style="border: 1px solid black; padding: 10px;"><a href="https://huggingface.co/datasets/NbAiLab/NCC">Newspapers removed after model release</a></td>
   </tr>
   <tr>
-    <td>Various subsets of The Pile</td>
-    <td><a href="https://pile.eleuther.ai/">No subsets provided, only The Pile and (for some subsets) scrapers</a></td>
+    <td style="border: 1px solid black; padding: 10px;">Various subsets of The Pile</td>
+    <td style="border: 1px solid black; padding: 10px;"><a href="https://pile.eleuther.ai/">No subsets provided, only The Pile and (for some subsets) scrapers</a></td>
   </tr>
   <tr>
-    <td>PRINCIPLE bilingual English-Irish datasets</td>
-    <td><a href="https://elrc-share.eu/repository/search/?q=PRINCIPLE&selected_facets=languageNameFilter_exact%3AIrish">Not clear which datasets were taken</a></td>
+    <td style="border: 1px solid black; padding: 10px;">PRINCIPLE bilingual English-Irish datasets</td>
+    <td style="border: 1px solid black; padding: 10px;"><a href="https://elrc-share.eu/repository/search/?q=PRINCIPLE&selected_facets=languageNameFilter_exact%3AIrish">Not clear which datasets were taken</a></td>
   </tr>
   <tr>
-    <td>Unknown Slovak Dataset</td>
-    <td><a href="https://nlp.ffzg.unizg.hr/resources/corpora/slwac/">404 Error</a></td>
+    <td style="border: 1px solid black; padding: 10px;">Unknown Slovak Dataset</td>
+    <td style="border: 1px solid black; padding: 10px;"><a href="https://nlp.ffzg.unizg.hr/resources/corpora/slwac/">404 Error</a></td>
   </tr>
   <tr>
-    <td>Swiss Policy Documents</td>
-    <td><a href="https://opendata.swiss/en/dataset?keywords_en=environmental--policy&keywords_en=policy-analysis">Links to a search query with a single result</a></td>
+    <td style="border: 1px solid black; padding: 10px;">Swiss Policy Documents</td>
+    <td style="border: 1px solid black; padding: 10px;"><a href="https://opendata.swiss/en/dataset?keywords_en=environmental--policy&keywords_en=policy-analysis">Links to a search query with a single result</a></td>
   </tr>
   <tr>
-    <td>Various Wikimedia sites</td>
-    <td><a href="https://en.wikipedia.org/wiki/Main_Page">Link to sites, not datasets</a></td>
+    <td style="border: 1px solid black; padding: 10px;">Various Wikimedia sites</td>
+    <td style="border: 1px solid black; padding: 10px;"><a href="https://en.wikipedia.org/wiki/Main_Page">Link to sites, not datasets</a></td>
   </tr>
 </table>
 
@@ -127,6 +139,9 @@ Given the above, the question of whether Teuken's models can be called open-weig
 
 One of the key innovations of the Teuken model was its use of a balanced multilingual tokenizer. This tokenizer, as the authors claim, [was crucial for bringing down training costs](https://arxiv.org/pdf/2410.03730). This makes it rather unfortunate, then, that relatively little is known about the tokenizer used, as it is only available as a bundle together with the instruction-tuned model. The [paper from which it derives](https://arxiv.org/abs/2310.08754) provides some implementation details, however does not provide guidance with regards to the data mixture. We believe that future research could greatly benefit from further information regarding the use of multilingual tokenizers, given that the results appear to be relatively impactful.
 
+### Training and fine-tuning source code
+Contrary to other truly open-source projects, eg. [Olmo by AllenAI](https://github.com/allenai/OLMo) , [SmolLM2 by HuggingFace](https://github.com/huggingface/smollm), or [DCLM by DataComp initiative and their collaborators](https://github.com/mlfoundations/dclm), Teuken models lack training or fine-tuning source code with clear documentation how to execute procedures that result in corresponding models. Without it, it is hard or impossible to replicate the author's results and check their claims.
+
 ### Licenses
 OpenGPT-X claims their model data are processed and stored in a way which is [in line with European standards for data storage and processing](https://www.iuk.fraunhofer.de/en/news-web/2024/teuken-7b--multilinguales-open-source-sprachmodell-veroeffentlic.html). This aim of data transparency is indeed a good principle to follow, especially for a European AI initiative. Given the previously mentioned lack of data transparency it is, however, difficult to verify this claim. At least, it seems that the curated portion of [the model's foundational dataset used for pretraining](https://arxiv.org/pdf/2410.08800) contains a variety of data listed with 'various' non-permissive licenses, and it is unknown whether the two models published were trained (partially) on data with such licenses. Further data transparency could alleviate this, so that an outside observer can more easily verify whether the model meets the claimed data standards.
 
@@ -137,16 +152,16 @@ The above-discussed lack of data transparency and openness has consequences for 
 Claims made to the public regarding OpenGPT-X paint a rosy picture. Teuken is described as  [a fully open-source model](https://opengpt-x.de/en/) which [handles data in line with European regulations](https://www.iuk.fraunhofer.de/en/news-web/2024/teuken-7b--multilinguales-open-source-sprachmodell-veroeffentlic.html). Given the inherent challenges in reproducibility, however, these claims must be taken with a grain of salt. Though some research regarding the model is promising, both the model and its underlying technology remain challenging to adopt.
 
 ### Impact on companies
-The Teuken models claim to offer [better control over the technology used](https://www.ki.nrw/en/opengpt-x-research-project-publishes-large-ai-language-model-european-alternative-for-business-and-science-fraunhofer-iais/) while allowing for [optimizing models to specific use cases](https://www.iais.fraunhofer.de/en/business-areas/speech-technologies/conversational-ai/opengpt-x.html). In this regard, we agree with the model authors, as the model provides a sufficient base for developing proprietary company applications. However, given the relatively better performance of [other open-weights LLMs](https://huggingface.co/spaces/openGPT-X/european-llm-leaderboard), a case has to be made for using the Teuken model in particular.
+The Teuken models claim to offer [better control over the technology used](https://www.ki.nrw/en/opengpt-x-research-project-publishes-large-ai-language-model-european-alternative-for-business-and-science-fraunhofer-iais/) while allowing for [optimizing models to specific use cases](https://www.iais.fraunhofer.de/en/business-areas/speech-technologies/conversational-ai/opengpt-x.html). In this regard, we agree with the model authors, as the model provides a sufficient base for developing proprietary company applications. However, given the clearly better performance of [other open-weights LLMs](https://huggingface.co/spaces/openGPT-X/european-llm-leaderboard), also in multi-lingual scenarios, a case has to be made for using the Teuken model in particular.
 
 ### Impact on GAIA-X
-OpenGPT-X is funded by the GAIA-X project, which seeks to deliver European open data infrastructure. To this end, it seeks to contribute to providing models which are [GDPR-compliant and which conform to EU regulations](https://gaia-x-hub.de/en/funding-projects/). The project has certainly delivered some steps in providing this, as it is delivering models which could be used to increase digital sovereignty. A main challenge, however, lies in using these models to further build towards data-sovereign infrastructure, as they can only be used for fine-tuning.
+OpenGPT-X is funded by the GAIA-X project, which seeks to deliver European open data infrastructure. To this end, it seeks to contribute to providing models which are [GDPR-compliant and which conform to EU regulations](https://gaia-x-hub.de/en/funding-projects/). The project has certainly delivered some steps in providing this, as it is delivering models which could be used to increase digital sovereignty. A main challenge, however, lies in using these models to further build towards data-sovereign infrastructure, as they can only be used for fine-tuning, while their performance is lagging far behind state-of-the-art open-weights models.
 
 ### Impact on the EU LLM ecosystem
-It is important to place Teuken within the context of the broader European LLM ecosystem. OpenGPT-X has published its own [European LLM leaderboard](https://huggingface.co/spaces/openGPT-X/european-llm-leaderboard), which can be used to contextualize the model. Below we list several initiatives which have similar goals to Teuken:
+It is important to place Teuken within the context of the broader European LLM ecosystem. OpenGPT-X has published its own [OpenGPT-X European LLM leaderboard](https://huggingface.co/spaces/openGPT-X/european-llm-leaderboard), which can be used to contextualize the model. Below we list several initiatives which have similar goals to Teuken:
 - **Salamandra** is a model developed by the Barcelona Supercomputing Center which is trained on data from 35 different European languages.
-- **EuroLLM** is a multilingual LLM with similar aims to Teuken. It was developed by the UTTER project, a collaboration between several institutions. By and large EuroLLM provides similar capabilities to Teuken, although with more measured claims.
-- **Occiglot** is a large language model designed to produce text in the top 5 EU languages, produced through an open research project of the same name. 
+- **EuroLLM** is a multilingual LLM with similar aims to Teuken. It was developed by the UTTER project, a collaboration between several institutions. By and large EuroLLM provides similar capabilities to Teuken, although with more measured claims and also outperforming it on a broad range of standardized benchmarks.
+- **Occiglot** is a large language model designed to produce text in the top 5 EU languages, produced through an open research project of the same name. The initiative also features a similar leaderboard, the [Occiglot European LLM Leaderboard](https://huggingface.co/spaces/occiglot/euro-llm-leaderboard).
 - **Pharia** is a large language model with similar claims to openness as Teuken, developed by Aleph-Alpha. For more information regarding this model, see [an earlier blog post of ours](https://osai-index.eu/news/aleph-alpha-pivot).
 
 The main niches the Teuken model fills relative to these other models are its greater focus on German as a primarily language, and its design for specialist applications. Though Teuken has a place within this broader ecosystem, it remains to be seen to what degree the model is able to strengthen European innovation and competitiveness, [as is its aim](https://gaia-x-hub.de/en/funding-projects/).
@@ -154,7 +169,7 @@ The main niches the Teuken model fills relative to these other models are its gr
 ### Conclusion
 As things stand, the Teuken models cannot be considered fully open-source. This is reflected in [our rankings](https://osai-index.eu/model/Teuken), where they are positioned near the middle of the pack. The model in particular lacks reproducibility, which is a key element of proper open-source. As the authors rightly claim: ["it is crucial that the technology and expertise to build these models is democratized to enable different communities and organizations to employ these models for their use cases"](https://arxiv.org/pdf/2410.03730).
 
-OpenGPT-X has been marketed as a European model [comparable with even DeepSeek](https://www.wiwo.de/unternehmen/mittelstand/gipfeltreffen-der-weltmarktfuehrer-wir-muessen-uns-beim-thema-ki-keine-sorgen-machen/30201276.html). Based on our investigation of openness features, we can conclude that Teuken is at least in one regard very comparable to DeepSeek.
+OpenGPT-X has been marketed as a European model [comparable with even DeepSeek](https://www.wiwo.de/unternehmen/mittelstand/gipfeltreffen-der-weltmarktfuehrer-wir-muessen-uns-beim-thema-ki-keine-sorgen-machen/30201276.html), which is highly misleading for public perception. Based on our investigation of openness features, we can conclude that Teuken, while clearly behind LLMs in the same size class like Qwen 2.5 or Llama 3.1 and far behind the larger DeepSeek models, is at least in one regard very comparable to DeepSeek.
 
 ::the-index
 ---
