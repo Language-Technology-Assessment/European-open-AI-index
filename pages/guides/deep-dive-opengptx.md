@@ -1,7 +1,7 @@
 ---
 title: "Deep Dive: OpenGPT-X"
-description: Digging into OpenGPT-X's Teuken models
-date: 2025-03-24
+description: In which we dig into the openness of OpenGPT-X's Teuken models
+date: 2025-04-12
 author: Dick Blankvoort & Jenia Jitsev
 status: published
 ---
@@ -32,9 +32,9 @@ status: published
 # Main narration brainstorming
 -->
 
-[The OpenGPT-X initiative](https://opengpt-x.de/en/) is an organization seeking to create open-source AI models 'Made in Germany'. In this first of a series of blog posts, we evaluate its flagship [Teuken](https://opengpt-x.de/models/teuken-7b-de/) models through the lens of open-source. In collaboration with Jenia Jitsev of LAION and JSC, we explore some of the project's strengths and weaknesses. In general, we demonstrate that even though the OpenGPT-X initiative claims to be developing fully open-source models, there is a dissonance between the claims made and their actual capabilities.
+[The OpenGPT-X initiative](https://opengpt-x.de/en/) is an organization seeking to create open-source AI models 'Made in Germany'. In this blog post, we evaluate its flagship [Teuken](https://opengpt-x.de/models/teuken-7b-de/) models through the lens of open-source. In collaboration with Jenia Jitsev of LAION and the Jülich Supercomputing Centre, we explore some of the project's strengths and weaknesses. We find that the model falls short of their own claims of openness, and document early signs of adverse consequences for the European open-source AI ecosystem as a whole.
 
-<!--OpenGPT-X is a project under the umbrella of GAIA-X, a European initiative seeking to create [an open and transparent platform for merging and sharing data](https://www.heise.de/news/Gaia-X-Bundesnetzagentur-stellt-117-Millionen-Euro-fuer-Projekte-bereit-6528649.html). To this end, it has received [around 15 million euros from the German The Federal Ministry for Economic Affairs and Climate Protection](https://www.dfki.de/en/web/news/kick-off-for-opengpt-x-dfki-and-partners-develop-large-scale-language-models-for-europe). Using this funding, it aimed to produce an open large language model in line with European data standards.-->
+OpenGPT-X is a project developed under the umbrella of GAIA-X, a European initiative seeking to create [an open and transparent platform for merging and sharing data](https://www.heise.de/news/Gaia-X-Bundesnetzagentur-stellt-117-Millionen-Euro-fuer-Projekte-bereit-6528649.html). To this end, OpenGPT-X has received [around 15 million euros from the German The Federal Ministry for Economic Affairs and Climate Protection](https://www.dfki.de/en/web/news/kick-off-for-opengpt-x-dfki-and-partners-develop-large-scale-language-models-for-europe). In this blog post, we seek to hold the project to commensurate standards.
 
 ::the-index
 ---
@@ -47,14 +47,14 @@ filters:
 
 ## Model features
 
-### Model data
-The Teuken models are described as being pretrained on ["data from publicly available sources"](https://huggingface.co/openGPT-X/Teuken-7B-instruct-research-v0.4/blob/main/README.md), with [openness being marketed as a key feature](https://opengpt-x.de/en/about/). As such it is good to verify these claims, investigating whether the model data is indeed as open as is purported. 
+### Access to training data
+The Teuken models are described as being pretrained on ["data from publicly available sources"](https://huggingface.co/openGPT-X/Teuken-7B-instruct-research-v0.4/blob/main/README.md), with [openness being marketed as a key feature](https://opengpt-x.de/en/about/). We tried to verify these claims, investigating whether the model data is indeed as open as is purported. 
 
 The data used to train the base model of the Teuken series originates from two sources; the [FineWeb-Edu dataset](https://huggingface.co/datasets/HuggingFaceFW/fineweb-edu) and a [private dataset](https://arxiv.org/pdf/2410.08800) constructed by OpenGPT-X itself. The FineWeb-Edu dataset is widely available and used as pretraining data in over 200 models. The private data mixture, on the other hand, has a number of qualities which make obtaining insight into it challenging.
 
 A first observation is that no downloadable version of the full dataset is publicly available. This means that any entity seeking to use the dataset must either reproduce it themselves or request it from the model authors. Although this is fairly standard practice, it does pose challenges to transparency and makes it difficult to reconstruct the model.
 
-Secondly, reconstruction is further hampered by a lack of a clear and open source codebase that documents the processes of data collection, curation, filtering and processing. The model does offer a preprint documenting at least some elements of the data pipeline. Within this preprint, however, even though the sources used for constructing the data mixture are shared, this is not done in sufficient detail to make reproduction feasible. See the following table for a selection of problematic data sources. 
+Secondly, reconstruction is further hampered by a lack of a clear and open source codebase that documents the processes of data collection, curation, filtering and processing. The model does offer a preprint documenting at least some elements of the data pipeline. Within this preprint, however, even though the sources used for constructing the data mixture are shared, this is not done in sufficient detail to make reproduction feasible. See the following table for a selection of problematic data sources.
 
 <table style="margin: auto; border-collapse: collapse; margin-bottom: 20px;">
   <tr>
@@ -86,7 +86,7 @@ Secondly, reconstruction is further hampered by a lack of a clear and open sourc
     <td style="border: 1px solid black; padding: 10px;"><a href="https://elrc-share.eu/repository/search/?q=PRINCIPLE&selected_facets=languageNameFilter_exact%3AIrish">Not clear which datasets were taken</a></td>
   </tr>
   <tr>
-    <td style="border: 1px solid black; padding: 10px;">Unknown Slovak Dataset</td>
+    <td style="border: 1px solid black; padding: 10px;">Unknown Slovenian Dataset</td>
     <td style="border: 1px solid black; padding: 10px;"><a href="https://nlp.ffzg.unizg.hr/resources/corpora/slwac/">404 Error</a></td>
   </tr>
   <tr>
@@ -108,15 +108,6 @@ The data processing paper of Teuken makes mention of [saving the intermediate re
 Compared to the base model data mixture, the instruction-tuning mixture of Teuken is laid out quite well. As far as we can tell, all data sources are linked properly and open-source datasets are used. The instruction-tuning data could be further improved by publishing a dataset, as with [the Aya models](https://huggingface.co/datasets/CohereForAI/aya_dataset).
 
 In general, the data used to train the Teuken models is not as open as might appear at first glance. While some elements of the dataset are known, the lack of a publicly downloadable version of the dataset and thorough documentation of data sources makes it difficult to verify claims made.
-
-::the-index
----
-hideFilters: true
-filters: 
-  view: grid
-  models: OLMo
----
-::
 
 ### Model weights
 Teuken [claims to be open-source](https://opengpt-x.de/en/models/teuken-7b/), a core element of which is that the weights of the model are published (open-weights). In this section, we investigate the weight availability of the Teuken model, investigating both the weights of the base (pretrained) model and the end model.
@@ -148,18 +139,27 @@ This is highly misleading for the public, and can be considered as "benchmark wa
 ### Licenses
 OpenGPT-X claims their model data are processed and stored in a way which is [in line with European standards for data storage and processing](https://www.iuk.fraunhofer.de/en/news-web/2024/teuken-7b--multilinguales-open-source-sprachmodell-veroeffentlic.html). This aim of data transparency is indeed a good principle to follow, especially for a European AI initiative. Given the previously mentioned lack of data transparency it is, however, difficult to verify this claim. At least, it seems that the curated portion of [the model's foundational dataset used for pretraining](https://arxiv.org/pdf/2410.08800) contains a variety of data listed with 'various' non-permissive licenses, and it is unknown whether the two models published were trained (partially) on data with such licenses. Further data transparency could alleviate this, so that an outside observer can more easily verify whether the model meets the claimed data standards.
 
-<!--So far we have seen that Teuken is open-weights but in terms of many other dimensions, less than fully open. Perhaps it is just very hard to release a model that is meaningfully open?-->
+Given all this, we find that Teuken is coined as open while not matching openness standards across many metrics. Perhaps it is just very hard to release a model that is meaningfully open?
+
+::the-index
+---
+hideFilters: true
+filters: 
+  view: grid
+  models: OLMo
+---
+::
 
 ## Model impact
 
 ### Impact on the research community
-The above-discussed lack of data transparency and openness has consequences for Teuken's ability to be further built upon by the research community. Any models building upon it would, [similar to Mistral- and Llama-based models](https://dl.acm.org/doi/10.1145/3630106.3659005), necessarily suffer from an inherent lack of openness. We must not forget that openness is to a large degree transitive, and as such [any models wishing others to build upon them](https://www.iais.fraunhofer.de/en/business-areas/speech-technologies/conversational-ai/opengpt-x.html) must seek to be as open as possible.
+The above-discussed lack of data transparency and openness has consequences for Teuken's ability to be further built upon by the research community. Any models building upon it would, [similar to Mistral- and Llama-based models](https://dl.acm.org/doi/10.1145/3630106.3659005), necessarily suffer from an inherent lack of openness. We must not forget that openness is to a large degree transitive, and as such [any models wishing others to build upon them](https://www.iais.fraunhofer.de/en/business-areas/speech-technologies/conversational-ai/opengpt-x.html) must seek to be as open as possible. As such in the event of widespread adoption, the lack of openness of OpenGPT-X would negatively affect the open source AI ecosystem in Europe.
 
 ### Impact on public perception
-Claims made to the public regarding OpenGPT-X paint a rosy picture. Teuken is described as  [a fully open-source model](https://opengpt-x.de/en/) which [handles data in line with European regulations](https://www.iuk.fraunhofer.de/en/news-web/2024/teuken-7b--multilinguales-open-source-sprachmodell-veroeffentlic.html). Given the inherent challenges in reproducibility, however, these claims must be taken with a grain of salt. Though some research regarding the model is promising, both the model and its underlying technology remain challenging to adopt.
+Claims made to the public regarding OpenGPT-X paint a rosy picture. Teuken is described as [a fully open-source model](https://opengpt-x.de/en/) which [handles data in line with European regulations](https://www.iuk.fraunhofer.de/en/news-web/2024/teuken-7b--multilinguales-open-source-sprachmodell-veroeffentlic.html). Given the inherent challenges in reproducibility, however, these claims must be taken with a grain of salt. Though some research regarding the model is promising, both the model and its underlying technology remain challenging to adopt. In general, it is safe to say that the Teuken model is at least not on par with international openness standards.
 
 ### Impact on companies
-The Teuken models claim to offer [better control over the technology used](https://www.ki.nrw/en/opengpt-x-research-project-publishes-large-ai-language-model-european-alternative-for-business-and-science-fraunhofer-iais/) while allowing for [optimizing models to specific use cases](https://www.iais.fraunhofer.de/en/business-areas/speech-technologies/conversational-ai/opengpt-x.html). In this regard, we agree with the model authors, as the model provides a sufficient base for developing proprietary company applications. However, given the better performance of [other open-weights LLMs](https://huggingface.co/spaces/openGPT-X/european-llm-leaderboard), also in multi-lingual scenarios, a case has to be made for using the Teuken model in particular.
+The Teuken models claim to offer [better control over the technology used](https://www.ki.nrw/en/opengpt-x-research-project-publishes-large-ai-language-model-european-alternative-for-business-and-science-fraunhofer-iais/) while allowing for [optimizing models to specific use cases](https://www.iais.fraunhofer.de/en/business-areas/speech-technologies/conversational-ai/opengpt-x.html). In this regard, we agree with the model authors, as the model provides a sufficient base for developing proprietary company applications. However, given the better performance of [other open-weights LLMs](https://huggingface.co/spaces/openGPT-X/european-llm-leaderboard), also in multi-lingual scenarios, a case has to be made for using the Teuken model in particular. A scenario could be envisioned where Teuken ends up being an application in search of a niche.
 
 ### Impact on GAIA-X
 OpenGPT-X is funded by the GAIA-X project, which seeks to deliver European open data infrastructure. To this end, it seeks to contribute to providing models which are [GDPR-compliant and which conform to EU regulations](https://gaia-x-hub.de/en/funding-projects/). The project has certainly delivered some steps in providing this, as it is delivering models which could be used to increase digital sovereignty. A main challenge, however, lies in using these models to further build towards data-sovereign infrastructure, as they can only be used for fine-tuning, while their performance is lagging far behind state-of-the-art open-weights models.
