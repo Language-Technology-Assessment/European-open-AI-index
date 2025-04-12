@@ -46,7 +46,7 @@ filters:
 hideFilters: true
 filters: 
   view: grid
-  models: amber
+  models: pharia
 ---
 ::
 
