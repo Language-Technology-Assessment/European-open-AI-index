@@ -32,9 +32,9 @@ status: published
 # Main narration brainstorming
 -->
 
-[The OpenGPT-X initiative](https://opengpt-x.de/en/) is a consortium seeking to create open-source AI models 'Made in Germany'. In this first of a series of blog posts, we evaluate its flagship [Teuken](https://opengpt-x.de/models/teuken-7b-de/) models through the lens of open-source. In collaboration with Jenia Jitsev of LAION and JSC, we explore some of the project's strengths and weaknesses. In general, we demonstrate that even though the OpenGPT-X initiative claims to be developing fully open-source models, there is a dissonance between the claims made and their actual capabilities.
+[The OpenGPT-X initiative](https://opengpt-x.de/en/) is an organization seeking to create open-source AI models 'Made in Germany'. In this first of a series of blog posts, we evaluate its flagship [Teuken](https://opengpt-x.de/models/teuken-7b-de/) models through the lens of open-source. In collaboration with Jenia Jitsev of LAION and JSC, we explore some of the project's strengths and weaknesses. In general, we demonstrate that even though the OpenGPT-X initiative claims to be developing fully open-source models, there is a dissonance between the claims made and their actual capabilities.
 
-OpenGPT-X is a project under the umbrella of GAIA-X, a European initiative seeking to create [an open and transparent platform for merging and sharing data](https://www.heise.de/news/Gaia-X-Bundesnetzagentur-stellt-117-Millionen-Euro-fuer-Projekte-bereit-6528649.html). To this end, it has received [around 15 million euros from the German The Federal Ministry for Economic Affairs and Climate Protection](https://www.dfki.de/en/web/news/kick-off-for-opengpt-x-dfki-and-partners-develop-large-scale-language-models-for-europe). Using this funding, it aimed to produce an open large language model in line with European data standards.
+<!--OpenGPT-X is a project under the umbrella of GAIA-X, a European initiative seeking to create [an open and transparent platform for merging and sharing data](https://www.heise.de/news/Gaia-X-Bundesnetzagentur-stellt-117-Millionen-Euro-fuer-Projekte-bereit-6528649.html). To this end, it has received [around 15 million euros from the German The Federal Ministry for Economic Affairs and Climate Protection](https://www.dfki.de/en/web/news/kick-off-for-opengpt-x-dfki-and-partners-develop-large-scale-language-models-for-europe). Using this funding, it aimed to produce an open large language model in line with European data standards.-->
 
 ::the-index
 ---
@@ -109,6 +109,15 @@ Compared to the base model data mixture, the instruction-tuning mixture of Teuke
 
 In general, the data used to train the Teuken models is not as open as might appear at first glance. While some elements of the dataset are known, the lack of a publicly downloadable version of the dataset and thorough documentation of data sources makes it difficult to verify claims made.
 
+::the-index
+---
+hideFilters: true
+filters: 
+  view: grid
+  models: OLMo
+---
+::
+
 ### Model weights
 Teuken [claims to be open-source](https://opengpt-x.de/en/models/teuken-7b/), a core element of which is that the weights of the model are published (open-weights). In this section, we investigate the weight availability of the Teuken model, investigating both the weights of the base (pretrained) model and the end model.
 
@@ -139,16 +148,7 @@ This is highly misleading for the public, and can be considered as "benchmark wa
 ### Licenses
 OpenGPT-X claims their model data are processed and stored in a way which is [in line with European standards for data storage and processing](https://www.iuk.fraunhofer.de/en/news-web/2024/teuken-7b--multilinguales-open-source-sprachmodell-veroeffentlic.html). This aim of data transparency is indeed a good principle to follow, especially for a European AI initiative. Given the previously mentioned lack of data transparency it is, however, difficult to verify this claim. At least, it seems that the curated portion of [the model's foundational dataset used for pretraining](https://arxiv.org/pdf/2410.08800) contains a variety of data listed with 'various' non-permissive licenses, and it is unknown whether the two models published were trained (partially) on data with such licenses. Further data transparency could alleviate this, so that an outside observer can more easily verify whether the model meets the claimed data standards.
 
-So far we have seen that Teuken is open-weights but in terms of many other dimensions, less than fully open. Perhaps it is just very hard to release a model that is meaningfully open?
-
-::the-index
----
-hideFilters: true
-filters: 
-  view: grid
-  models: OLMo
----
-::
+<!--So far we have seen that Teuken is open-weights but in terms of many other dimensions, less than fully open. Perhaps it is just very hard to release a model that is meaningfully open?-->
 
 ## Model impact
 
