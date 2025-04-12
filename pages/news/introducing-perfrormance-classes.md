@@ -18,8 +18,38 @@ Raw benchmark scores do not always reflect real-world usability. This is why we 
 We have grouped models into three broad performance tiers. These categories help distinguish between cutting-edge models, well-rounded general-purpose models, and specialized or legacy models.
 
 * **Latest:** A small, curated set of top-performing models based on consulting a range of popular benchmarks. This class represents state-of-the-art models but will be updated periodically as newer, stronger models emerge.
+
+::the-index
+---
+hideFilters: true
+filters: 
+  view: grid
+  models: deepseek-v3
+---
+::
+
 * **Full:** Models that don’t necessarily lead in benchmarks but still offer strong, general-purpose performance. These models strike a balance between capability and practicality.
+
+::the-index
+---
+hideFilters: true
+filters: 
+  view: grid
+  models: OLMo
+---
+::
+
 * **Limited:** Small, purpose-built models designed for niche tasks, as well as older models like BERT that have been surpassed by modern architectures.
+
+::the-index
+---
+hideFilters: true
+filters: 
+  view: grid
+  models: amber
+---
+::
+
 
 ## Why Performance Classes?
 
