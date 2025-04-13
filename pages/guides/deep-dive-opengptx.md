@@ -148,7 +148,7 @@ filters:
 ---
 ::
 
-Listed: OLMo has far better openness standards than Teuken.
+Above: OLMo, a model with far better openness standards than Teuken, for reference.
 
 ## Model impact
 
