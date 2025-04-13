@@ -1,7 +1,7 @@
 ---
 title: "Deep Dive: OpenGPT-X"
 description: In which we dig into the openness of OpenGPT-X's Teuken models
-date: 2025-04-12
+date: 2025-04-14
 author: Dick Blankvoort & Jenia Jitsev
 status: published
 ---
@@ -159,7 +159,7 @@ The above-discussed lack of data transparency and openness has consequences for 
 Claims made to the public regarding OpenGPT-X paint a rosy picture. Teuken is described as [a fully open-source model](https://opengpt-x.de/en/) which [handles data in line with European regulations](https://www.iuk.fraunhofer.de/en/news-web/2024/teuken-7b--multilinguales-open-source-sprachmodell-veroeffentlic.html). Given the inherent challenges in reproducibility, however, these claims must be taken with a grain of salt. Though some research regarding the model is promising, both the model and its underlying technology remain challenging to adopt in an open way. In general, it is safe to say that the Teuken model is at least not as on par with international openness standards as is claimed.
 
 ### Impact on companies
-The Teuken models claim to offer [better control over the technology used](https://www.ki.nrw/en/opengpt-x-research-project-publishes-large-ai-language-model-european-alternative-for-business-and-science-fraunhofer-iais/) while allowing for [optimizing models to specific use cases](https://www.iais.fraunhofer.de/en/business-areas/speech-technologies/conversational-ai/opengpt-x.html). In this regard, we agree with the model authors, as the model provides a sufficient base for developing proprietary company applications. However, given the better performance of [other open-weights LLMs](https://huggingface.co/spaces/openGPT-X/european-llm-leaderboard), also in multi-lingual scenarios, a case has to be made for using the Teuken model in particular. A scenario could be envisioned where Teuken ends up being an application in search of a niche.
+The Teuken models claim to offer [better control over the technology used](https://www.ki.nrw/en/opengpt-x-research-project-publishes-large-ai-language-model-european-alternative-for-business-and-science-fraunhofer-iais/) while allowing for [optimizing models to specific use cases](https://www.iais.fraunhofer.de/en/business-areas/speech-technologies/conversational-ai/opengpt-x.html). In this regard, we agree with the model authors, as the model provides a sufficient base for developing proprietary company applications. However, given the better performance of [other open-weights LLMs](https://huggingface.co/spaces/openGPT-X/european-llm-leaderboard), also in multi-lingual scenarios, a case has to be made for using the Teuken model over these other models. A scenario could be envisioned where Teuken ends up being an application in search of a niche.
 
 ### Impact on GAIA-X
 OpenGPT-X is funded by the GAIA-X project, which seeks to deliver European open data infrastructure. To this end, it seeks to contribute to providing models which are [GDPR-compliant and which conform to EU regulations](https://gaia-x-hub.de/en/funding-projects/). The project has certainly delivered some steps in providing this, as it is delivering models which could be used to increase digital sovereignty. A main challenge, however, lies in using these models to further build towards data-sovereign infrastructure, as they can only be used for fine-tuning, while their performance is lagging far behind state-of-the-art open-weights models.
