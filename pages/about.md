@@ -16,7 +16,7 @@ __[Mark Dingemanse](https://markdingemanse.net "Mark Dingemanse")__ is co-founde
 ## Researchers
 
 ::person{image="/images/headshot-db.jpg" name="Dick Blankvoort"}
-__Dick Blankvoort__ is a student at Radboud University and a researcher at the Open Source AI Index. His primary interest lies in the field of Data Science, focusing both on the applications of generative AI and on their mathematical underpinnings. He is currently pursuing his internship at OSAI along with following an honours lab about applications of generative AI in education, as well as teaching a course on Computer Algebra.
+__Dick Blankvoort__ is a student at Radboud University and a researcher at the Open Source AI Index. His primary interest lies in the field of Data Science, focusing both on the applications of generative AI and on their mathematical underpinnings. He is currently pursuing his internship at OSAI, as well as teaching a course on Computer Algebra.
 ::
 
 ::person{image="/images/headshot-nk.jpg" name="Nityaa Kalra"}
