@@ -1,5 +1,5 @@
 --- 
-title: Introducing Performance Classes in the OSAI Index
+title: Introducing Performance Classes in the OS AI Index
 description: "How we classify models under 3 performance classes: Limited, Full and Latest"
 author: Nityaa Kalra
 date: 2025-04-03
