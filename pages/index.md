@@ -28,6 +28,7 @@ perpage: 3
 
 ::spotlight
 ---
+  view: grid
 hideFilters: true
 filters: 
   models: OLMo, deepseek-v3, Qwen, llama-3.1, Phi
