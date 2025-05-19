@@ -1,11 +1,11 @@
 ---
-title: "Deep Dive: OpenGPT-X"
-description: In which we dig into the openness of OpenGPT-X's Teuken models
+title: "Truly open AI made in Germany? OpenGPT-X falls short of own claims"
+description: In this deep dive we evaluate OpenGPT-X's flagship Teuken models through the lens of openness
 date: 2025-04-14
 author: Dick Blankvoort & Jenia Jitsev
 status: published
 ---
-# Deep Dive: OpenGPT-X
+# Deep Dive OpenGPT-X: Open source AI model 'Made in Germany' falls short of own claims
 <author :author="author"></author>
 
 <!--
@@ -32,9 +32,9 @@ status: published
 # Main narration brainstorming
 -->
 
-[The OpenGPT-X initiative](https://opengpt-x.de/en/) is an organization seeking to create open-source AI models 'Made in Germany'. In this blog post, we evaluate its flagship [Teuken](https://opengpt-x.de/models/teuken-7b-de/) models through the lens of open-source. In collaboration with Jenia Jitsev of LAION and the Jülich Supercomputing Centre, we explore some of the project's strengths and weaknesses. We find that the model falls short of their own claims of openness, and document early signs of adverse consequences for the European open-source AI ecosystem as a whole.
+[The OpenGPT-X initiative](https://opengpt-x.de/en/) is an organization seeking to create open-source AI models 'Made in Germany'. In this blog post, we evaluate its flagship [Teuken](https://opengpt-x.de/models/teuken-7b-de/) models through the lens of open-source. In collaboration with Jenia Jitsev of LAION and the Jülich Supercomputing Centre, we explore some of the project's strengths and weaknesses. We find that the model falls short of its own claims of openness, and document early signs of adverse consequences for the European open-source AI ecosystem.
 
-OpenGPT-X is a project developed under the umbrella of GAIA-X, a European initiative seeking to create [an open and transparent platform for merging and sharing data](https://www.heise.de/news/Gaia-X-Bundesnetzagentur-stellt-117-Millionen-Euro-fuer-Projekte-bereit-6528649.html). To this end, OpenGPT-X has received [around 15 million euros from the German The Federal Ministry for Economic Affairs and Climate Protection](https://www.dfki.de/en/web/news/kick-off-for-opengpt-x-dfki-and-partners-develop-large-scale-language-models-for-europe). In this blog post, we seek to hold the project to commensurate standards.
+OpenGPT-X is a project developed under the umbrella of GAIA-X, a European initiative seeking to create [an open and transparent platform for merging and sharing data](https://www.heise.de/news/Gaia-X-Bundesnetzagentur-stellt-117-Millionen-Euro-fuer-Projekte-bereit-6528649.html). To this end, OpenGPT-X has received [around 15 million euros from the German The Federal Ministry for Economic Affairs and Climate Protection](https://www.dfki.de/en/web/news/kick-off-for-opengpt-x-dfki-and-partners-develop-large-scale-language-models-for-europe). With the project recently concluded, here we evaluate the published models for transparency and openness.
 
 ::the-index
 ---
