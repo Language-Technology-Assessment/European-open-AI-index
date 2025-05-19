@@ -34,7 +34,7 @@ status: published
 
 [The OpenGPT-X initiative](https://opengpt-x.de/en/) is an organization seeking to create open-source AI models 'Made in Germany'. In this blog post, we evaluate its flagship [Teuken](https://opengpt-x.de/models/teuken-7b-de/) models through the lens of open-source. In collaboration with Jenia Jitsev of LAION and the Jülich Supercomputing Centre, we explore some of the project's strengths and weaknesses. We find that the model falls short of its own claims of openness, and document early signs of adverse consequences for the European open-source AI ecosystem.
 
-OpenGPT-X is a project developed under the umbrella of GAIA-X, a European initiative seeking to create [an open and transparent platform for merging and sharing data](https://www.heise.de/news/Gaia-X-Bundesnetzagentur-stellt-117-Millionen-Euro-fuer-Projekte-bereit-6528649.html). To this end, OpenGPT-X has received [around 15 million euros from the German The Federal Ministry for Economic Affairs and Climate Protection](https://www.dfki.de/en/web/news/kick-off-for-opengpt-x-dfki-and-partners-develop-large-scale-language-models-for-europe). With the project recently concluded, here we evaluate the published models for transparency and openness.
+OpenGPT-X is a project developed under the umbrella of GAIA-X, a European initiative seeking to create [an open and transparent platform for merging and sharing data](https://www.heise.de/news/Gaia-X-Bundesnetzagentur-stellt-117-Millionen-Euro-fuer-Projekte-bereit-6528649.html). To this end, OpenGPT-X has received [around 15 million euros from the German The Federal Ministry for Economic Affairs and Climate Protection](https://www.dfki.de/en/web/news/kick-off-for-opengpt-x-dfki-and-partners-develop-large-scale-language-models-for-europe). With the project recently concluded, we evaluate the published models for transparency and openness.
 
 ::the-index
 ---
@@ -45,16 +45,16 @@ filters:
 ---
 ::
 
-## Model features
+## Reconstructing the model
 
 ### Access to training data
 The Teuken models are described as being pretrained on ["data from publicly available sources"](https://huggingface.co/openGPT-X/Teuken-7B-instruct-research-v0.4/blob/main/README.md), with [openness being marketed as a key feature](https://opengpt-x.de/en/about/). We tried to verify these claims, investigating whether the model data is indeed as open as is purported. 
 
 The data used to train the base model of the Teuken series originates from two sources; the [FineWeb-Edu dataset](https://huggingface.co/datasets/HuggingFaceFW/fineweb-edu) and a [private dataset](https://arxiv.org/pdf/2410.08800) constructed by OpenGPT-X itself. The FineWeb-Edu dataset is widely available and used as pretraining data in over 200 models. The private data mixture, on the other hand, has a number of qualities which make obtaining insight into it challenging.
 
-A first observation is that no downloadable version of the full dataset is publicly available. This means that any entity seeking to use the dataset must either reproduce it themselves or request it from the model authors. Although this is fairly standard practice, it does pose challenges to transparency and makes it difficult to reconstruct the model.
+The full set of training data was not made publicly available. This means that anyone seeking to inspect or reproduce the data behind the models needs to request data access from the model authors. Although this is fairly standard practice, it does pose challenges to transparency and makes it difficult to reconstruct what data went into the model.
 
-Secondly, reconstruction is further hampered by a lack of a clear and open source codebase that documents the processes of data collection, curation, filtering and processing. The model does offer a preprint documenting at least some elements of the data pipeline. Within this preprint, however, even though the sources used for constructing the data mixture are shared, this is not done in sufficient detail to make reproduction feasible. See the following table for a selection of problematic data sources.
+Reconstruction is further hampered by a lack of a clear and open source codebase that documents the processes of data collection, curation, filtering and processing. While the model does come with a preprint that documents parts of the training procedure, not enough detail is provided to make reproduction feasible. Here we list a selection of data sources that are difficult or impossible to access.
 
 <table style="margin: auto; border-collapse: collapse; margin-bottom: 20px;">
   <tr>
@@ -99,31 +99,29 @@ Secondly, reconstruction is further hampered by a lack of a clear and open sourc
   </tr>
 </table>
 
-The sources listed include 404 pages, pages inaccessible without a specific university account, and links to sites without specific directions on versioning and access methods. Without an exhaustive list of data sources and clarity on data processing procedures, it is not feasible to reproduce the training procedure.
+We ran into various issues attempting to reconstruct how the model was trained, including 404 pages, pages inaccessible without a specific university account, and links to sites without specifying directions on versioning and access methods. Furthermore, as mentioned [in the model paper](https://arxiv.org/pdf/2410.03730), the data mixture was adapted before being used for pretraining. This included strategic downsampling of English data and upsampling of data in other languages. However, no information was made available how this processing step was done. Without an exhaustive list of data sources and clarity on data processing procedures, we concluded that reproducing the training procedure was not feasible.
 
-Lastly, as mentioned [in the model paper](https://arxiv.org/pdf/2410.03730), the data mixture is further adapted before being used for pretraining. This includes strategic downsampling of English data and upsampling of data in foreign languages. No information is available on the upsampling and downsampling beyond this single statement.
+# Documenting preprocessing steps
 
-The data processing paper of Teuken makes mention of [saving the intermediate results of the data pipeline](https://arxiv.org/pdf/2410.08800). Making these intermediate data publicly available (or the finalized data mixture, as with [OLMo's Dolma dataset](https://huggingface.co/datasets/allenai/dolma)) would greatly contribute to the openness of the model.
+Next, we examined the preprocessing procedure, these are all the ways in which the training data was edited before model training began. To our delight, the authors published a preprint that promises to detail training data processing of the Teuken models that even mentions [saving the intermediate results of the data pipeline](https://arxiv.org/pdf/2410.08800), an important step that would enable inspection of the training procedure. Unfortunately, however, these checkpoints in the training process were not made available. Making such intermediate steps publicly available can greatly contribute to the openness of the model, such as in the case of Allen AI's OLMo models [and Dolma dataset](https://huggingface.co/datasets/allenai/dolma)).
 
-Compared to the base model data mixture, the instruction-tuning mixture of Teuken is laid out quite well. As far as we can tell, all data sources are linked properly and open-source datasets are used. The instruction-tuning data could be further improved by publishing a dataset, as with [the Aya models](https://huggingface.co/datasets/CohereForAI/aya_dataset).
+In contrast to the base model data mixture, the instruction-tuning mixture of Teuken is laid out quite well. As far as we can tell, all data sources are linked properly and open-source datasets are used. The instruction-tuning data access could be further improved by publishing a final dataset, as for instance in case of Cohere Lab's [Aya models](https://huggingface.co/datasets/CohereForAI/aya_dataset).
 
-In general, the data used to train the Teuken models is not as open as might appear at first glance. While some elements of the dataset are known, the lack of a publicly downloadable version of the dataset and thorough documentation of data sources makes it difficult to verify claims made.
+All in all, the data used to train the Teuken models is not as open as might appear at first glance. While data use is partly documented, the lack of both a publicly downloadable training dataset and comprehensive documentation of data sources makes it impossible to verify claims that this model is truly open, transparent and reproducible - all hallmarks of open source technology.
 
 ### Model weights
-Teuken [claims to be open-source](https://opengpt-x.de/en/models/teuken-7b/), a core element of which is that the weights of the model are published (open-weights). In this section, we investigate the weight availability of the Teuken model, investigating both the weights of the base (pretrained) model and the end model.
+Teuken [claims to be open-source](https://opengpt-x.de/en/models/teuken-7b/), a core element of which is that the weights of the model are published (open-weights). In this section, we take a closer look at weight availability of the Teuken base and end models.
 
-The base model weights of Teuken are available only upon request from the model authors. This uncommon approach makes it somewhat more difficult to determine model availability. We have approached the model creators to obtain the model weights, however have unfortunately not yet received a response.
+The base model weights of (pretrained) Teuken are available only upon request from the model authors. We have approached the model creators without specifying the purpose of the request to obtain the model weights, but unfortunately did not received a response yet. For the end model weights, two versions are shared via OpenGPT-X's HuggingFace page; a research model and a commercial model. Given that the paper makes no mention of such a distinction, we found this rather puzzling. The model card and the organization's site claim that the research model was trained on data with a non-permissive license, while for the commercial model this data was excluded. Based on this, we assume that the commercial model excludes the part of the private data mixture that was licensed non-permissively. If this is true, it further highlights the need for training data transparency to allow independent parties to verify these claims.
 
-For the end model weights, two versions are provided on OpenGPT-X's HuggingFace page; a research model and a commercial model. Given that the paper makes no mention of such a distinction, this is rather puzzling. The model card and the organization's site claim that the research model was trained on data with a non-permissive license, while for the commercial model this data was excluded. Based on this, we assume that the commercial model excludes the part of the private data mixture that was licensed non-permissively. If this is true, it further highlights the need for data transparency to allow outside parties to verify these claims.
-
-Given the above, the question of whether Teuken's models can be called open-weights is somewhat up in the air. Base model weights are only available upon request, while the form of the end model weights is somewhat incongruous with the model described in the paper.
+Given this situation, the question of whether Teuken's models can be called open-weights is somewhat up in the air. Base model weights are only available upon request, while the form of the end model weights is somewhat incongruous with the model described in the paper.
 
 ### Tokenizer
 
-One of the claimed innovations of the Teuken model was its use of a balanced multilingual tokenizer. This tokenizer, as the authors claim, [was crucial for bringing down training costs](https://arxiv.org/pdf/2410.03730). This makes it rather unfortunate, then, that relatively little is known about the tokenizer used, as it is only available as a bundle together with the instruction-tuned model. The [paper from which it derives](https://arxiv.org/abs/2310.08754) provides some implementation details, but does not provide guidance about the data mixture. We believe that future research could greatly benefit from further information regarding the use of multilingual tokenizers, given that the results appear to be relatively impactful.
+One of the claimed innovations of the Teuken model was its use of a balanced multilingual tokenizer. This tokenizer, as the authors claim, [was crucial for bringing down training costs](https://arxiv.org/pdf/2410.03730). In this light, it seems like a missed opportunity that relatively little is known about this tokenizer, as it is only available bundled up with the instruction-tuned model. The [paper from which it derives](https://arxiv.org/abs/2310.08754) provides some implementation details, but does not provide guidance regarding underlying data mixture. The research community could potentially benefit from further information regarding this piece of technology.
 
-### Training and fine-tuning source code
-Contrary to other open projects, eg. [Olmo by AllenAI](https://github.com/allenai/OLMo) , [SmolLM2 by HuggingFace](https://github.com/huggingface/smollm), or [DCLM by the DataComp initiative and their collaborators](https://github.com/mlfoundations/dclm), Teuken models lack training or fine-tuning source code with clear documentation how to execute procedures that result in corresponding models. Without this, it is hard or impossible to replicate the author's results and check their claims.
+### Training and tuning source code
+Contrary to other open projects, eg. [Olmo by AllenAI](https://github.com/allenai/OLMo) , [SmolLM2 by HuggingFace](https://github.com/huggingface/smollm), or [DCLM by the DataComp initiative and their collaborators](https://github.com/mlfoundations/dclm), Teuken models lack training or fine-tuning source code with clear documentation how to execute procedures that result in corresponding models. Without this, it is impossible to replicate the author's results, a tenet of open scientific practice.
 
 <!--
 ### Cherry-picked Evaluation
