@@ -1,7 +1,7 @@
 ## What is the European Open-Source AI index?
-The European Open-Source AI Index collects information on model openness, licensing, and EU regulation of generative AI systems and providers.
+The European Open-Source AI Index conducts academic research on open-source generative AI, publishes technology assessments, and hosts information on model openness, licensing, and EU regulation of generative AI systems and providers.
 
-The index is a non-profit public resource hosted at the [Centre of Language and Speech Technology, Radboud University, The Netherlands](https://www.ru.nl/en/cls/clst), maintained by a small team of academics and community members.
+It is part of the [Centre of Language and Speech Technology, Radboud University, The Netherlands](https://www.ru.nl/en/cls/clst).
 
 ## Founders
 
