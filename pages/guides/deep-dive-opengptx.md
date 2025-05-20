@@ -172,7 +172,6 @@ OpenGPT-X has been marketed as a European model [that rivals DeepSeek](https://w
 ---
 hideFilters: true
 filters: 
-  view: grid
   models: Teuken, deepseek-v3
 ---
 ::
