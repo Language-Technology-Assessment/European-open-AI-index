@@ -1,11 +1,11 @@
 ---
-title: "OpenGPT-X: Open source AI 'Made in Germany' falls short of own claims"
+title: "OpenGPT-X: Open Source AI 'Made in Germany' falls short of own claims"
 description: In this deep dive we evaluate OpenGPT-X's flagship Teuken models through the lens of openness
 date: 2025-04-14
 author: Dick Blankvoort & Jenia Jitsev
 status: published
 ---
-# OpenGPT-X: Open source AI 'Made in Germany' falls short of own claims
+# OpenGPT-X: Open Source AI 'Made in Germany' falls short of own claims
 <author :author="author"></author>
 
 <!--
