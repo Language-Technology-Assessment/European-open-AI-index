@@ -1,0 +1,15 @@
+---
+title: The Chinese-Western divide in AI
+description: In which we outline the divide between the Chinese and Western AI landscapes
+date: 2025-05-26
+author: 
+status: unpublished
+---
+# The Chinese-Western divide in AI
+<author :author="author"></author>
+<date :date="date"></date>
+
+- Different platforms (HF vs Chinese-based? TODO check if that's still a thing)
+- Opacity between the two landscapes, models 'filter through'
+- Conclude with ruminating on geopolitical (AI) research divides in general
+- Four chinese AI tigers? TODO see if better fits in a separate blog post outlining the lesser-known Chinese AI landscape in general, and whether the requisite expertise exists.

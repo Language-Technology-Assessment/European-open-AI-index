@@ -1,0 +1,21 @@
+---
+title: Harmfulness in open-source AI
+description: In which we discuss ways in which open-source AI technologies can be dangerous, and possibilities of mitigating harms
+date: 2025-05-26
+author: 
+status: unpublished
+---
+# Harmfulness in open-source AI
+<author :author="author"></author>
+<date :date="date"></date>
+
+## Model unalignment
+- DPOs
+- Dolphin
+- General trends involving this, particularly focusing on a push towards creating maximally uncensored models. TODO find link; there's a platform for it
+
+## Scamming and manipulation
+
+## Deepfakes
+
+## Mitigation strategies

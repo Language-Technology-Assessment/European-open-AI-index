@@ -1,0 +1,12 @@
+---
+title: 'Open-source' but not open-source - Investigating models without open-source claims
+description: In which we investigate the challenges involved with classifying models which do not describe their open-source status.
+date: 2025-05-26
+author: 
+status: unpublished
+---
+# 'Open-source' but not open-source - Investigating models without open-source claims
+<author :author="author"></author>
+<date :date="date"></date>
+
+Examples: [Replit](https://huggingface.co/replit/replit-code-v1_5-3b), models in the sheets which do not explicitly make open-source claims.

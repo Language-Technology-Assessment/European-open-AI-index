@@ -7,6 +7,7 @@ status: unpublished
 ---
 # Diversification in LLMs
 <author :author="author"></author>
+<date :date="date"></date>
 
 At the Open Source AI Index, we seek to provide a comprehensive overview of open-source transparancy regarding the AI landscape. A significant challenge involved with designing an index for this is deciding what models to include. Aside from the question of _what should even count as an open-source model_ for the purposes of inclusion, this proces involves deciding which models represent significant enough advancements to warrant a separate entry. Though this might seem a trivial endeavor if one only looks at the open source AI releases from the major tech companies, digging below the surface reveals a wealth of AI models each competing for recognition. Deciding which models to include in a broad overview of AI involves a process of highly targeted curation, with the goal of being as comprehensive as possible while not flooding the overview with a great quantity of similar or irrelevant models. In this blog post, we seek to highlight one aspect of deciding what counts as a model worthy of inclusion; its perceived level of diversification. Through this, we seek to highlight some potentially interesting initiatives which might not be captured by our index as well as provide insight into the various techniques used in LLMs.
 
@@ -25,11 +26,16 @@ There are a few models we record which are designed to transplant an existing mo
 
 TODO expand?
 
-## Not enough diversification
-- Flan-T5-XXL
-- RecurrentGemma-9B-IT
-- ! Model merges (subcat) !
+## Not enough index-relevant innovation
+Lastly, there are models which simply do not provide enough innovation to qualify for inclusion in our index. Luckily, this list of models is rather limited. Notable models are [Flan-T5](https://huggingface.co/google/flan-t5-xxl), which though a strict improvement over T5 does not differentiate itself much from it, [RecurrentGemma](https://huggingface.co/google/recurrentgemma-9b-it), which is an interesting RNN-based alternative to Gemma, and model merges. Model merges are a relatively novel category of LLMs which combine (or 'merge') two existing LLMs together. Though the technique approach is highly interesting and worthy of study, the fact that it has thusfar (as far as we can tell) primarily been applied for [gaming LLM leaderboards](https://huggingface.co/spaces/open-llm-leaderboard/open_llm_leaderboard) means that we generally discount any models created using the technique.
 
+## Other entities dealing with the matter of inclusion
+Any entity seeking to catalogue the AI landscape must decide on which models to include. LLM arenas, for instance, perpetually face the challenge of deciding which models to compare against each other. Approaches taken in this can differ greatly. While indices such as [OpenLM.AI](https://openlm.ai/chatbot-arena/) and [LMArena.AI](https://lmarena.ai/) seek to provide a curated comparison of models and place emphasis on highlighting models by the greatest innovators, projects such as the [Open LLM Leaderboard](https://huggingface.co/spaces/open-llm-leaderboard/open_llm_leaderboard#/) (archived since March) attempt to compare many different open models. In general, a curated approach focusing mainly on the largest innovations seems to have won out. This has the advantage of producing leaderboards which highlight the most well-known innovations within the AI space, however has the disadvantage that many lesser-known models within the open-source AI space are only highlighted to a lesser extent.
+
+## Conclusion
+The true extent of open-source AI will always reach beyond the scope of our index (and, in fact most indices seeking to provide an overview of the AI field), and so we would encourage readers to explore the space independently whenever possible. What we offer at the index is merely a showcase of the most interesting and pertinent models, and there is a great deal more innovation to dig into.
+
+<!--
 General categories of 'too undiversified':
 - ! Regular fine-tunes !
   - CollectiveCognition-v1.1-Mistral-7B
@@ -89,9 +95,4 @@ General categories of 'too undiversified':
 - Different model versions (not discussed)
 - Different model sizes (not discussed)
 - Quantization/Context length (not discussed)
-
-## Other entities dealing with the matter of inclusion
-Any entity seeking to catalogue the AI landscape must decide on which models to include. LLM arenas, for instance, perpetually face the challenge of deciding which models to compare against each other. Approaches taken in this can differ greatly. While indices such as [OpenLM.AI](https://openlm.ai/chatbot-arena/) and [LMArena.AI](https://lmarena.ai/) seek to provide a curated comparison of models and place emphasis on highlighting models by the greatest innovators, projects such as the [Open LLM Leaderboard](https://huggingface.co/spaces/open-llm-leaderboard/open_llm_leaderboard#/) (archived since March) attempt to compare many different open models. In general, a curated approach focusing mainly on the largest innovations seems to have won out. This has the advantage of producing leaderboards which highlight the most well-known innovations within the AI space, however has the disadvantage that many lesser-known models within the open-source AI space are only highlighted to a lesser extent.
-
-## Conclusion
-The true extent of the open-source AI space will always reach beyond the scope of our index (and, in fact most indices seeking to provide an overview of the AI field), and so we would encourage readers to explore the space independently whenever possible. What we offer at the index is merely a showcase of the most interesting and pertinent models, and there is a great deal more innovation to dig into.
+-->
