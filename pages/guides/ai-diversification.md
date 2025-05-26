@@ -21,7 +21,14 @@ There are quite a few models in our dataset which are not included primarily due
 This is not to say that these models do not deliver major innovation, as many of them do so. For instance, [DeepScaleR](https://huggingface.co/agentica-org/DeepScaleR-1.5B-Preview) achieves significant performance gain in long contexts over its base model [DeepSeek-R1-Distilled-Qwen-1.5B](https://huggingface.co/deepseek-ai/DeepSeek-R1-Distill-Qwen-1.5B), claiming comparable performance to GPT-o1 with a mere 1.5B parameters. Additionally, the various [Airoboros](https://huggingface.co/jondurbin/airoboros-110b-3.3) models together a significant effort to tune the excellent Airoboros dataset. The only thing given is that, when considering these models, their emphasis lies more on the approach taken with fine-tuning than on the model inherently.
 
 ## Adaptions to different hardware/architectures
-There are a few models we record which are designed to transplant an existing model to a different hardware or architecture. While such efforts are certainly commendable, they do not warrant separate entries in the index. Highlight-able models here are 
+There are a few models we record which are designed to transplant an existing model to a different hardware or architecture. While such efforts are certainly commendable, they do not warrant separate entries in the index. Notable models here are [AMD's models designed for different hardware](https://huggingface.co/amd/AMD-OLMo-1B-SFT-DPO), Amazon's [FalconLite](https://huggingface.co/amazon/FalconLite), and [DeepMixtral](https://huggingface.co/cognitivecomputations/DeepMixtral-8x7b-Instruct).
+
+TODO expand?
+
+## Not enough diversification
+- Flan-T5-XXL
+- RecurrentGemma-9B-IT
+- ! Model merges (subcat) !
 
 General categories of 'too undiversified':
 - ! Regular fine-tunes !
@@ -50,7 +57,7 @@ General categories of 'too undiversified':
 - ! Too minor innovation for sign. inclusion !
   - Flan-T5-XXL
   - RecurrentGemma-9B-IT
-- ! Model merges !
+  - ! Model merges (subcat) !
 - Attempted replications of existing models
   - Alpaca-Chavez
 - Safety-tuned/unaligned models
