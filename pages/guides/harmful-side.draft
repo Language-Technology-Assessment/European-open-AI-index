@@ -2,20 +2,28 @@
 title: Harmfulness in open-source AI
 description: In which we discuss ways in which open-source AI technologies can be dangerous, and possibilities of mitigating harms
 date: 2025-05-26
-author: 
+author: Dick Blankvoort
 status: unpublished
 ---
 # Harmfulness in open-source AI
 <author :author="author"></author>
 <date :date="date"></date>
 
+<!-- Desired message:
+- There are a variety of harmful applications for open-source AI, and LLMs have been shown to have been used for a variety of nefarious ends.
+- Nonetheless, publicizing AI in an open-source manner also has the potential to greatly carry technological progress forward, and developing technologies in an open manner means breaking technological monopolies.
+-->
+
+In this blog-post, we discuss some of the possible harms associated with making AI models open-source, as well as ways of mitigating these harms.
+
 ## Model unalignment
-- DPOs
-- Dolphin
-- General trends involving this, particularly focusing on a push towards creating maximally uncensored models. Mention the Venice platform? https://venice.ai/ Might also give undue advertising.
+There has been a long-standing push in open-source AI towards a concept known as 'model unalignment/uncensoring'. This involves deliberately disabling safeguards in AI models through fine-tuning, in order to produce an AI which is able to produce deliberately harmful content. For instance, the [dolphin](https://huggingface.co/cognitivecomputations/Dolphin-Mistral-24B-Venice-Edition) models are models designed to have a built-in lack of alignment, leading to straightforward application towards harmful goals. [Platforms have emerged](https://venice.ai/) which deliberately offer access to these uncensored models.
 
 ## Scamming and manipulation
+Scamming has seen a significant rise with the emergence of AI, and [AI scams have risen to the point where credit unions have issued warnings for them](https://www.dcu.org/financial-education-center/fraud-security/artificial-intelligence-scams-and-how-to-avoid-them.html). In particular, voice cloning and AI-powered fishing scams are on the rise.
 
 ## Deepfakes
+With a recent development of low-cost AI video generators, deepfakes have become easier to create than ever. Due to this, there has been an increase in the amount of video material generated based on existing material in particular, creating grave concerns regarding information privacy.
 
 ## Mitigation strategies
+Strategies for mitigating harmful effects of open-source AI are difficult to envision, at least with a goal of maximal openness. The strategy of major companies seems to largely be to [gate models](https://huggingface.co/meta-llama/Llama-4-Maverick-17B-128E-Instruct), which we do not consider the best solution. Instead, we would advocate for developing with a strong eye towards safety, ensuring that technologies are released responsibly and with minimal potential for abuse.
