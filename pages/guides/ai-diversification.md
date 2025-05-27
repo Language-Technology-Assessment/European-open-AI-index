@@ -1,12 +1,11 @@
 ---
-title: Cousin-LLMs
+title: LLM Diversification
 description: Exploring innovative models closely tied to other models
 date: 2025-05-26
 author: Dick Blankvoort
 status: unpublished
 ---
-# Cousin-LLMs
-### Exploring innovative models closely tied to other models
+# LLM Diversification
 <author :author="author"></author>
 <date :date="date"></date>
 
