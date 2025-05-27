@@ -6,6 +6,7 @@ author: Dick Blankvoort
 status: unpublished
 ---
 # Cousin-LLMs
+### Exploring innovative models closely tied to other models
 <author :author="author"></author>
 <date :date="date"></date>
 
@@ -17,21 +18,18 @@ status: unpublished
 -->
 
 <!-- Problem statement filtered through the index -->
-At the European Open Source AI Index, we seek to provide a comprehensive overview of open-source transparancy regarding the AI landscape. A significant challenge involved with designing such an overview is deciding what models to include, and in particular deciding which models represent significant enough advancements to warrant a separate entry. While this might seem a trivial endeavor at first, thorough investigation reveals a wealth of AI models each competing for recognition. Deciding which models to include in a broad overview of AI involves a process of highly targeted curation, with the goal of being as comprehensive as possible while not flooding the overview with a great quantity of similar or irrelevant models.
+At the European Open Source AI Index, we seek to provide a comprehensive overview of transparancy within the open-source AI landscape. A significant challenge in designing such an overview is deciding what models to include. While this might seem a trivial endeavor at first, a cursory glance into the AI space reveals a wealth of AI models each competing for recognition. Deciding which models to include in an overview thus involves a process of highly targeted curation, with the goal of being as comprehensive as possible while not flooding the overview with a great quantity of irrelevant models.
 
 <!-- Outlining the purpose of the blog -->
-In this blog post, we seek to highlight one aspect of deciding what counts as a model worthy of inclusion; its perceived level of diversification. Through this, we seek to highlight some potentially interesting initiatives which might not be captured by our index as well as provide insight into the various techniques used in LLMs.
+In this blog post, we seek to highlight one aspect of deciding what makes a model worthy of inclusion; its perceived level of diversification. Through this, we also seek to highlight some potentially interesting initiatives which might not be captured by our index, as well as provide insight into some more obscure techniques used in LLMs.
 
-<!-- Introducing the topic -->
-## Model inclusion considerations
-<!-- Placing diversification in a broader context (within the index) -->
-At the OSAI index, we maintain a backend list of nearly 3000 models and model versions which might qualify for inclusion. Non-included entities range from [models which do not make explicit claims to open-source](https://huggingface.co/replit/replit-code-v1_5-3b), to [models which lack wide-spread adoption](https://huggingface.co/SebastianSchramm/Cerebras-GPT-111M-instruction-sft-lora-merged-dpo-lora), to [models which no longer represent a significant advance in the space](https://huggingface.co/NousResearch/Nous-Puffin-70B), [to models with a too niche application](https://huggingface.co/nvidia/OpenMath2-Llama3.1-70B), to [models which do not diversify themselves enough from other models to warrant inclusion](https://huggingface.co/nvidia/Llama-3.1-Minitron-4B-Width-Base). It is this last category which will be the primary topic of our blog post today.
-
+<!-- Body header -->
+## Diversification in LLMs
 <!-- Cutting the topic up into three concrete categories -->
-Let's start with some ground work. In general we distinguish a few types of models which do not diversify themselves enough for inclusion. In this post, we distinguish three primary categories; fine-tunes, architecture adaptions, and insufficiently innovative models.
+Let's start with some ground work. In general we distinguish a few types of models which do not diversify themselves enough for inclusion. In this post, we distinguish three primary categories; insufficiently innovative models, architecture adaptions, and fine-tunes based on a dataset.
 
 <!-- Category 1 -->
-## Fine-tunes based on some dataset
+### Fine-tunes based on a dataset
 <!-- Showcasing examples within the category -->
 There are quite a few models in our dataset which are not included primarily due to being based on fine-tuning on a dataset. It could be that they achieve [a relatively narrow end by fine-tuning](https://huggingface.co/teknium/CollectiveCognition-v1.1-Mistral-7B), [employ a novel fine-tuning approach](https://huggingface.co/ernie-research/HH-RLHF-Gemma-2B-MA-PPO-Fixed5), or [that they are primarily designed to show innovation in a dataset](https://huggingface.co/OFA-Sys/OccuLLaMA-7B). For whatever reason, the models do not diversify themselves enough to warrant separate entries.
 
@@ -39,12 +37,12 @@ There are quite a few models in our dataset which are not included primarily due
 This is not to say that these models do not deliver major innovation, as many of them do so. For instance, [DeepScaleR](https://huggingface.co/agentica-org/DeepScaleR-1.5B-Preview) achieves significant performance gain in long contexts over its base model [DeepSeek-R1-Distilled-Qwen-1.5B](https://huggingface.co/deepseek-ai/DeepSeek-R1-Distill-Qwen-1.5B), claiming comparable performance to GPT-o1 with a mere 1.5B parameters. Additionally, the various [Airoboros](https://huggingface.co/jondurbin/airoboros-110b-3.3) models together represent a significant effort to tune the Airoboros dataset. The only thing given is that, when considering these models, their emphasis lies more on the approach taken with fine-tuning than on the model inherently.
 
 <!-- Category 2 -->
-## Adaptions to different hardware/architectures
+### Adaptions to different hardware/architectures
 <!-- Showcasing examples in the category & why we do not consider them -->
 There are a few models we record which are designed to transplant an existing model to a different hardware or architecture. While such efforts are certainly commendable, they do not warrant separate entries in the index. Notable models here are [AMD's models designed for different hardware](https://huggingface.co/amd/AMD-OLMo-1B-SFT-DPO), Amazon's [FalconLite](https://huggingface.co/amazon/FalconLite), and [DeepMixtral](https://huggingface.co/cognitivecomputations/DeepMixtral-8x7b-Instruct). In general, these models represent a good effort towards exploring the benefits of running models in different forms.
 
 <!-- Category 3 -->
-## Not enough _index-relevant_ innovation
+### Not enough _index-relevant_ innovation
 <!-- Showcasing examples in the category & why we do not consider them -->
 Lastly, there are models which simply do not provide enough _index-relevant innovation_ to qualify for inclusion in our index. The word _index-relevant_ is key here, as such models may still deliver plenty of innovation in their own rights. Notable models in this category are [Flan-T5](https://huggingface.co/google/flan-t5-xxl), which though a strict improvement over T5 does not differentiate itself much from it, [RecurrentGemma](https://huggingface.co/google/recurrentgemma-9b-it), which is an interesting RNN-based alternative to Gemma, and model merges.
 
