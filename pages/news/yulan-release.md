@@ -1,9 +1,9 @@
 ---
 title: YuLan-Mini - A new highly open model
 description: Gaoling School of Artificial Intelligence releases a new highly open AI model
-date: 2025-05-27
-author: 
-status: unpublished
+date: 2025-05-28
+author: The EU OSAI index team
+status: published
 ---
 # YuLan-Mini - A new highly open model
 <date :date="date"></date>
