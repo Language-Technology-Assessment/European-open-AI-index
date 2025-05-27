@@ -1,0 +1,19 @@
+---
+title: The history of open-source AI
+description: In which we take a stroll through the history of open-source AI development
+date: 2025-05-26
+author: 
+status: unpublished
+---
+# The history of open-source AI
+<author :author="author"></author>
+<date :date="date"></date>
+
+- Co-contributor? Someone with more thorough knowledge of the topic
+- BERT & its more recent variants?
+- T5 & Flan-T5 etc.
+- GPT *and other early decoder models*
+- ChatGPT
+- Perhaps a bit of more modern history?
+
+![Diagram depicting the evolution of LLMs](/images/llm_survey.png "LLM evolutionary tree")

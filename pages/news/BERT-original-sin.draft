@@ -20,13 +20,19 @@ We still don't know exactly how the model was built or what data went into it.
 
 this milestone in the history of the field of NLP is also a testament of a longstanding lack of attention to training data over model architecture
 
+Book corpus dataset 
+
+"When talking about Open Source AI, the same set of issues arose over and over again, when discussing training data: What about Data Protection and Privacy? What do we do about different artistic works having different licences depending on the country? What happens if an Open Source AI model discovers one of the images in its training data is copyrighted and cannot be redistributed? How can we ensure legal certainty when all it would take was for a single copyrighted image to be accidentally included in a dataset, to render all AI models using that dataset proprietary (with massive consequences for what they then have to do to comply with the EU’s AI act)?
+
+These are real and genuine concerns, which the FSF has also identified in its work on Open Source AI. SFC has also identified these issues, saying that it may take a decade to come up with a definition."
+
 
 
 Refs:
 https://en.wikipedia.org/wiki/BERT_(language_model)
 https://en.wikipedia.org/wiki/BookCorpus
 https://research.google/blog/open-sourcing-bert-state-of-the-art-pre-training-for-natural-language-processing/
-
+https://huggingface.co/datasets/defunct-datasets/bookcorpusopen
 
 Papers:
 https://aclanthology.org/N19-1423.pdf

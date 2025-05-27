@@ -1,12 +1,12 @@
 ## What is the European Open-Source AI index?
-The European Open-Source AI Index collects information on model openness, licensing, and EU regulation of generative AI systems and providers.
+The European Open-Source AI Index conducts academic research on open-source AI, publishes technology assessments, and hosts information on model openness, licensing, and EU regulation of generative AI systems and providers.
 
-The index is a non-profit public resource hosted at the [Centre of Language and Speech Technology, Radboud University, The Netherlands](https://www.ru.nl/en/cls/clst), maintained by a small team of academics and community members.
+It is part of the [Centre of Language and Speech Technology, Radboud University, The Netherlands](https://www.ru.nl/en/cls/clst).
 
 ## Founders
 
 ::person{image="/images/headshot-al.jpg" name="Andreas Liesenfeld"}
-__Andreas Liesenfeld__ is co-founder of the index and Assistant Professor at Radboud University where he researches the societal and regulatory implications of emerging language technologies. His current work focuses on technology assessment, open source generative AI, and comparative AI regulation. At the Centre for Language Studies (CLS), Andreas Liesenfeld is a member of the language technology expertise group and, in collaboration with the Netherlands eScience center, develops open source research software for natural language processing.
+__Andreas Liesenfeld__ is co-founder of the index and Assistant Professor at Radboud University where he researches the societal and regulatory implications of emerging language technologies. His current work focuses on technology assessment, open source generative AI, and comparative AI regulation. At the Centre for Language and Speech Technology (CLST), Andreas Liesenfeld is a member of the language technology expertise group and, in collaboration with the Netherlands eScience center, develops open source research software for natural language processing.
 ::
 
 ::person{image="/images/headshot-md.png" name="Mark Dingemanse"}
@@ -16,11 +16,11 @@ __[Mark Dingemanse](https://markdingemanse.net "Mark Dingemanse")__ is co-founde
 ## Researchers
 
 ::person{image="/images/headshot-db.jpg" name="Dick Blankvoort"}
-__Dick Blankvoort__ is a student at Radboud University and a researcher at the Open Source AI Index. His primary interest lies in the field of Data Science, focusing both on the applications of generative AI and on their mathematical underpinnings. He is currently pursuing his internship at OSAI along with following an honours lab about applications of generative AI in education, as well as teaching a course on Computer Algebra.
+__Dick Blankvoort__ is a researcher at the Open Source AI Index. His primary interest lies in the field of Data Science, focusing both on the applications of generative AI and on their mathematical underpinnings. He is a computer science student, currently pursues his internship at OSAI, and teaches Computer Algebra.
 ::
 
 ::person{image="/images/headshot-nk.jpg" name="Nityaa Kalra"}
-__Nityaa Kalra__  is a student at Radboud University and a researcher at the Open Source AI Index. Her interests lie in NLP, explainable AI, and building responsible AI systems. As part of her thesis, she is currently investigating bias in book recommender systems, examining how thematic and genre biases shape book recommendations. She has also been a teaching assistant for a course on Text and Multimedia Mining.
+__Nityaa Kalra__  is a researcher at the Open Source AI Index. Her interests lie in NLP, explainable AI, and building responsible AI systems. She studies computer science and, as part of her thesis, investigates bias in book recommender systems, examining how thematic and genre biases shape book recommendations. She also teaches Text and Multimedia Mining.
 ::
 
 ## Contributors
