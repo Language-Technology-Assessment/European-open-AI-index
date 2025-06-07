@@ -10,3 +10,8 @@ status: unpublished
 <date :date="date"></date>
 
 - Look for small organizations and individuals with large contributions who might have gone overlooked.
+
+- [Cerebras](https://huggingface.co/SebastianSchramm/Cerebras-GPT-111M-instruction-sft-lora-merged-dpo-lora)
+- [LatentSync](https://huggingface.co/ByteDance/LatentSync)
+- [Parrot](https://huggingface.co/AIDC-AI/Parrot-14B)
+- <Other models from backend which may seem interesting>

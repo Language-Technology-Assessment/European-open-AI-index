@@ -1,7 +1,7 @@
 ---
 title: Model Diversification
 description: Exploring innovative models closely tied to other models
-date: 2025-05-26
+date: 2025-06-07
 author: Dick Blankvoort
 status: unpublished
 ---
