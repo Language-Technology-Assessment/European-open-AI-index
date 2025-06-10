@@ -9,6 +9,7 @@ status: unpublished
 <author :author="author"></author>
 <date :date="date"></date>
 
+<!-- Introduction heading -->
 ## Introduction
 Both the AI race in general has been largely led by companies which broadly fall under the umbrella of 'Big Tech'. In this blog post, we discuss the historical influence of big tech on AI, as well as ways in which the influence of Big Tech can currently be felt in the open-source AI space in particular. We argue that although the role of Big Tech remains major in the closed-source space, in the open-source space major corporations can best be seen as merely 'contributors' along with e.g. academic institutions.
 
