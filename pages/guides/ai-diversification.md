@@ -9,15 +9,15 @@ status: unpublished
 <author :author="author"></author>
 <date :date="date"></date>
 
-At the European Open Source AI Index, we seek to provide a comprehensive overview of transparency within the open-source AI landscape. A significant challenge in maintaining such an overview is deciding which models to include and which to exclude. A cursory glance into the AI space reveals a wealth of AI models each competing for recognition, and our index can only include so many before growing cluttered.
+At the European Open Source AI Index, we seek to provide a comprehensive overview of transparency within the open-source AI landscape. A significant challenge in maintaining such an overview is deciding which models to include and which to exclude. A cursory glance into the AI space reveals a wealth of AI models each competing for recognition, and an index can only include so many before growing cluttered.
 
 In this blog post, we seek to highlight one aspect we consider when deciding what makes a model relevant for inclusion; its perceived level of diversification from other models. By examining this aspect, we aim to highlight some potentially interesting initiatives which might not be captured by our index, as well as provide insight into some more obscure techniques used in AI technologies.
 
 ## Diversification in LLMs
-Let's start with some ground work. There are many reasons why a model might be considered too similar to another model to warrant inclusion, however in this post we will limit ourselves to three categories. A model might be insufficiently innovative to warrant inclusion, it might be an adaption of a different model to a different architecture, or it might be primarily a fine-tune based on a dataset.
+Let's start with some ground work. There are many reasons why a model might be considered too similar to another model to warrant inclusion. A model might be insufficiently innovative to warrant inclusion, it might be an adaption of a different model to a different architecture, or it might be primarily a fine-tune based on a dataset.
 
 ### Fine-tunes based on a dataset
-There are quite a few models in our dataset which are not included due to primarily revolving around fine-tuning a model on a dataset. It could be that these models [employ a novel fine-tuning approach](https://huggingface.co/ernie-research/HH-RLHF-Gemma-2B-MA-PPO-Fixed5) or  [show significant innovation in a dataset](https://huggingface.co/OFA-Sys/OccuLLaMA-7B), however in the end the emphasis with them lies not so much on the model but rather on how the model was created.
+There are quite a few models in our dataset which are not included due to primarily revolving around fine-tuning a model on a dataset. It could be that these models [employ a novel fine-tuning approach](https://huggingface.co/ernie-research/HH-RLHF-Gemma-2B-MA-PPO-Fixed5) or  [show significant innovation in a dataset](https://huggingface.co/OFA-Sys/OccuLLaMA-7B). In the end, however, the emphasis with them lies not so much on the model but rather on how the model was created.
 
 Their lack of inclusion is certainly not to say that these models do not deliver major innovation. For instance, the various [Airoboros](https://huggingface.co/jondurbin/airoboros-110b-3.3) models together represent a significant effort to tune the well-crafted Airoboros dataset, which has been subsequently used in the training of [at least 350 different AI models](https://huggingface.co/models?dataset=dataset:jondurbin/airoboros-3.2).
 
