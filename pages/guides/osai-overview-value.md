@@ -17,7 +17,7 @@ Points from start of analysis:
 Established facts:
 - Currently, no central resource seems to be available which comprehensively logs OSAI models. As such we need to work with different sources.
 - We track all open-source AI models published on Ollama, on the LLM arena, and the top 100 most liked models on HuggingFace. This should give a good overview of the major players.
-- Our index includes models from [13 different countries](/guides/big-tech-companies), indicating that geographic diversity is extant to at least a reasonable degree in our index.
+- Our index includes models from [13 different countries](/guides/big-tech-companies-role), indicating that geographic diversity is extant to at least a reasonable degree in our index.
 - We track all major Chinese Big Tech companies and AI tigers, which should hopefully provide a good overview of [the Chinese AI landscape](/guides/chinese-western-divide).
 - The European comprehensiveness of our index remains unknown. This is a possible indicator for a weakness.
 - Our index does not yet track multimodal models. This makes it rather weak in this regard.
