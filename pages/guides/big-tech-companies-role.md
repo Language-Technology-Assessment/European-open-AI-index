@@ -26,7 +26,7 @@ We find that academia still plays a major role in open-source AI, contributing n
 ![Diagram depicting the national origins of OSAI institutions](/images/national_origins_pie.png "National origins in OSAI")
 Lastly we see that, indeed, America and China remain dominant in the AI space. American models span nearly 40% of all models in the index, while Chinese models span more than 30%. However, there is also a significant effort towards international collaborations, and European models together contribute a not-insignificant 12.5% of models. As such, while the two major players in the AI space are indeed dominant, there remain sustantial avenues for nations outside the US and China (and Europe in particular) to participate.
 
-We next restrict our analysis to just the [latest](https://osai-index.eu/news/performance-classes) models. I.e.: those which represent the state of the art of publicly available models.
+We next restrict our analysis to just the [latest](/news/performance-classes) models. I.e.: those which represent the state of the art of publicly available models.
 
 ![Diagram depicting the prevalence of academia in OSAI among latest models](/images/academic_pie_latest.png "Academic prevalence in OSAI among latest models")
 

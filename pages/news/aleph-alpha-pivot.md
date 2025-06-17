@@ -24,7 +24,7 @@ But in September 2024, Aleph-Alpha announced a major pivot away from creating th
 
 The model details for Luminous are now shown as "deprecated". In the absence of any demos or documentation, we're left wondering whether Luminous was ever a functioning LLM at all. It was certainly not a transparent one. One possibility is that it was built on top of some other provider's white-label LLM service. 
 
-Recently, a new Aleph-Alpha model dubbed [Pharia LLM](https://huggingface.co/Aleph-Alpha/Pharia-1-LLM-7B-control/blob/main/README.md) has made an appearance. It appears this model is an outcome of Aleph-Alpha's [partnership](https://aleph-alpha.com/aleph-alpha-and-silo-ai-enter-a-strategic-partnership-to-advance-open-source-ai-and-enterprise-grade-solutions-in-europe/) with Silo AI, a private AI lab "building market leading open source LLMs". We've added it [to our index](https://osai-index.eu/model/pharia), where it comes out somewhere in the middle of the pack: it is more of an open weights than a truly open source model. We'll be keeping our eyes peeled for new developments.
+Recently, a new Aleph-Alpha model dubbed [Pharia LLM](https://huggingface.co/Aleph-Alpha/Pharia-1-LLM-7B-control/blob/main/README.md) has made an appearance. It appears this model is an outcome of Aleph-Alpha's [partnership](https://aleph-alpha.com/aleph-alpha-and-silo-ai-enter-a-strategic-partnership-to-advance-open-source-ai-and-enterprise-grade-solutions-in-europe/) with Silo AI, a private AI lab "building market leading open source LLMs". We've added it [to our index](/model/pharia), where it comes out somewhere in the middle of the pack: it is more of an open weights than a truly open source model. We'll be keeping our eyes peeled for new developments.
 
 ::the-index
 ---
