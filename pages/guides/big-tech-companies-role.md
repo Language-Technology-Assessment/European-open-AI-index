@@ -21,7 +21,7 @@ To investigate our claims, we perform a classification of each open-source model
 We find that academia still plays a major role in open-source AI, contributing nearly a third of the models currently in our index. This indicates that open progress on AI models is currently propelled forward by a combination of academic and non-academic institutions.
 
 ![Diagram depicting the prevalence of big tech among OSAI companies](/images/big_tech_pie.png "Big Tech prevalence in OSAI")
- Further, we see that though Big Tech contributes significantly to open-source AI (with Chinese and American Big Tech together contributing more than a quarter of all models), they are far from the only players.
+Further, we see that though Big Tech contributes significantly to open-source AI (with Chinese and American Big Tech together contributing more than a quarter of all models), they are far from the only players.
 
 ![Diagram depicting the national origins of OSAI institutions](/images/national_origins_pie.png "National origins in OSAI")
 Lastly we see that, indeed, America and China remain dominant in the AI space. American models span nearly 40% of all models in the index, while Chinese models span more than 30%. However, there is also a significant effort towards international collaborations, and European models together contribute a not-insignificant 12.5% of models. As such, while the two major players in the AI space are indeed dominant, there remain sustantial avenues for nations outside the US and China (and Europe in particular) to participate.
