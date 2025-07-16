@@ -9,8 +9,6 @@ status: unpublished
 <author :author="author"></author>
 <date :date="date"></date>
 
-<!-- Deprecated for now. Barring any changes can be removed after 2025/07/01 -->
-
 At the European Open Source AI Index, we seek to provide a comprehensive overview of transparency within the open-source AI landscape. A significant challenge involved in this is deciding which models to include and which to exclude. Even a cursory glance into the AI space reveals a wealth of AI models competing for recognition, and our index can only include so many before growing cluttered.
 
 In this blog post, we seek to highlight one aspect we consider when deciding what makes a model a candidate for inclusion; its perceived level of diversification. By 'diversification', we mean the degree to which a model is able to set itself apart from another model and prove that it is an innovation in its own right rather than a patch on top of an existing model. By examining this aspect, we aim to highlight some potentially interesting initiatives which might not be captured by our index, as well as provide insight into some more obscure techniques used in AI technologies.
