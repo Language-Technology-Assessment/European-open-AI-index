@@ -14,8 +14,11 @@ In this second post, we discuss how releasing models in an open-way can benefit 
 ## Practical example: OpenAI's Codex
 - https://www.aisnakeoil.com/p/openais-policies-hinder-reproducible
 
+## (The dangers of proprietary LLMs more generally)
+- Aside: What implications are there for this wrt publishing research evaluating AI as a whole through the investigation of closed-source models? E.g. using the GPT-4 API to investigate model agreeability.
+- https://www.nature.com/articles/s42256-023-00783-6
+
 ## How open models resolve this
 - Open-source models require being able to keep and distribute a local copy at all times. This enables academics to distribute their own copies of the models used in their research, ensuring reproducibility is maintained.
-- (Aside: What implications are there for this wrt publishing research evaluating AI as a whole through the investigation of closed-source models? E.g. using the GPT-4 API to investigate model agreeability.)
 
 ## Conclusion
