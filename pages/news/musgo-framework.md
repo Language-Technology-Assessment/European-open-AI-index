@@ -6,7 +6,7 @@ date: 2025-07-18
 status: unpublished
 ---
 
-MUSGO: A New Companion to Our Framework
+# MUSGO: A New Companion to Our Framework
 <author :author="author"></author>
 <date :date="date"></date>
 
