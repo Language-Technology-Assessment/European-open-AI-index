@@ -16,7 +16,6 @@ In response, we have expanded the OSAI Index’s coverage of audio models and wi
 
 A particularly valuable aspect of their work is the MIR (Music Information Retrieval) community survey which highlights how practitioners weigh openness attributes differently. For example, open code, model weights, and documentation were considered more essential than API access or packaging. This aligns with our ongoing exploration into how openness criteria might be weighted differently across domains.
 
-
 ![Table taken from the MUSGO paper](images/musgo-survey.png)
 
 *Table taken from the [MUSGO paper](https://arxiv.org/pdf/2507.03599)*
