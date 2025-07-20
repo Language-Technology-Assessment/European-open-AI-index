@@ -1,12 +1,12 @@
 --- 
-title: MUSGO- A New Companion to Our Framework
+title: MusGO- A New Companion to Our Framework
 description: "We acknowledge the efforts of researchers of MUSGO and add new models to our index. "
 author: Nityaa Kalra
 date: 2025-07-18
 status: unpublished
 ---
 
-# MUSGO: A New Companion to Our Framework
+# MusGO: A New Companion to Our Framework
 <author :author="author"></author>
 <date :date="date"></date>
 
@@ -14,7 +14,7 @@ We are thrilled to see [Opening Up ChatGPT](https://opening-up-chatgpt.github.io
 
 In response, we have expanded the OSAI Index’s coverage of audio models and will continue to grow our efforts in this space, thanks to meaningful contributions like those of the MUSGO researchers.
 
-A particularly valuable aspect of their work is the MIR (Music Information Retrieval) community survey which highlights how practitioners weigh openness attributes differently. For example, open code, model weights, and documentation were considered more essential than API access or packaging. This aligns with our ongoing exploration into how openness criteria might be weighted differently across domains.
+A valuable aspect of their work is the MIR (Music Information Retrieval) community survey which highlights how practitioners weigh openness attributes differently. For example, open code, model weights, and documentation were considered more essential than API access or packaging. This aligns with our ongoing exploration into how openness criteria might be weighted differently across domains.
 
 <!-- ![Table taken from the MUSGO paper](images/musgo-survey.png)
 
@@ -22,4 +22,4 @@ A particularly valuable aspect of their work is the MIR (Music Information Retri
  -->
 
 
-MUSGO demonstrates what can happen when openness frameworks are kept adaptable and transparent. It’s a strong example of research collaboration in action, and a welcome contribution to the growing conversation around openness in generative AI.
+MusGO is a strong example of research collaboration in action, and a welcome contribution to the growing conversation around openness in generative AI.
