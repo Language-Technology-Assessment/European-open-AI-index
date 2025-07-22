@@ -3,7 +3,7 @@ title: MusGO- A New Companion to Our Framework
 description: "We acknowledge the efforts of researchers of MUSGO and add new models to our index. "
 author: Nityaa Kalra
 date: 2025-07-18
-status: unpublished
+status: published
 ---
 
 # MusGO: A New Companion to Our Framework
