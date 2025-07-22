@@ -1,11 +1,11 @@
 ---
-title: YuLan-Mini - A new highly open model
+title: "YuLan-Mini: A new highly open model"
 description: Gaoling School of Artificial Intelligence releases a new highly open AI model
 date: 2025-05-28
 author: The EU OSAI index team
 status: published
 ---
-# YuLan-Mini - A new highly open model
+# YuLan-Mini: A new highly open model
 <date :date="date"></date>
 
 At the European Open Source AI Index, we welcome any efforts to promote openness in the AI space. Most new models we add end up somewhere midway the index, often because they build on widespread models like Llama or Mistral that are not themselves very open to start with. Much to our delight, [there is a genuinely new model in town](/model/yulan) that has overtaken good old BLOOMZ for the second-place spot.
