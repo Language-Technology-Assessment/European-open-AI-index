@@ -1,6 +1,6 @@
 ---
 title: Keeping up with open source model development
-description: In which we detail recent trends in open source model development, focusing on what makes models distinctive and when we do or do not include them in the OS AI Index
+description: What makes models distinctive and when do we include them?
 date: 2025-06-10
 author: Dick Blankvoort
 status: published
