@@ -1,11 +1,11 @@
 ---
-title: Model Diversification
+title: New trends in open source model development
 description: Exploring innovative models closely tied to other models
 date: 2025-06-10
 author: Dick Blankvoort
 status: unpublished
 ---
-# Model Diversification
+# New trends in open source model development
 <author :author="author"></author>
 <date :date="date"></date>
 
