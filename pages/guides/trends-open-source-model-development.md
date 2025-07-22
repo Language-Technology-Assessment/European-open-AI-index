@@ -1,11 +1,11 @@
 ---
-title: New trends in open source model development
-description: Exploring innovative models closely tied to other models
+title: Keeping up with open source model development
+description: In which we detail recent trends in open source model development, focusing on what makes models distinctive and when we do or do not include them in the OS AI Index
 date: 2025-06-10
 author: Dick Blankvoort
-status: unpublished
+status: published
 ---
-# New trends in open source model development
+# Keeping up with open source model development
 <author :author="author"></author>
 <date :date="date"></date>
 
@@ -13,7 +13,7 @@ At the European Open Source AI Index, we seek to provide a comprehensive overvie
 
 In this blog post, we seek to highlight one aspect we consider when deciding what makes a model a candidate for inclusion; its perceived level of diversification. By 'diversification', we mean the degree to which a model is able to set itself apart from another model and prove that it is an innovation in its own right rather than a patch on top of an existing model. By examining this aspect, we aim to highlight some potentially interesting initiatives which might not be captured by our index, as well as provide insight into some more obscure techniques used in AI technologies.
 
-## Diversification in LLMs
+## Incremental and innovative model development
 Let's start with some ground work. There are many reasons why a model might be considered too similar to another model to warrant inclusion. A model might be insufficiently innovative to warrant inclusion, it might be an adaption of a different model to a different architecture, or it might be primarily a fine-tune based on a dataset.
 
 ### Fine-tunes based on a dataset
@@ -31,12 +31,10 @@ Lastly, there are models which simply do not provide enough index-relevant innov
 
 Model merges are a relatively recent category of LLMs which combine (or 'merge') two existing LLMs together. Though the technique approach is highly interesting and worthy of study, the fact that it has thusfar (as far as we can tell) primarily been applied for [gaming LLM leaderboards](https://huggingface.co/spaces/open-llm-leaderboard/open_llm_leaderboard) means that we generally discount any models created using the technique.
 
-## Other entities dealing with the matter of inclusion
+## Where to draw the line
 Any entity seeking to catalogue the AI landscape must decide on which models to include, not only our index. LLM arenas, for instance, perpetually face the challenge of deciding which models to compare against each other in order to provide a comprehensive overview. Approaches taken in this differ. While indices such as [OpenLM.AI](https://openlm.ai/chatbot-arena/) and [LMArena.AI](https://lmarena.ai/) seek to provide a curated comparison of models and place emphasis on highlighting models by the greatest innovators, projects such as the [Open LLM Leaderboard](https://huggingface.co/spaces/open-llm-leaderboard/open_llm_leaderboard#/) (archived since March of 2025) attempted to compare every open model submitted.
 
-In general, a curated approach focusing mainly on the largest innovations seems to have won out. This has the advantage of producing leaderboards which highlight the most well-known innovations within the AI space, however has the disadvantage that many lesser-known models within the open-source AI space are only highlighted to a lesser extent.
+In general, a curated approach focusing mainly on the largest innovations seems to have won out. This has the advantage of producing leaderboards that can highlight the most well-known innovations within the AI space. A disadvantage is that many lesser-known models within the open-source AI space may remain somewhat obscure.
 
 ## Conclusion
-The true extent of open-source AI will always reach beyond the scope of our index, and so we would encourage readers to explore the space independently whenever possible. A good start here are the models listed in the text. What we offer at the index is merely a showcase of the most relevant models with regards to transparancy, and there is a great deal more innovation to dig into.
-
-As the field evolves, so too will our criteria. We invite the community to engage with us in shaping a more transparent and inclusive future for open-source AI.
+The true extent of open-source AI will always reach beyond the scope of our index, and so we would encourage readers to explore the space independently whenever possible. A good start here are the models listed above. What we offer in the Open Source AI Index is a carefully curated, scientifically based selection that provides the best view of model openness. As the field evolves, so too will our criteria. We invite the community to engage with us in shaping a more transparent and inclusive future for open-source AI.
