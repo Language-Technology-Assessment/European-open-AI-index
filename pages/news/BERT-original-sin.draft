@@ -18,15 +18,10 @@ A host of popular spin-off models were on top of BERT, introducing a wide range 
 We still don't know exactly how BERT was built. Dazzled by it's technological marvels, even the scientists that introduced the field of BERTology that examines what BERT can do, did not show interest to ask how it was built and don't mention "training data" in [their work](https://aclanthology.org/2020.tacl-1.54/). 
 
 As the first LLM that was highly influential in science despite deliberate nondisclosure of it's training data, **BERT was the original sin of open-washing that lead an entire scientific community down a dubious path**. As a publisher, Google actively marketed the model as open-source without providing sufficient information how it was built. 
-And as a dazzled audience, the research community failed to call out the adverse effects on a lack of transparency for too long. BERT should be remembered both a milestone in the history of NLP and the first testament of open-washing in the field of generative AI.
+And as a dazzled audience, the research community failed to call out the adverse effects on a lack of transparency for too long. BERT should be remembered both a milestone in the history of NLP as well as the first testament of the adverse effects of overclaiming transparency in the field of generative AI. Open-washing in as old as LLMs are.
 
-Book corpus dataset 
+Add one sentence about BERTS data, Book corpus dataset 
 
-"When talking about Open Source AI, the same set of issues arose over and over again, when discussing training data: What about Data Protection and Privacy? What do we do about different artistic works having different licences depending on the country? What happens if an Open Source AI model discovers one of the images in its training data is copyrighted and cannot be redistributed? How can we ensure legal certainty when all it would take was for a single copyrighted image to be accidentally included in a dataset, to render all AI models using that dataset proprietary (with massive consequences for what they then have to do to comply with the EU’s AI act)?
-
-These are real and genuine concerns, which the FSF has also identified in its work on Open Source AI. SFC has also identified these issues, saying that it may take a decade to come up with a definition."
-
-Open-washing in as old as LLMs are.
 
 ::the-index
 ---
@@ -42,7 +37,3 @@ https://en.wikipedia.org/wiki/BERT_(language_model)
 https://en.wikipedia.org/wiki/BookCorpus
 https://research.google/blog/open-sourcing-bert-state-of-the-art-pre-training-for-natural-language-processing/
 https://huggingface.co/datasets/defunct-datasets/bookcorpusopen
-
-Papers:
-https://aclanthology.org/N19-1423.pdf
-https://direct.mit.edu/tacl/article/doi/10.1162/tacl_a_00349/96482/A-Primer-in-BERTology-What-We-Know-About-How-BERT
