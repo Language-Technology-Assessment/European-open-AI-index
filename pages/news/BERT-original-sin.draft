@@ -7,9 +7,11 @@ date: 19-12-2024
 # BERT: The original sin of open-washing large language models
 
 
-In late 2018, long before LLMs became mainstream, Google released a large language model bound to shake up the natural language processing (NLP) research community. 
+In late 2018, before large language models (LLMs) became mainstream, Google released a large language model bound to shake up the natural language processing (NLP) research community. 
 The model dramatically improved the state-of-the-art for many benchmarks in the field, trailblazing the upcoming explosion of interest in LLMs. 
-The community was awe-struck at what this model could do and the new machine learning architecture BERT was build on received a lot of attention - even spawning an entirely new field, [BERTology](https://aclanthology.org/2020.tacl-1.54/). Amidst the buzz, few even thought about asking what data BERT was trained on or whether is was really "open source" as [Google claimed on their website](https://research.google/blog/open-sourcing-bert-state-of-the-art-pre-training-for-natural-language-processing/).
+The community was awe-struck by what this model could do and celebrated the new "transformer" machine learning architecture it was build on.
+The model even spawned a new scientific field dedicated to the study of it, [BERTology](https://aclanthology.org/2020.tacl-1.54/). 
+Amidst the buzz, few thought about asking what data BERT was trained on or whether is was really "open source" as [Google claimed on their website](https://research.google/blog/open-sourcing-bert-state-of-the-art-pre-training-for-natural-language-processing/).
 
 To date, the scientific publication that introduced BERT gained widespread attention in the field (over 125k citations, see Google Scholar). 
 Similarly, in subsequent years, work related to the model focussed on its uses, capabilities, and enhancement - rarely asking (critical) questions about how it was built in the first place. 
