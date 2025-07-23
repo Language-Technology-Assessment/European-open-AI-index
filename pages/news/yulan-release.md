@@ -1,14 +1,14 @@
 ---
-title: YuLan-Mini - A new highly open model
+title: "YuLan-Mini: A new highly open model"
 description: Gaoling School of Artificial Intelligence releases a new highly open AI model
 date: 2025-05-28
 author: The EU OSAI index team
 status: published
 ---
-# YuLan-Mini - A new highly open model
+# YuLan-Mini: A new highly open model
 <date :date="date"></date>
 
-At the European Open Source AI Index, we welcome any efforts to promote openness in the AI space. Most new models we add end up somewhere midway the index, often because they build on widespread models like Llama or Mistral that are not themselves very open to start with. Much to our delight, [there is a genuinely new model in town](https://osai-index.eu/model/YuLan) that has overtaken good old BLOOMZ for the second-place spot.
+At the European Open Source AI Index, we welcome any efforts to promote openness in the AI space. Most new models we add end up somewhere midway the index, often because they build on widespread models like Llama or Mistral that are not themselves very open to start with. Much to our delight, [there is a genuinely new model in town](/model/yulan) that has overtaken good old BLOOMZ for the second-place spot.
 
 YuLan-Mini is a new model by the Gaoling School of Artificial Intelligence. Claiming particularly good performance in math and code, the model is fully open according to nearly all of our [openness measures](https://dl.acm.org/doi/10.1145/3630106.3659005). The model creators publish the data used to train their base model on [HuggingFace](https://huggingface.co/datasets/yulan-team/YuLan-Mini-Datasets), providing thorough information on the data mixture in an [accompanying table](https://docs.google.com/spreadsheets/d/1YP8-loVUxgxo36UEpOwflR3GRHLieBnLlCy8g10g8RU/edit?gid=0#gid=0). The model weights themselves are published under an [open MIT license](https://huggingface.co/yulan-team/YuLan-Mini-Instruct), and training procedures and code are documented both on [GitHub](https://github.com/RUC-GSAI/YuLan-Mini/) and in a [corresponding paper](https://arxiv.org/abs/2412.17743). The model itself is made available through [Ollama](https://huggingface.co/yulan-team/YuLan-Mini-Instruct#quick-start-%F0%9F%92%BB) for convenient use.
 
