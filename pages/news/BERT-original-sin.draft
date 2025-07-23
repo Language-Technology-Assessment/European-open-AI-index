@@ -1,15 +1,15 @@
 --- 
 title: "BERT: The original sin of open-washing large language models"
-description: Already in 2018 Google actively marketed the pioneering LLM BERT as "open source", leading the entire field down a dubious path.
+description: Already in 2018 Google actively marketed the pioneering LLM "BERT" as open source, leading an entire field down a dubious path.
 date: 19-12-2024
 ---
 
 # BERT: The original sin of open-washing large language models
 
 
-In late 2018, long before LLMs became mainstream, Google released a large language model that was bound to shake up the natural language processing (NLP) research community. 
+In late 2018, long before LLMs became mainstream, Google released a large language model bound to shake up the natural language processing (NLP) research community. 
 The model dramatically improved the state-of-the-art for many benchmarks in the field, trailblazing the upcoming explosion of interest in LLMs. 
-Amidst the buzz, the community seemed awe-struck at what this model could do and on the novel aspects of its machine learning architecture, that few even thought about asking about the training data it was built on.
+The community was awe-struck at what this model could do and the new machine learning architecture BERT was build on received a lot of attention - even spawning an entirely new field, [BERTology](https://aclanthology.org/2020.tacl-1.54/). Amidst the buzz, few even thought about asking what data BERT was trained on or whether is was really "open source" as [Google claimed on their website](https://research.google/blog/open-sourcing-bert-state-of-the-art-pre-training-for-natural-language-processing/).
 
 To date, the scientific publication that introduced BERT gained widespread attention in the field (over 125k citations, see Google Scholar). 
 Similarly, in subsequent years, work related to the model focussed on its uses, capabilities, and enhancement - rarely asking (critical) questions about how it was built in the first place. 
@@ -26,7 +26,16 @@ Book corpus dataset
 
 These are real and genuine concerns, which the FSF has also identified in its work on Open Source AI. SFC has also identified these issues, saying that it may take a decade to come up with a definition."
 
+Open-washing in as old as LLMs are.
 
+::the-index
+---
+hideFilters: true
+filters: 
+  view: grid
+  models: BERT
+---
+::
 
 Refs:
 https://en.wikipedia.org/wiki/BERT_(language_model)
