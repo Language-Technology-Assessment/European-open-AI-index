@@ -13,14 +13,12 @@ The community was awe-struck by what this model could do and celebrated the new 
 The model even spawned a new scientific field dedicated to the study of it, [BERTology](https://aclanthology.org/2020.tacl-1.54/). 
 Amidst the buzz, few thought about asking what data BERT was trained on or whether is was really "open source" as [Google claimed on their website](https://research.google/blog/open-sourcing-bert-state-of-the-art-pre-training-for-natural-language-processing/).
 
-To date, the scientific publication that introduced BERT gained widespread attention in the field (over 125k citations, see Google Scholar). 
-Similarly, in subsequent years, work related to the model focussed on its uses, capabilities, and enhancement - rarely asking (critical) questions about how it was built in the first place. 
-Dazzled by this technological marvel, xx asked "What We Know About How BERT Works", examining what BERT knows - without mentioning or asking about training data.
+Google's BERT continues to shape research in NLP to this day. The paper that introduced BERT became the most cited scientific publication in the field of NLP with over 125.000 citations on [Google Scholar](https://scholar.google.com)). 
+A host of popular spin-off models were on top of BERT, introducing a wide range of models for specific applications such as BioBERT, SciBERT, FinBERT or RoBERTa. In short, with the help of BERT, Google shaped the course of an entire scientific discipline for years to come. Here's why this still matters today. 
+We still don't know exactly how BERT was built. Dazzled by it's technological marvels, even the scientists that introduced the field of BERTology that examines what BERT can do, did not show interest to ask how it was built and don't mention "training data" in [their work](https://aclanthology.org/2020.tacl-1.54/). 
 
-We still don't know exactly how the model was built or what data went into it.
-
-
-this milestone in the history of the field of NLP is also a testament of a longstanding lack of attention to training data over model architecture
+As the first LLM that was highly influential in science despite deliberate nondisclosure of it's training data, **BERT was the original sin of open-washing that lead an entire scientific community down a dubious path**. As a publisher, Google actively marketed the model as open-source without providing sufficient information how it was built. 
+And as a dazzled audience, the research community failed to call out the adverse effects on a lack of transparency for too long. BERT should be remembered both a milestone in the history of NLP and the first testament of open-washing in the field of generative AI.
 
 Book corpus dataset 
 
