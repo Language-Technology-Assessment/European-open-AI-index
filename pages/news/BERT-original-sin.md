@@ -9,9 +9,9 @@ date: 19-12-2024
 
 In late 2018, before large language models (LLMs) became mainstream, Google released a large language model bound to shake up the natural language processing (NLP) research community. 
 The model dramatically improved the state-of-the-art for many benchmarks in the field, trailblazing the upcoming explosion of interest in LLMs. 
-The community was awe-struck by what this model could do and celebrated the new "transformer" machine learning architecture it was build on.
-The model even spawned a new scientific field dedicated to the study of it, [BERTology](https://aclanthology.org/2020.tacl-1.54/). 
-Amidst the buzz, few asked what data BERT was trained on or whether is was really "open source" as [Google claimed](https://research.google/blog/open-sourcing-bert-state-of-the-art-pre-training-for-natural-language-processing/).
+An awe-struck resarch community celebrated what the model could do and marvelled at the new "transformer" machine learning architecture it was build on.
+BERT even spawned a new scientific field dedicated to the study of it, [BERTology](https://aclanthology.org/2020.tacl-1.54/). 
+Amidst the buzz, few asked what data it was trained on or whether is was really "open source" as [Google claimed](https://research.google/blog/open-sourcing-bert-state-of-the-art-pre-training-for-natural-language-processing/).
 
 Google's BERT continues to shape research in NLP to this day. 
 The paper that introduced it became the most cited scientific publication in the field with over 125.000 citations on [Scholar](https://scholar.google.com)). 
