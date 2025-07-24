@@ -14,7 +14,7 @@ BERT even spawned a new scientific field dedicated to the study of it, [BERTolog
 Amidst the buzz, few asked what data it was trained on or whether is was really "open source" as [Google claimed](https://research.google/blog/open-sourcing-bert-state-of-the-art-pre-training-for-natural-language-processing/).
 
 Google's BERT continues to shape research in NLP to this day. 
-The paper that introduced it became the most cited scientific publication in the field with over 125.000 citations on [Scholar](https://scholar.google.com)). 
+The paper that introduced it became the most cited scientific publication in the field with [over 125.000 citations](https://scholar.google.com). 
 A host of popular spin-off models were built on top of the original, providing BERT-based technologies for domains as diverse as Biology (BioBERT), Science (SciBERT), Finance (FinBERT) or Medicine (Med-BERT). 
 In short, with the help of BERT, Google shaped the course of an entire scientific discipline for years to come. 
 Here's why this still matters today. 
