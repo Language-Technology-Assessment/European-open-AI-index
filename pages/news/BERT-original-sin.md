@@ -26,7 +26,7 @@ The authors of BERT themselves vaguely stated in their paper that the model was 
 Even before the release of BERT, these datasets were in use by Google's "Brain" division for research purposes. But the use of the book corpus, a collection of self-published books, for AI training violated the publisher's Terms of Service and [records of correspondance between journalists and Google](https://www.theguardian.com/books/2016/sep/28/google-swallows-11000-novels-to-improve-ais-conversation#comments) show that critical questions regarding the legitimacy of using this data were brought to Google's attention as early as 2016.
 Since BERT was released in 2018, neither Google's [press release](https://research.google/blog/open-sourcing-bert-state-of-the-art-pre-training-for-natural-language-processing/) nor any other official source has clarified data use in the BERT model.
 
-[This practice is a problemtic precedent for Open Source AI because...]
+<!-- This practice is a problemtic precedent for Open Source AI because... -->
 
 As the first LLM that was highly influential in science despite deliberate nondisclosure of it's training data, **BERT was the original sin of open-washing that lead an entire scientific community down a dubious path**. 
 As a publisher, Google actively marketed the model as open-source without providing sufficient information how it was built. 
