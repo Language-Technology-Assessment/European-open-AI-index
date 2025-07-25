@@ -1,6 +1,6 @@
 --- 
 title: "BERT: The original sin of open-washing large language models"
-description: "Already in 2018 Google's pioneering LLM BERT was marketed as open source, leading an entire field down a dubious path."
+description: "Already in 2018 Google's pioneering LLM 'BERT' was marketed as open source, leading an entire field down a dubious path."
 date: 19-12-2024
 ---
 
@@ -27,7 +27,7 @@ Even before the release of BERT, these datasets were in use by Google's "Brain" 
 Since BERT was released in 2018, neither Google's [press release](https://research.google/blog/open-sourcing-bert-state-of-the-art-pre-training-for-natural-language-processing/) nor any other official source has clarified data use in the BERT model.
 
 <!-- This practice is a problemtic precedent for Open Source AI because... -->
-
+<!--
 As the first LLM that was highly influential in science despite deliberate nondisclosure of it's training data, **BERT was the original sin of open-washing that lead an entire scientific community down a dubious path**. 
 As a publisher, Google actively marketed the model as open-source without providing sufficient information how it was built. 
 And as a dazzled audience, the research community failed to call out the adverse effects on a lack of transparency for too long. 
@@ -43,3 +43,4 @@ filters:
   models: BERT
 ---
 ::
+-->
