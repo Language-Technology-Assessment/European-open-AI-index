@@ -25,7 +25,7 @@ Here's why this still matters today.
 We still don't know exactly how "open source" BERT was built. 
 Dazzled by it's technological marvels, even the scientists that introduced the field of BERTology that examines what BERT can do did not ask how it was built. 
 [Their work](https://aclanthology.org/2020.tacl-1.54/) doesn't mention terms such as "training" or "data". 
-The authors of BERT themselves vaguely stated in their paper that the model was trained on English Wikipedia and a now defunct corpus of English novels called the [book corpus](https://en.wikipedia.org/wiki/BookCorpus/). 
+The authors of BERT themselves vaguely stated in their paper that the model was trained on English Wikipedia and a now defunct corpus of English novels called the [book corpus](https://en.wikipedia.org/wiki/BookCorpus). 
 Even before the release of BERT, these datasets were in use by Google's "Brain" division for research purposes. But the use of the book corpus, a collection of self-published books, for AI training violated the publisher's Terms of Service and [records of correspondance between journalists and Google](https://www.theguardian.com/books/2016/sep/28/google-swallows-11000-novels-to-improve-ais-conversation/) show that critical questions regarding the legitimacy of using this data were brought to Google's attention as early as 2016.
 Since BERT was released in 2018, neither Google's [press release](https://research.google/blog/open-sourcing-bert-state-of-the-art-pre-training-for-natural-language-processing/) nor any other official source has clarified what data was used in the BERT model.
 
