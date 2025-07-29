@@ -11,7 +11,7 @@ status: unpublished
 
 Points from start of analysis:
 - Our dataset is highly curated, with us logging 0.0074% of the models on HuggingFace and 28.24% of logged model families finding their way into the index.
-- This also means that not all models relevant to OSAI research are included in our index. For one, we limit ourselves to [models which independently represent a significant enough advance in model development](/guides/ai-diversification).
+- This also means that not all models relevant to OSAI research are included in our index. For one, we limit ourselves to [models which independently represent a significant enough advance in model development](/guides/trends-open-source-model-development).
 - However, the goal of this blog post is to investigate to what degree we log _the most important models_. I.e. to what degree we achieve a complete overview of the *most relevant models* in our index.
 
 Established facts:
