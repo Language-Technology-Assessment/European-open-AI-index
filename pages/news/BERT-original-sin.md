@@ -1,6 +1,6 @@
 --- 
 title: "BERT: The original sin of open-washing large language models"
-description: Already in 2018 Googles pioneering LLM BERT was marketed as open source, leading an entire field down a dubious path.
+description: Already in 2018 Google's pioneering LLM 'BERT' was marketed as open source, leading an entire field down a dubious path.
 date: 2025-08-01
 author: Andreas Liesenfeld
 status: published
