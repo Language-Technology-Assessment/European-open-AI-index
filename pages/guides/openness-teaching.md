@@ -16,3 +16,6 @@ In order to obtain expertise in developing the latest LLMs, it is required to fo
 
 ## Truly open models, especially small language models, allow for reproducibility and a hands-on experience with LLMs.
 Open-source AI models are a powerful tool for educating the next generation of AI scientists. By having them reproduce language models, especially [small language models](https://huggingface.co/HuggingFaceTB/SmolLM3-3B), learners obtain an intuitive understanding of how large language models works which is difficult to teach otherwise. This is something we have seen also in the curriculum of our own Radboud University Nijmegen, where transformer-based models are taught through a replication of a small GPT model. By publishing small models in an accessible manner, open-source model creators lower the barrier to hands-on interaction with the latest language models and help in the creation of the next generation of AI scientists.
+
+## Conclusion
+Open-source models allow for great opportunities for learning, both for experienced developers and future AI scientists. By futhering open-source in AI, we can ensure that everyone has the opportunity to keep up-to-date with the latest developments in AI, and has the opportunity to contribute to its ever-evolving ecosystem.
