@@ -33,13 +33,3 @@ The field of open source AI still suffers from a lack of transparency when it co
 And the dazzled NLP research community failed to call the adverse effects of this practice on science out. 
 BERT should be remembered both as a milestone in the history of NLP as well as the first testament of adverse effects of overclaiming transparency in the field of generative AI. 
 Open-washing in as old as LLMs are.
-
-
-::the-index
----
-hideFilters: true
-filters: 
-  view: grid
-  models: bert
----
-::
