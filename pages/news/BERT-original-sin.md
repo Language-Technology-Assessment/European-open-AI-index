@@ -5,7 +5,8 @@ date: 2025-08-01
 author: Andreas Liesenfeld
 status: published
 ---
-
+a
+<!--
 # BERT: The original sin of open-washing large language models
 <author :author="author"></author>
 <date :date="date"></date>
@@ -42,3 +43,4 @@ filters:
   models: bert
 ---
 ::
+-->
