@@ -19,3 +19,5 @@ Open-source AI models are a powerful tool for educating the next generation of A
 
 ## Conclusion
 Open-source models allow for great opportunities for learning, both for experienced developers and future AI scientists. By futhering open-source in AI, we can ensure that everyone has the opportunity to keep up-to-date with the latest developments in AI, and has the opportunity to contribute to its ever-evolving ecosystem.
+
+With this series of blog posts, we hope to have provided the reader with a good overview of the various benefits which open-source models provide. The take-away message is that open-source models bring with them a large number of benefits, and publishing models in an open-source manner benefits everyone in the ecosystem in various ways. We hope more entities in the ecosystem can take this message to heart and release their models in [a fully open-source way](/the-index).
