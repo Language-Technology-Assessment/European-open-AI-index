@@ -40,6 +40,6 @@ Open-washing in as old as LLMs are.
 hideFilters: true
 filters: 
   view: grid
-  models: BERT
+  models: bert
 ---
 ::
