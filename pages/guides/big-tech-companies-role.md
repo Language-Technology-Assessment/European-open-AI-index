@@ -10,16 +10,24 @@ status: unpublished
 <date :date="date"></date>
 
 ## Introduction
+<!-- Big tech has played a large role in the AI space so far. In this post we investigate its impact and characteristics. We additionally investigate the impact of academia. -->
 The AI race in general has been largely led by companies which broadly fall under the umbrella of 'Big Tech'. However, innovations developed by these companies have for a significant part been closed-source. In this blog post, we investigate the impact of Big Tech on the open-source landscape in order to attempt quantify the impact these companies have had on public AI model development. We also explore the national origins of open-source AI models in order to get a picture of the degree to which research has been centralized in the United States and China. In general we find that although the role of Big Tech and the US/China remains dominant in the closed-source space, in the open-source space the research field can be seen more as a larger-scale international collaboration.
 
+<!-- General approach: we do a classification of all models in our index and perform a quantitative analysis. -->
 To investigate our claims, we perform a classification of each open-source model in our index by:
 1. Academic or non-academic origins
 2. Big Tech dominance (Chinese or American)
 3. Country of origin.
 
+<!-- Possible limitations: our target of analysis might not be representative. And why this is the best we can do. -->
+Our approach is, on the whole, limited by the scope of our index. We [fundamentally assume that our index represents a representative sample of the state-of-the art of the open-source landscape](/guides/osai-overview-value), which may not be the case. Nonetheless, it is necessary to assume this fact in order to perform the detailed openness assessments we need.
+<!-- HuggingFace would likely not be representative as it would include many barely-used models by individuals, and tagging based on country of origin is additionally exceedingly difficult. -->
+
+<!-- The prevalence of academia -->
 ![Diagram depicting the prevalence of academia in OSAI](/images/academic_pie.png "Academic prevalence in OSAI")
 We find that academia still plays a major role in open-source AI, contributing nearly a third of the models currently in our index. This indicates that open progress on AI models is currently propelled forward by a combination of academic and non-academic institutions.
 
+<!-- The prevalence of Big Tech -->
 ![Diagram depicting the prevalence of big tech among OSAI companies](/images/big_tech_pie.png "Big Tech prevalence in OSAI")
 Further, we see that though Big Tech contributes significantly to open-source AI (with Chinese and American Big Tech together contributing more than a quarter of all models), they are far from the only players.
 
