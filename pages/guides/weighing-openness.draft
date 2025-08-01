@@ -1,0 +1,29 @@
+---
+title: Weighing Openness Criteria Across Different AI Domains
+description: How openess criteria is weighted across different domains. 
+date: 2025-08-01
+author: Nityaa Kalra
+status: unpublished
+---
+# Weighing Openness Criteria Across Different AI Domains
+
+- The concept of "openness" in AI is not monolithic. Its definition and the prioritization of its constituent metrics vary significantly across different domains and stakeholder groups.
+- Depending on the use case, stakeholders may prioritize these components differently, which is why at OSAI we have these multiple criterias to evaluate openess
+- OSAI Index prioritizes core scientific values over mere accessibility (try to define scientific openness)
+
+## In academia and research: Reproducibility
+-Their weighting leans heavily towards components that allow for deep inspection and replication of the scientific process. 
+- Training Code, Data, weights, documentation
+- NeuralIPS (https://jmlr.org/papers/volume22/20-303/20-303.pdf)
+- Model Openenss Framework (MOF): they differentiate between model openness and completeness (https://arxiv.org/pdf/2403.13784)
+"For this reason, we use the term “completeness” to measure the availability of components that are released with models (with
+the goal of full completeness) and the term “openness” to describe the usage of permissive licenses for components"
+- API and packaging not included!
+
+
+## Legal
+## Finance
+## Security
+## Healthcare
+## Music or other media
+
