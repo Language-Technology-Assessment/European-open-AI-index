@@ -8,7 +8,7 @@ status: unpublished
 # On the benefits of open-source AI: open-source enables academic liberty
 <author :author="author"></author>
 
-In this second post, we discuss how releasing models in an open-way can benefit academic liberty. We do this by discussing the converse, how (partially) closed models can hurt academic liberty, and subsequently discussing how open-source AI circumvents these flaws.
+In this second post about the benefits of open-source AI, we discuss how releasing models in an open way can benefit academic liberty. We do this by discussing the converse, how (partially) closed models can hurt academic liberty, and subsequently discussing how open-source AI circumvents these flaws.
 
 Back in August of 2021, OpenAI [released its text-to-code model Codex](https://openai.com/index/openai-codex/). Powering GitHub Copilot, this closed-source model saw heavy use in academic circles. [Nearly a hundred papers adopted it for their research](https://www.aisnakeoil.com/p/openais-policies-hinder-reproducible). It came as a shock, then, when in March of 2023 OpenAI announced that it would be discontinuing the Codex model. As a closed-source model, this meant that the model would no longer be able to be used in any capacity, meaning that all the papers based on it would no longer be reproducible. [This highlights the core weakness of relying on closed-source models for one's research](https://www.nature.com/articles/s42256-023-00783-6), as it means that, without proper warning, external parties can sabotage the reproducibility of a researcher's paper in key ways. Clearly, in order to ensure that research is reproducible it is necessary to employ open-source models.
 
