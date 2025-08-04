@@ -1,7 +1,7 @@
 ---
 title: The role of Big Tech in open-source AI
 description: In which we discuss the current influence of Big Tech in the open-source AI space
-date: 2025-06-09
+date: 2025-08-14
 author: Dick Blankvoort
 status: unpublished
 ---
