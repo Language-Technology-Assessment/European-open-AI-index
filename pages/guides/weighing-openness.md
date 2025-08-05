@@ -20,7 +20,7 @@ This emphasis is reflected in community efforts like the [NeurIPS reproducibilit
 ## Legal
 In the legal and compliance domain, the focus shifts to the legal and ethical implications of using a model. Here, stakeholders are less concerned with open-sourcing model internals and more focused on compliance, due diligence, and accountability. Clear documentation of the model development process, provenance of training data, and licensing terms are important here. 
 
-These priorities are stated in legislative efforts like the [EU AI Act](https://artificialintelligenceact.eu) [3], which mandates that high-risk AI systems maintain technical documentation detailing their development and use (Article 11), and provide transparency to ensure human oversight (Article 13). Similarly, the [U.S. Executive Order on Safe, Secure, and Trustworthy AI](https://www.federalregister.gov/documents/2023/11/01/2023-24283/safe-secure-and-trustworthy-development-and-use-of-artificial-intelligence) (October 2023) mandates the need for agencies and companies to assess and disclose model risks and maintain records of AI system outputs [4].
+These priorities are stated in legislative efforts like the [EU AI Act](https://artificialintelligenceact.eu) [3], which mandates that high-risk AI systems maintain technical documentation detailing their development and use (Article 11), and provide transparency to ensure human oversight (Article 13). 
 
 ## Finance and Healthcare
 
@@ -28,10 +28,10 @@ Both healthcare and finance operate in high-stakes, regulated environments where
 
 ## Security
 
-For security-critical systems, openness is a delicate balance between transparency and risk. Full public openness might invite exploitation, which is why controlled internal transparency is key. The [NIST AI Risk Management Framework](https://nvlpubs.nist.gov/nistpubs/ai/NIST.AI.100-1.pdf) [5] emphasizes the importance of secure system logging, traceable component pipelines, and robust internal documentation to manage and mitigate security-related risks. This approach prioritizes accountability over full public exposure. Real-world incidents such as the misuse of publicly available LLM endpoints in phishing and jailbreak attacks have pushed stakeholders towards a model of openness that favors accountability over full exposure [6].
+For security-critical systems, openness is a delicate balance between transparency and risk. Full public openness might invite exploitation, which is why controlled internal transparency is key. The [NIST AI Risk Management Framework](https://nvlpubs.nist.gov/nistpubs/ai/NIST.AI.100-1.pdf) [4] emphasizes the importance of secure system logging, traceable component pipelines, and robust internal documentation to manage and mitigate security-related risks. This approach prioritizes accountability over full public exposure. Real-world incidents such as the misuse of publicly available LLM endpoints in phishing and jailbreak attacks have pushed stakeholders towards a model of openness that favors accountability over full exposure [5].
 
 ## Creative Industries (Music, Art etc.)
-Creative fields value openness primarily in terms of rights management, attribution, and content provenance. For these stakeholders, openness ensures fair use and ethical generation, not necessarily code transparency. This distinction is at the heart of the ongoing global conversation led by organizations like the [World Intellectual Property Organization (WIPO)](https://www.wipo.int/portal/en/) [7]. WIPO's discussions on AI and intellectual property highlight the conceptual challenges that AI poses to traditional copyright law, particularly concerning authorship, originality, and the use of copyrighted works in training data. The creative community's definition of openness is therefore less about the free availability of a model's source code and more about a transparent, auditable process that supports ethical transparency and informed reuse.
+Creative fields value openness primarily in terms of rights management, attribution, and content provenance. For these stakeholders, openness ensures fair use and ethical generation, not necessarily code transparency. This distinction is at the heart of the ongoing global conversation led by organizations like the [World Intellectual Property Organization (WIPO)](https://www.wipo.int/portal/en/) [6]. WIPO's discussions on AI and intellectual property highlight the conceptual challenges that AI poses to traditional copyright law, particularly concerning authorship, originality, and the use of copyrighted works in training data. The creative community's definition of openness is therefore less about the free availability of a model's source code and more about a transparent, auditable process that supports ethical transparency and informed reuse.
 
 ## Summary and the Pursuit of Scientific Openness
 
@@ -46,7 +46,7 @@ This distinction is critical in an era of rising "false openness." Many models t
 [1] Pineau, J. et al. 2020. [Improving reproducibility in machine learning research (JMLR, vol. 22)](https://jmlr.org/papers/v22/20-303.html)  
 [2] White, M. et al. 2024. [The Model Openness Framework: Promoting completeness and openness in AI (arXiv)](https://arxiv.org/abs/2403.13784)  
 [3] [EU Artificial Intelligence Act](https://artificialintelligenceact.eu)  
-[4] [U.S. Executive Order on Safe, Secure, and Trustworthy AI (2023)](https://www.federalregister.gov/documents/2023/11/01/2023-24283/safe-secure-and-trustworthy-development-and-use-of-artificial-intelligence)  
-[5] Tabassi, E. 2023. [NIST AI Risk Management Framework (AI RMF 1.0)](https://nvlpubs.nist.gov/nistpubs/ai/NIST.AI.100-1.pdf)  
-[6] Carlini, N. et al. 2023. [Extracting Training Data from Diffusion Models (arXiv)](https://arxiv.org/abs/2305.10973)  
-[7] [WIPO – World Intellectual Property Organization](https://www.wipo.int/portal/en/)
+safe-secure-and-trustworthy-development-and-use-of-artificial-intelligence)  
+[4] Tabassi, E. 2023. [NIST AI Risk Management Framework (AI RMF 1.0)](https://nvlpubs.nist.gov/nistpubs/ai/NIST.AI.100-1.pdf)  
+[5] Carlini, N. et al. 2023. [Extracting Training Data from Diffusion Models (arXiv)](https://arxiv.org/abs/2305.10973)  
+[6] [WIPO – World Intellectual Property Organization](https://www.wipo.int/portal/en/)
