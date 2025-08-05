@@ -15,7 +15,7 @@ At OSAI, we recognize this complexity. Rather than dictating a single, immutable
 ## Academia and Research
 For the academic and research communities, the gold standard of openness is reproducibility. The foundation of scientific inquiry rests on the ability to replicate and validate results, which is why the weighting in this domain leans heavily towards training code, data, model weights, and detailed documentation. These elements are considered essential, not optional.
 
-This emphasis is reflected in community efforts like the [NeurIPS reproducibility checklist](https://www.jmlr.org/papers/volume22/20-1344/20-1344.pdf) [1], which encourages open practices through formal requirements. The [Model Openness Framework (MOF)](https://arxiv.org/abs/2403.13784) by White et al. (2024) sharpens this perspective by distinguishing between completeness (the release of components like code, data, and weights) and openness (defined by the licenses attached to those components) [2]. For a researcher, the ideal is both: a complete release under a license that enables unrestricted scientific use.
+This emphasis is reflected in community efforts like the [NeurIPS reproducibility checklist](https://jmlr.org/papers/v22/20-303.html) [1], which encourages open practices through formal requirements. The [Model Openness Framework (MOF)](https://arxiv.org/abs/2403.13784) by White et al. (2024) sharpens this perspective by distinguishing between completeness (the release of components like code, data, and weights) and openness (defined by the licenses attached to those components) [2]. For a researcher, the ideal is both: a complete release under a license that enables unrestricted scientific use.
 
 ## Legal
 In the legal and compliance domain, the focus shifts to the legal and ethical implications of using a model. Here, stakeholders are less concerned with open-sourcing model internals and more focused on compliance, due diligence, and accountability. Clear documentation of the model development process, provenance of training data, and licensing terms are important here. 
@@ -43,8 +43,8 @@ This distinction is critical in an era of rising "false openness." Many models t
 
 ## References
 
-[1] Pineau, J. et al. 2020. [Improving reproducibility in machine learning research (JMLR, vol. 22)](https://www.jmlr.org/papers/volume22/20-1344/20-1344.pdf)  
-[2] White, M. et al. 2024. [The Model Openness Framework: Promoting completeness and openness in AI (arXiv)](https://arxiv.org/abs/2404.06515)  
+[1] Pineau, J. et al. 2020. [Improving reproducibility in machine learning research (JMLR, vol. 22)](https://jmlr.org/papers/v22/20-303.html)  
+[2] White, M. et al. 2024. [The Model Openness Framework: Promoting completeness and openness in AI (arXiv)](https://arxiv.org/abs/2403.13784)  
 [3] [EU Artificial Intelligence Act](https://artificialintelligenceact.eu)  
 [4] [U.S. Executive Order on Safe, Secure, and Trustworthy AI (2023)](https://www.federalregister.gov/documents/2023/11/01/2023-24283/safe-secure-and-trustworthy-development-and-use-of-artificial-intelligence)  
 [5] Tabassi, E. 2023. [NIST AI Risk Management Framework (AI RMF 1.0)](https://nvlpubs.nist.gov/nistpubs/ai/NIST.AI.100-1.pdf)  
