@@ -1,12 +1,12 @@
 ---
-title: Weighing Openness Criteria Across Different AI Domains
+title: Weighting Openness Criteria Across Different AI Domains
 description: How openess criteria is weighted across different domains. 
 date: 2025-08-04
 author: Nityaa Kalra
 status: unpublished
 ---
 
-# Weighing Openness Criteria Across Different AI Domains
+# Weighting Openness Criteria Across Different AI Domains
 
 The term "openness" in generative AI is often used as a blanket statement, but its meaning is far from monolithic. While the Open Source AI Index (OSAI) attempts to quantify this concept through a set of universal metrics, the importance of each metric shifts depending on the domain and the stakeholders involved. A researcher's definition of "open" can be different from a lawyer's, a security expert's, or a musician's. Therefore, a one-size-fits-all approach to openness can often be misleading and counterproductive.
 
