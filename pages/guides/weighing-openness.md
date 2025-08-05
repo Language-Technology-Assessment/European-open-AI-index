@@ -47,5 +47,5 @@ This distinction is critical in an era of rising "false openness". Many models t
 [2] White, M. et al. 2024. [The Model Openness Framework: Promoting completeness and openness in AI (arXiv)](https://arxiv.org/abs/2403.13784)  
 [3] [EU Artificial Intelligence Act](https://artificialintelligenceact.eu)   
 [4] Tabassi, E. 2023. [NIST AI Risk Management Framework (AI RMF 1.0)](https://nvlpubs.nist.gov/nistpubs/ai/NIST.AI.100-1.pdf)  
-[5] Carlini, N. et al. 2023. [Extracting Training Data from Diffusion Models (arXiv)](https://arxiv.org/abs/2305.10973)  
+[5] Carlini, N. et al. 2023. [Extracting Training Data from Diffusion Models (arXiv)](https://arxiv.org/abs/2301.13188)  
 [6] [WIPO – World Intellectual Property Organization](https://www.wipo.int/portal/en/)
