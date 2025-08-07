@@ -1,7 +1,7 @@
 ---
 title: Keeping up with open source model development
 description: What makes models distinctive and when do we include them?
-date: 2025-06-10
+date: 2025-08-14
 author: Dick Blankvoort
 status: published
 ---
