@@ -10,7 +10,7 @@ status: unpublished
 <date :date="date"></date>
 
 <!-- Goal of the blog-post: Investigating whether the OSAI index is representative. -->
-At the European Open Source AI Index, we invest a good deal of effort into investigating the open-source status of various AI models. As the index grows more comprehensive, the question emerges of how well it serves as a representative overview of the open-source AI landscape as a whole. In this post, we investigate this fact by performing a quantitative data analysis, accompanied by [the following analysis notebook]().
+At the European Open Source AI Index, we invest a good deal of effort into investigating the open-source status of various AI models. As the index grows more comprehensive, the question emerges of how well it serves as a representative overview of the open-source AI landscape as a whole. In this post, we investigate this fact by performing a quantitative data analysis, accompanied by a forthcoming analysis notebook. <!-- TODO Add link when discussed and included -->
 
 <!-- Data collection approaches and weaknesses therewith. -->
 ## Basic statistics and large-scale gaps
