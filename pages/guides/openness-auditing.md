@@ -8,7 +8,7 @@ status: unpublished
 # On the benefits of open-source AI: open-source enables oversight
 <author :author="author"></author>
 
-In this first of a series of blog posts on the benefits of open-source AI, we explore how open-source AI enables greater oversight. We discuss key principles which allow open-source to enable greater oversight, the theoretical motivations behind the EU AI Act treating open-source models with lesser scrutiny, and lastly explore how releasing models in an open-source way makes it easier for watchdogs to investigate legal violations in a model's training.
+In this first of a series of blog posts on the benefits of open-source AI, we discuss key principles which allow open-source to enable greater oversight, the theoretical motivations behind the EU AI Act treating open-source models with lesser scrutiny, and lastly explore how releasing models in an open-source way makes it easier for watchdogs to investigate legal violations in a model's training.
 
 ### How OSAI enables oversight: base principles
 **Open-source AI requires open data.** This means that any model seeking to describe itself as open must publish the data on which it is trained. The benefits for oversight are obvious, as it [allows for inspecting exactly on which material a model was trained and for ensuring that no copyright violations are associated with the training procedure](https://arxiv.org/abs/2311.03449).
