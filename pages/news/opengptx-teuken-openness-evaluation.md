@@ -108,7 +108,7 @@ Next, we examined the preprocessing procedure. These are all the ways in which t
 
 The instruction-tuning data mixture of Teuken is laid out quite clearly. As far as we can tell, all data sources are linked properly and open source datasets are used. The instruction-tuning data access could be further improved by publishing a final dataset, as for instance in the case of Cohere Lab's [Aya models](https://huggingface.co/datasets/CohereForAI/aya_dataset).
 
-One of the claimed innovations of the Teuken model is its use of a balanced multilingual tokenizer which, the preprint claims [was crucial for bringing down training costs](https://arxiv.org/pdf/2410.03730). In this light, it seems like a missed opportunity that relatively little is known about this tokenizer, as it is only available bundled up with the instruction-tuned model. The [paper from which it derives](https://arxiv.org/abs/2310.08754) provides some implementation details, but does not provide guidance regarding underlying data mixture. The research community could potentially benefit from further information regarding this piece of technology.
+One of the claimed innovations of the Teuken model is its use of a balanced multilingual tokenizer which, the preprint claims [was crucial for bringing down training costs](https://arxiv.org/pdf/2410.03730). In this light, it seems like a missed opportunity that relatively little is known about this tokenizer, as it is only available bundled up with the instruction-tuned model. The [paper from which it derives](https://arxiv.org/abs/2310.08754) provides some implementation details, but does not provide thorough guidance regarding the exact contents of the underlying data mixture. The research community could potentially benefit from further information regarding this piece of technology.
 
 All in all, the data processing pipeline underlying the Teuken models is not as open as might appear at first glance. While data sources are partly documented, claims about the openness are hard to verify and full reproducibility is out of reach because there is no publicly downloadable training dataset, no comprehensive documentation of data sources, and little detail about the multilingual tokenizer and its implementation.
 
@@ -175,3 +175,7 @@ filters:
   models: Teuken, deepseek-v3
 ---
 ::
+
+_Addendum (12 Aug 2025):_
+
+After correspondance with the OpenGPT-X team, some updates relevant to model openness have been published. A new script for model training has been made available on [GitHub](https://github.com/OpenGPTX/Megatron-LM/blob/main/examples/7B_EU24_juwels_part_3_fw_after3T.sbatch). And a new version of the preprint that details data usage and preprocessing has been published on [ArXiv](https://arxiv.org/pdf/2410.08800). This article and OpenGPT-X database entry have been updated accordingly.
