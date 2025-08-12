@@ -178,4 +178,4 @@ filters:
 
 _Addendum (12 Aug 2025):_
 
-After correspondance with the ChatGPT-X team, some updates relevant to model openness have been published. A new script for model training has been made available on [GitHub](https://github.com/OpenGPTX/Megatron-LM/blob/main/examples/7B_EU24_juwels_part_3_fw_after3T.sbatch). And a new version of the preprint that details data usage and preprocessing has been published on [ArXiv](https://arxiv.org/pdf/2410.08800). This article and ChatGPT-X database entry have been updated accordingly.
+After correspondance with the OpenGPT-X team, some updates relevant to model openness have been published. A new script for model training has been made available on [GitHub](https://github.com/OpenGPTX/Megatron-LM/blob/main/examples/7B_EU24_juwels_part_3_fw_after3T.sbatch). And a new version of the preprint that details data usage and preprocessing has been published on [ArXiv](https://arxiv.org/pdf/2410.08800). This article and OpenGPT-X database entry have been updated accordingly.
