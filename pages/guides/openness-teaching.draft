@@ -5,7 +5,7 @@ date: 2025-08-14
 author: Dick Blankvoort
 status: unpublished
 ---
-# On the benefits of open-source AI: open-source benefits education
+# The benefits of open-source AI: open-source benefits education
 <author :author="author"></author>
 
 In this last post about the benefits of open-source AI, we discuss how open-source AI can further educational goals and enables better training of AI scientists.
