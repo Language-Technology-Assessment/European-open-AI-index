@@ -1,9 +1,9 @@
 ---
 title: Open-source affords privacy
 description: (3/5) Part of a series of blog posts on the benefits of open-source AI.
-date: 2025-08-14
+date: 2025-08-19
 author: Dick Blankvoort
-status: unpublished
+status: published
 ---
 # The benefits of open-source AI: open-source affords user privacy
 <author :author="author"></author>
