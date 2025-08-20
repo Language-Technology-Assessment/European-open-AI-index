@@ -1,7 +1,7 @@
 ---
 title: Open-source enables oversight
 description: (1/5) Part of a series of blog posts on the benefits of open-source AI.
-date: 2025-08-19
+date: 2025-08-20
 author: Dick Blankvoort
 status: published
 ---
