@@ -3,6 +3,7 @@ title: "Lumo: the least open 'open' model we've seen"
 description: Proton sets a new record in open-washing
 date: 29-08-2025
 author: Mark Dingemanse
+status: published
 ---
 # Lumo: the least open 'open' model
 <author :author="author"></author>
