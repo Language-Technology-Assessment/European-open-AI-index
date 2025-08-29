@@ -32,4 +32,4 @@ filters:
 
 In the past, we've gotten model providers like Mistral shrink back from using the term "open source" and instead use the more precise "open weights". But Proton will need to do more work to get there, as they don't even reach the middling openness levels that Mistral and other tech providers evasive about training data reach.
 
-On the sunny side: the only way from here is up. Literally disclosing anything, from training data to model weights to model architecture to data sheets, will be an improvement over the current status. We will be following its rise with great interest.
+On the sunny side: the only way from here is up. Literally disclosing anything, from training data to model weights to model architecture to data sheets, will be an improvement over the current status. We will be following its rise with great interest.  Unless of course Lumo is nothing more than three other models in a trenchcoat: a wrapper for a bunch of existing things. We will update this post as soon as we learn more. 
