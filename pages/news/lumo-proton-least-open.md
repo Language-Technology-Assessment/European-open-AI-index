@@ -1,7 +1,7 @@
 ---
 title: "Lumo: the least open 'open' model we've seen"
 description: Proton sets a new record in open-washing
-date: 29-08-2025
+date: 2025-08-29
 author: Mark Dingemanse
 status: published
 ---
@@ -13,7 +13,7 @@ Proton, the privacy-aware internet service provider based in Switzerland, has ju
 
 > Unlike other AI assistants, my code is fully open source, so anyone can verify that it’s private and secure — and that we never use your data to train the model. ([source](https://lumo.proton.me/about))
 
-Elsewhere on the Proton website, we find a claim that Lumo is "based upon open-source language models". A nice graph even shows Lumo compared with a bunch of other LLM assistants, DeepSeek included, with a green checkbox for "Opens source code for the public".
+Elsewhere on the Proton website, we find a claim that Lumo is "based upon open-source language models". A nice graph even shows Lumo compared with a bunch of other LLM assistants. In the comparison, Lumo and DeepSeek have a green checkbox for "Opens source code for the public". Factcheck: for [DeepSeek](https://osai-index.eu/model/deepseek-v3) that is definitely not the case; at best it is an open weights model and very little is known about its source code. Does Lumo far any better?
 
 ![Comparison table from the Proton website](/images/lumo-screenshot-20250829.png "Lumo screenshot")
 
