@@ -5,7 +5,7 @@ date: 2025-08-29
 author: Mark Dingemanse
 status: published
 ---
-# Lumo: the least open 'open' AI
+# Lumo: the least open 'open' AI assistant
 <author :author="author"></author>
 <date :date="date"></date>
 
