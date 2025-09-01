@@ -37,9 +37,15 @@ It may be that Lumo is a bespoke fine-tuned version of an open weights model lik
 On the sunny side: the only way from here is up. Literally disclosing anything, from training data to model weights to model architecture to data sheets, will be an improvement over the current status. We will be following its rise with great interest.  
 
 ## Update September 1
-Proton's Lumo account on BlueSky has responded to this post saying "Lumo isn't a model; it uses open models, including the model listed as the best for openness in this piece. You can find the models Lumo uses in our [privacy policy](https://proton.me/support/lumo-privacy)".
+Proton's Lumo account on BlueSky has responded to this post saying "Lumo isn't a model; it uses open models, including the model listed as the best for openness in this piece. You can find the models Lumo uses in our [privacy policy](https://proton.me/support/lumo-privacy)". That page repeats the open source claim:
 
-The models listed on that page are "Nemo, OpenHands 32B, OLMO 2 32B, and Mistral Small 3". OpenHands is a [QWEN](https://osai-index.eu/model/Qwen) fine-tune and Nemo and Mistral Small are both Mistral models, so let's see what that looks like:
+> Lumo’s code is open source, meaning anyone can see it’s secure and does what it claims to. We’re constantly improving Lumo with the latest models that give the best user experience.
+
+The only open source code we have found is for the Lumo mobile and web apps. Proton calling the Lumo AI assistant open source based on that is a bit like Microsoft calling Windows open source just because there's a github repository for [Windows Terminal](https://github.com/microsoft/terminal). 
+
+The models listed on Lumo's privacy policy page are "Nemo, OpenHands 32B, OLMO 2 32B, and Mistral Small 3". OpenHands is a [QWEN](https://osai-index.eu/model/Qwen) fine-tune, and Nemo and Mistral Small are both Mistral models. Since Proton has open-sourced neither the Lumo system prompt nor the mysterious routing methods that decide which model will handle your query, you never know what you are going to get. At best, Lumo can only be as open as the least open system they use. In practice, it has to be even less open than that, because Proton has added additional undisclosed optimization steps and further layers of routing obscurity.
+
+In the absence of technical documentation of system architecture, we cannot update our assessment. If Proton releases more detailed information, we welcome a pull request with the requisite updates. Perhaps the conclusion will be that Lumo is not enough of a unified system to merit inclusion; or perhaps additional information will allow it to rise through the openness ranks. As noted before, none of this would come up if Lumo were actually open source.
 
 ::the-index
 ---
@@ -50,4 +56,3 @@ filters:
 ---
 ::
 
-Lumo uses undisclosed routing methods and the privacy page makes clear that they anticipate changing the models they deploy. Arguably then, Lumo can only be as open as the least open system they use. 
