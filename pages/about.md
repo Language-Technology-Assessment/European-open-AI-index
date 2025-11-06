@@ -1,26 +1,30 @@
-## What is the European Open-Source AI index?
+# What is the European Open-Source AI index?
 The European Open-Source AI Index conducts academic research on open-source AI, publishes technology assessments, and hosts information on model openness, licensing, and EU regulation of generative AI systems and providers.
 
 It is part of the [Centre of Language and Speech Technology, Radboud University, The Netherlands](https://www.ru.nl/en/cls/clst).
 
 ## Founders
 
+::people
 ::person{image="/images/headshot-al.jpg" name="Andreas Liesenfeld"}
 __Andreas Liesenfeld__ is co-founder of the index and Assistant Professor at Radboud University where he researches the societal and regulatory implications of emerging language technologies. His current work focuses on technology assessment, open source generative AI, and comparative AI regulation. At the Centre for Language and Speech Technology (CLST), Andreas Liesenfeld is a member of the language technology expertise group and, in collaboration with the Netherlands eScience center, develops open source research software for natural language processing.
 ::
 
 ::person{image="/images/headshot-md.png" name="Mark Dingemanse"}
-__[Mark Dingemanse](https://markdingemanse.net "Mark Dingemanse")__ is co-founder of the EU OSAI index and Associate Professor at Radboud University. His current research looks at the intersection of language and technology, from the artisanal tools that people use in everyday conversation to the artificial techniques of large language models, voice user interfaces, and "AI". He directs the research programme _[Futures of Language](https://markdingemanse.net/futures "Futures of Language")_ funded by a VICI talent grant from the Dutch Research Council (2024-2029). 
+__[Mark Dingemanse](https://markdingemanse.net "Mark Dingemanse")__ is co-founder of the EU OSAI index and Associate Professor at Radboud University. His current research looks at the intersection of language and technology, from the artisanal tools that people use in everyday conversation to the artificial techniques of large language models, voice user interfaces, and "AI". He directs the research programme _[Futures of Language](https://markdingemanse.net/futures "Futures of Language")_ funded by a VICI talent grant from the Dutch Research Council (2024-2029).
+::
 ::
 
 ## Researchers
 
+::people
 ::person{image="/images/headshot-db.jpg" name="Dick Blankvoort"}
 __Dick Blankvoort__ is a researcher at the Open Source AI Index. His primary interest lies in the field of Data Science, focusing both on the applications of generative AI and on their mathematical underpinnings. He is a computer science student, currently pursues his internship at OSAI, and teaches Computer Algebra.
 ::
 
 ::person{image="/images/headshot-nk.jpg" name="Nityaa Kalra"}
 __Nityaa Kalra__  is a researcher at the Open Source AI Index. Her interests lie in NLP, explainable AI, and building responsible AI systems. She studies computer science and, as part of her thesis, investigates bias in book recommender systems, examining how thematic and genre biases shape book recommendations. She also teaches Text and Multimedia Mining.
+::
 ::
 
 ## Contributors
@@ -46,6 +50,6 @@ Evidence-based openness assessment can help foster a generative AI landscape in 
 
 For scientific background on this project, check out these peer-reviewed papers:
 
-- Liesenfeld, A., & Dingemanse, M. (2024). Rethinking open source generative AI: open-washing and the EU AI Act. _Proceedings of the 2024 ACM Conference on Fairness, Accountability, and Transparency_ (FAccT ’24). doi: [10.1145/3630106.3659005](https://dl.acm.org/doi/10.1145/3630106.3659005) 
+- Liesenfeld, A., & Dingemanse, M. (2024). Rethinking open source generative AI: open-washing and the EU AI Act. _Proceedings of the 2024 ACM Conference on Fairness, Accountability, and Transparency_ (FAccT ’24). doi: [10.1145/3630106.3659005](https://dl.acm.org/doi/10.1145/3630106.3659005)
 - Liesenfeld, A., Lopez, A., & Dingemanse, M. (2023). Opening up ChatGPT: tracking openness, transparency, and accountability in instruction-tuned text generators. _CUI ’23: Proceedings of the 5th International Conference on Conversational User Interfaces_. doi: [10.1145/3571884.3604316](https://doi.org/10.1145/3571884.3604316)
 - Solaiman, I. (2023). The Gradient of Generative AI Release: Methods and Considerations. _Proceedings of the 2023 ACM Conference on Fairness, Accountability, and Transparency_, 111–122. doi: [10.1145/3593013.3593981](https://doi.org/10.1145/3593013.3593981)
