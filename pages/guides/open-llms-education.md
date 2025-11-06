@@ -1,6 +1,7 @@
 ---
 title: Good models for education
 description: Which open source LLMs afford responsible use in education and teaching?
+status: published
 ---
 
 # Good large language models for education
@@ -9,7 +10,7 @@ Proprietary generative AI models like ChatGPT are easy to access, but designed i
 ::the-index
 ---
 hideFilters: true
-filters: 
+filters:
   view: grid
   models: OLMo, amber, Pythia
 ---
@@ -22,12 +23,12 @@ The Venn diagrams of truly open models and models with utility in education over
 These 7B models are relatively "small" in terms of parameters, but make up for it in terms of openness and accessibility. Running the largest models typically takes a lot of compute, which is why they tend to be provided only through (paid) APIs. Smaller models are easier to deploy in educational and research settings. The three models featured in this guide stand out in terms of the available documentation and code for doing so, as well as in being relatively light weight and easily deployable locally.
 
 ## How to deploy open source LLMs locally
-There are countless guides online for running LLMs locally using command line tools. Depending on the educational setting and the level of students, this may be all you need. Since command line users are typically savvy enough to figure out their preferred setup, we won't provide instructions here. All three models highlighted here can be easily run through [ollama](https://github.com/jmorganca/ollama/tree/main?tab=readme-ov-file#ollama) or llama.cpp. 
+There are countless guides online for running LLMs locally using command line tools. Depending on the educational setting and the level of students, this may be all you need. Since command line users are typically savvy enough to figure out their preferred setup, we won't provide instructions here. All three models highlighted here can be easily run through [ollama](https://github.com/jmorganca/ollama/tree/main?tab=readme-ov-file#ollama) or llama.cpp.
 
 There are also some solutions for educational settings more geared towards point-and-click interfaces. We can recommend [LM Studio](https://lmstudio.ai/), available for Mac, Linux and Windows, as a quick way to get you started. LM Studio makes downloading models very easy: you can search for model names, pick the version you want, and download it. After downloading, the model becomes locally available.
 
 ![Screenshot of LM Studio downloading OlMo](/images/lmstudio-olmo-screenshot.png "LM Studio screenshot")
 
-LM Studio offers tools for a range of users, from novices to developers. For novices, it will be useful to play with some basic settings like temperature and top n sampling, and to test the effect of different system prompts. 
+LM Studio offers tools for a range of users, from novices to developers. For novices, it will be useful to play with some basic settings like temperature and top n sampling, and to test the effect of different system prompts.
 
 You can browse through our [full index](https://www.osai-index.eu/the-index) or [directly compare OLMo, Amber and Pythia](https://www.osai-index.eu/compare?models=olmo-7b-instruct,amber,pythia-chat-base-7B).

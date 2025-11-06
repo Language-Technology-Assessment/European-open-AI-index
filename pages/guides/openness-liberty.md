@@ -3,7 +3,7 @@ title: Open-source enables academic liberty
 description: (2/5) Part of a series of blog posts on the benefits of open-source AI.
 date: 2025-07-16
 author: Dick Blankvoort
-status: unpublished
+status: published
 ---
 # On the benefits of open-source AI: open-source enables academic liberty
 <author :author="author"></author>

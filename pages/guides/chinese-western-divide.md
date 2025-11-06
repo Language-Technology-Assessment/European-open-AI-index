@@ -3,7 +3,7 @@ title: The Chinese-Western divide in AI
 description: In which we outline the divide between the Chinese and Western AI landscapes
 date: 2025-06-13
 author: Dick Blankvoort
-status: unpublished
+status: published
 ---
 # The Chinese-Western divide in AI
 <author :author="author"></author>
