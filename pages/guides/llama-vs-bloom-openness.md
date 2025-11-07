@@ -1,5 +1,5 @@
 ---
-title: Comparing Llama and Bloom
+title: Llama and BloomZ: shades of openness
 description: Comparing two models that claim to be open
 date: 12-10-2024
 author: Mark Dingemanse
