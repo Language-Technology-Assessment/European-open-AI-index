@@ -1,6 +1,6 @@
 --- 
 title: "Mistral 3: A Heavyweight Model, Lightweight on Openness" 
-description: "The Mistral 3 family, including the massive 675B Mistral 3 Large, fills a gap for high-performance European models and aids local data governance, it fails to set a new standard for openness."
+description: "The Mistral 3 family, including the massive 675B Mistral Large 3, fills a gap for high-performance European models and aids local data governance, it fails to set a new standard for openness."
 author: Andreas Liesenfeld
 date: 2025-12-02
 status: published
@@ -10,7 +10,7 @@ status: published
 <author :author="author"></author>
 <date :date="date"></date>
 
-On December 2, 2025, Mistral AI released the Mistral 3 family, including the massive 675B "Mistral 3 Large." While this fills a gap for high-performance European models and aids local data governance, it fails to set a new standard for openness.
+On December 2, 2025, Mistral AI released the Mistral 3 family, including the massive 675B "Mistral Large 3." While this fills a gap for high-performance European models and aids local data governance, it fails to set a new standard for openness.
 
 Mirroring its partner Microsoft (and OpenAI), Mistral has released model weights but kept training data under wraps. Without documented data, true performance evaluation and compliance testing are impossible. By conflating "open-weight" with "open-source," Mistral engages in "open-washing"—a practice that hurts the ecosystem by overshadowing projects that adhere to the EU-endorsed UN Open Source Principles.
 
@@ -23,7 +23,7 @@ This lack of commitment is jarring as Mistral AI recently signed an Open Source 
 hideFilters: true
 filters: 
   view: grid
-  models: apertus, mistral-3-large
+  models: apertus, mistral-large-3
 ---
 ::
 
