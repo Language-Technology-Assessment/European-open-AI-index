@@ -1,5 +1,5 @@
 --- 
-title: Mistral 3: A Heavyweight Model, Lightweight on Openness 
+title: Mistral 3/: A Heavyweight Model, Lightweight on Openness 
 description: "The Mistral 3 family, including the massive 675B Mistral 3 Large, fills a gap for high-performance European models and aids local data governance, it fails to set a new standard for openness."
 author: Andreas Liesenfeld
 date: 2025-12-02
