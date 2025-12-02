@@ -31,7 +31,7 @@ Since BERT was released in 2018, neither Google's press release nor any other of
 The field of open source AI still suffers from a lack of transparency when it comes to sharing training data and since 2018 many other genAI heavyweights have followed Google's lead of obfuscating open weight and open source. As the first LLM that was highly influential in science despite deliberate nondisclosure of it's training data, **BERT was the original sin of open-washing that lead an entire scientific community down a dubious path.** 
 And the dazzled NLP research community failed to call the adverse effects of this practice on science out. 
 BERT should be remembered both as a milestone in the history of NLP as well as the first testament of adverse effects of overclaiming transparency in the field of generative AI. 
-Open-washing in as old as LLMs are.
+Open-washing is as old as LLMs are.
 
 ::the-index
 ---
