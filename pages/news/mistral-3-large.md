@@ -23,7 +23,7 @@ This lack of commitment is jarring as Mistral AI recently signed an Open Source 
 hideFilters: true
 filters: 
   view: grid
-  models: apertus, mistral-3
+  models: apertus, mistral-3-large
 ---
 ::
 
