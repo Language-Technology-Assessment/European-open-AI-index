@@ -6,10 +6,6 @@ date: 2025-12-02
 status: published
 ---
 
-# Mistral 3: A Heavyweight Model, Lightweight on Openness 
-<author :author="author"></author>
-<date :date="date"></date>
-
 Today, Mistral AI released the Mistral 3 family, including the massive 675B "Mistral Large 3." While this fills a gap for high-performance European models and aids local data governance, it fails to set a new standard for openness.
 
 Mirroring its partner Microsoft (and OpenAI), Mistral has released model weights but kept training data under wraps. Without documented data, true performance evaluation and compliance testing are impossible. By conflating "open-weight" with "open-source," Mistral engages in "open-washing"—a practice that hurts the ecosystem by overshadowing projects that adhere to the EU-endorsed UN Open Source Principles.
@@ -26,4 +22,3 @@ filters:
   models: Apertus, Mistral-large-3
 ---
 ::
-

@@ -1,13 +1,10 @@
 ---
-title: "Lumo: the least open 'open' AI we've seen"
+title: "LLumo: the least open 'open' AI assistant"
 description: Proton sets a new record in open-washing
 date: 2025-08-29
 author: Mark Dingemanse
 status: published
 ---
-# Lumo: the least open 'open' AI assistant
-<author :author="author"></author>
-<date :date="date"></date>
 
 Proton, the privacy-friendly internet service provider based in Europe, has jumped on the LLM bandwagon and released an LLM service [last month](https://proton.me/blog/lumo-ai) called Lumo. Besides touting its privacy features, Proton's PR focuses on open source:
 
@@ -55,4 +52,3 @@ filters:
   models: OLMo,mistral-nemo,Qwen,mistral
 ---
 ::
-

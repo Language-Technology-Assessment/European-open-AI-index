@@ -1,12 +1,10 @@
 ---
-title: Open-source enables oversight
+title: "The benefits of open-source AI: open-source enables oversight"
 description: (1/5) Part of a series of blog posts on the benefits of open-source AI.
 date: 2025-08-20
 author: Dick Blankvoort
 status: published
 ---
-# The benefits of open-source AI: open-source enables oversight
-<author :author="author"></author>
 
 In this first of a series of blog posts on the benefits of open-source AI, we discuss key principles which allow open-source to enable greater oversight. We subsequently discuss the theoretical motivations behind the EU AI Act treating open-source models with lesser scrutiny, and lastly explore how releasing models in an open-source way makes it easier for watchdogs to investigate legal violations in a model's training.
 

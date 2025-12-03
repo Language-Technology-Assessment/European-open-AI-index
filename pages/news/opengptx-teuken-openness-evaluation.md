@@ -5,8 +5,6 @@ date: 2025-05-27
 author: Dick Blankvoort & Jenia Jitsev
 status: published
 ---
-# OpenGPT-X: Open Source AI 'Made in Germany' falls short of own claims
-<author :author="author"></author>
 
 <!--
 # Relevant links
