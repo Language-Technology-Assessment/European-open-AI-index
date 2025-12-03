@@ -6,7 +6,7 @@ description: "Evidence-based openness assessment for Generative AI: an EU-based 
 
 ::landing
 ---
-title: "We are an EU-based, community-driven research platform comparing open-source generative AI systems"
+title: "EU-based, community-driven research platform comparing open-source generative AI systems"
 links: 
   - text: "Read more"
     url: "/about"
