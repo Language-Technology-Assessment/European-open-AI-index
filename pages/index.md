@@ -9,9 +9,9 @@ description: "Evidence-based openness assessment for Generative AI: an EU-based 
 title: "EU-based, community-driven research platform comparing open-source generative AI systems"
 links: 
   - text: "Read more"
-    url: "/about"
+    link: "/about"
   - text: "Explore the database"
-    url: "/the-index"
+    link: "/the-index"
 notes: |
   The index is hosted at the [Centre of Language and Speech Technology, Radboud University, The Netherlands](https://www.ru.nl/en/cls/clst){:target="_blank"}.
 ---
