@@ -13,7 +13,7 @@ links:
   - text: "Explore the database"
     url: "/the-index"
 notes: |
-  The index is hosted at the [Centre of Language and Speech Technology, Radboud University, The Netherlands](https://www.ru.nl/en/cls/clst).
+  The index is hosted at the [Centre of Language and Speech Technology, Radboud University, The Netherlands](https://www.ru.nl/en/cls/clst){:target="_blank"}.
 ---
 ::
 
