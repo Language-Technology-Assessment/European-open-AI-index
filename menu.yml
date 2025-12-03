@@ -1,15 +1,14 @@
-left:
+menu:
   - link: /the-index
     name: The Index
   - name: Guides
-    link: /#guides
+    link: /guides
   - name: News
-    link: /#news
-right:
+    link: /news
   - name: About
     link: /about
   - name: Contribute
     link: /contribute
-  - link: https://github.com/Language-Technology-Assessment/
+  - link: https://codeberg.com/AI-technology-assessment/
     target: _blank
-    icon: bi:github
+    icon: devicon-plain:codeberg
