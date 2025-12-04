@@ -1,5 +1,5 @@
 ---
-title: "LLumo: the least open 'open' AI assistant"
+title: "Lumo: the least open 'open' AI assistant"
 description: Proton sets a new record in open-washing
 date: 2025-08-29
 author: Mark Dingemanse
