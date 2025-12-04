@@ -39,12 +39,12 @@ In 2025, the AI landscape will be shaken up by the enforcement of the EU AI Act,
 The unclear definition of openness in the domain of generative AI creates loopholes for overclaiming openness (by ie. using an open source license for a single aspect) and the risk of unintended claims to exemptions based on open-source status under EU law. A practice known as ‘open-washing’.
 
 ## How we evaluate openness
-We created an evidence-based framework that distinguishes 14 dimensions of openness, from training datasets to scientific and technical documentation and from licensing to access methods. We published our research in a paper. The data is continuously updated and publicly available via our [GitHub repository](https://github.com/Language-Technology-Assessment/main-database). **Contributions are encouraged**. The website you’re currently reading is providing a user-friendly interface for the data from the Github repository and gives extra contextual information to a wider audience.
+The index is based on an evidence-based framework that distinguishes 14 dimensions of maximal openness, from training datasets to scientific and technical documentation and from licensing to access methods. The open and community-driven database behind the project is continuously updated via our [Codeberg repository](https://codeberg.org/AI-Technology-Assessment/main-database). **Contributions are encouraged**.
 
-## Why did we do this?
-Evidence-based openness assessment can help foster a generative AI landscape in which models can be effectively regulated, model providers can be held accountable, scientists can scrutinise generative AI, and end users can make informed decisions.
+## Read more
+Evidence-based openness assessment can help foster a generative AI landscape in which model providers are credited for their commitment to openness, independent quality control of generative AI is possible, models can be effectively regulated, and end users can make informed decisions.
 
-For scientific background on this project, check out these peer-reviewed papers:
+For more scientific background on this project, check out these papers:
 
 - Liesenfeld, A., & Dingemanse, M. (2024). Rethinking open source generative AI: open-washing and the EU AI Act. _Proceedings of the 2024 ACM Conference on Fairness, Accountability, and Transparency_ (FAccT ’24). doi: [10.1145/3630106.3659005](https://dl.acm.org/doi/10.1145/3630106.3659005) 
 - Liesenfeld, A., Lopez, A., & Dingemanse, M. (2023). Opening up ChatGPT: tracking openness, transparency, and accountability in instruction-tuned text generators. _CUI ’23: Proceedings of the 5th International Conference on Conversational User Interfaces_. doi: [10.1145/3571884.3604316](https://doi.org/10.1145/3571884.3604316)
