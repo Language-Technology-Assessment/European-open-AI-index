@@ -4,11 +4,11 @@ items:
     source: UN AI Advisory Body
     image: images/un-aib.png
     date: 01-09-2024
-  - url: https://proton.me/blog/google-docs-ai-scraping
-    title: Is your data safe from Google Docs AI scraping? 
-    source: Proton
-    image: images/proton.png
-    date: 12-07-2024
+  - url: https://www.ft.com/content/bc9339a6-a8e4-4c6d-b77a-f9cffafb8a9f
+    title: Mistral unveils new models in race to gain edge in ‘open’ AI 
+    source: Financial Times
+    image: images/ft.png
+    date: 12-02-2025
   - url: https://openuk.uk/openmanifesto/
     title: The Open Manifesto 2024
     source: OPEN UK
