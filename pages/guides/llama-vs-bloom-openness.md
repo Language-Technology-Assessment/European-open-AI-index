@@ -1,7 +1,7 @@
 ---
 title: "Llama and BloomZ: shades of openness"
 description: Comparing two models that claim to be open
-date: 12-10-2024
+date: 2024-10-12
 author: Mark Dingemanse
 status: published
 ---
