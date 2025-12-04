@@ -10,6 +10,8 @@ title: "EU-based community-driven research on open-source generative AI systems"
 links: 
   - text: "Read more"
     link: "/about"
+  - text: Open Source AI definitions
+    link: "/OSAI-definitions"
   - text: "Explore the database"
     link: "/the-index"
 notes: |
