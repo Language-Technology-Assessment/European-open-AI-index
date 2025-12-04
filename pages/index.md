@@ -21,7 +21,7 @@ notes: |
 
 ::spotlight
 
-We assess the openness of generative AI models for [text](/the-index?type=text "Text models in the European Open Source AI Index"), [image](/the-index?type=image "Image models in the European Open Source AI Index"), [code](/the-index?type=code "Code models in the European Open Source AI Index"), [video](/the-index?type=video "Video models in the European Open Source AI Index"), and [audio](/the-index?type=audio "Audio and voice models in the European Open Source AI Index"). Among 'open-source' AI, we find large differences in actual openness.
+We assess the openness of generative models for [text](/the-index?type=text "Text models in the European Open Source AI Index"), [image](/the-index?type=image "Image models in the European Open Source AI Index"), [code](/the-index?type=code "Code models in the European Open Source AI Index"), [video](/the-index?type=video "Video models in the European Open Source AI Index"), and [audio](/the-index?type=audio "Audio and voice models in the European Open Source AI Index"). Among 'open-source' AI, we find large differences in actual openness.
 
 #right
 ::the-index
@@ -29,7 +29,7 @@ We assess the openness of generative AI models for [text](/the-index?type=text "
 view: grid
 hideFilters: true
 filters:
-    models: OLMo, Apertus, deepseek-v3, Mistral-large-3, llama-3.1, Lumo
+    models: OLMo, Apertus, deepseek-v3, Mistral-large-3, llama-3.1, lumo
 ---
 ::
 ::
