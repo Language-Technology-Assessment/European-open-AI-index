@@ -1,14 +1,13 @@
 menu:
-  - link: /the-index
-    name: The Index
-  - name: Guides
-    link: /guides
+  - name: Database
+    link: /the-index
   - name: News
     link: /news
+  - name: Guides
+    link: /guides
   - name: About
     link: /about
   - name: Contribute
     link: /contribute
-  - link: https://codeberg.com/AI-technology-assessment/
-    target: _blank
-    icon: devicon-plain:codeberg
+  - icon: devicon-plain:codeberg
+    link: https://codeberg.com/AI-technology-assessment/
