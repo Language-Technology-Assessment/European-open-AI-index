@@ -12,7 +12,7 @@ OSI definition not in line with European regulation
 
 ### Current definitions and European regulation 
 
-### Why does the definition of Open Source AI by the Open Source Initiative not align with European Law?
+### A definition fit for Europe
 
 ### Path towards distincly European AI 
 
