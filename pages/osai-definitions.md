@@ -16,7 +16,7 @@ OSI definition not in line with European regulation
 
 ### Path towards distincly European AI 
 
-| Feature | Open Weights | US Open Source AI (defined by the Open Source Initiative) | European Open Source AI (aligned with EU Law) |
+| Feature | Open Weights | OSI Open Source AI (defined by the Open Source Initiative) | European Open Source AI (aligned with EU Law) |
 | :--- | :--- | :--- | :--- |
 | Model Weights | Released | Released | Released |
 | Training Code | Not Shared | Fully Shared | Fully Shared |
