@@ -21,6 +21,7 @@ Court ruling (German) that clarifies that a piece of data coming out of an LLM s
 ### A definition fit for Europe
 
 Data is part of the model
+Recent work has shown feasibility and potential of open-source AI. OLMo Trace, Apertus
 
 | Feature | Open Weights | OSI Open Source AI (defined by the Open Source Initiative) | European Open Source AI (aligned with EU Law) |
 | :--- | :--- | :--- | :--- |
