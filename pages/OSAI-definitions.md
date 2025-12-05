@@ -6,7 +6,7 @@ date: 2025-12-05
 status: published
 ---
 
-# A European Open Source Definition
+# A European Open Source AI Definition
 
 OSI definition not in line with European regulation 
 
