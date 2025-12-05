@@ -10,11 +10,14 @@ status: published
 
 OSI definition not in line with European regulation 
 
+### Current definitions and European regulation 
 
+### Why does the definition of Open Source AI by the Open Source Initiative not align with European Law?
 
-| Feature | Open Weights | US Open Source AI | European Open Source AI |
+### Path towards distincly European AI 
+
+| Feature | Open Weights | US Open Source AI (defined by the Open Source Initiative) | European Open Source AI (aligned with EU Law) |
 | :--- | :--- | :--- | :--- |
-| | | (as defined by the Open Source Initiative) | (aligned with EU Law) | 
 | Model Weights | Released | Released | Released |
 | Training Code | Not Shared | Fully Shared | Fully Shared |
 | Open Training pipeline and steps | Withheld | Nice to have | Released |
