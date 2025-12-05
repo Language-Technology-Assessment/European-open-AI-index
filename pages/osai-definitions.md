@@ -10,11 +10,17 @@ status: published
 
 OSI definition not in line with European regulation 
 
+
+
+
 ### Current definitions and European regulation 
+
+Court ruling (German) that clarifies that a piece of data coming out of an LLM still covered by copyright of rights holder
+
 
 ### A definition fit for Europe
 
-### Path towards distincly European AI 
+Data is part of the model
 
 | Feature | Open Weights | OSI Open Source AI (defined by the Open Source Initiative) | European Open Source AI (aligned with EU Law) |
 | :--- | :--- | :--- | :--- |
@@ -23,6 +29,15 @@ OSI definition not in line with European regulation
 | Open Training pipeline and steps | Withheld | Nice to have | Released |
 | Training dataset | Not Shared/Not disclosed | Data sharing encouraged but closed data allowed* | Full open data* |
 | Training Data Composition | Partially/Not Disclosed | Fully Disclosed | Fully Disclosed |
+
+
+### Path towards distincly European AI 
+
+Public AI by Mozilla 
+https://www.mozillafoundation.org/en/research/library/public-ai/
+
+AI commons by open future?
+https://openfuture.eu/publication/ai-commons/
 
 
 Links: 
