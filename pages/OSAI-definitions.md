@@ -6,7 +6,7 @@ date: 2025-12-05
 status: published
 ---
 
-# A European Open Source Definition in line with European Union Law
+# A European Open Source Definition
 
 OSI definition not in line with European regulation 
 
