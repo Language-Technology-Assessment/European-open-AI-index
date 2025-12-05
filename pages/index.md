@@ -11,7 +11,7 @@ links:
   - text: "Explore the database"
     link: "/the-index"
   - text: Open Source AI definitions
-    link: "/OSAI-definitions"
+    link: "/osai-definitions"
   - text: "About"
     link: "/about"
 notes: |
