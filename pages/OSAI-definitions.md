@@ -23,3 +23,8 @@ OSI definition not in line with European regulation
 | Open Training pipeline and steps | Withheld | Nice to have | Released |
 | Training dataset | Not Shared/Not disclosed | Data sharing encouraged but closed data allowed* | Full open data* |
 | Training Data Composition | Partially/Not Disclosed | Fully Disclosed | Fully Disclosed |
+
+
+Links: 
+https://opensource.org/ai/open-weights
+https://opensource.org/ai/faq
