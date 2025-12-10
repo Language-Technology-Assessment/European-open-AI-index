@@ -23,7 +23,23 @@ Court ruling (German) that clarifies that a piece of data coming out of an LLM s
 
 Designed for maximal simplicity _and_ GDPR alignment
 
-Key difference to the Open Source AI Definition 1.0 (proposed by the Open Source Initiative, Palo Alto, US) is 
+The European Open Source AI definition is modelled on the work of the Open Source Initiative (OSI) that published a US-based definition in 2024: _the Open Source AI Definition 1.0_ (OSAID 1.0). 
+For Europe, a simplified variation of OSAID 1.0 is needed, which is crucially adjusted that enhances alignment with European law: full release of training data.
+
+The US-based OSAID 1.0 breaks down training data into four types, with different requirements of whether data used in the model needs to be shared, "sufficiently documented", or can even be kept under wraps (in the case of "privately-held, unsharable data" (see (OSAID FAQ for more detail)[https://opensource.org/ai/faq]). 
+In Europe, private or unsharable data has no place in open-source AI systems. Open-source AI is public AI. 
+
+*This is a crucial change for several reasons:*
+
+- That this is in line with the high standards of European law as clarified in xx court rulings. 
+
+- Suits the European generative AI landscape, where publically-funded model builders and providers have shown that fully open AI is possible. Something that did not apply to the US-based definitions, a country with a gen AI landscape dominated by private organisations. https://github.com/samj/osaid/blob/main/presentations/2024-09-13-osi_townhall_16.pdf
+
+*This is a _better_ definition for several reasons:*
+
+simplicity 
+
+Aligned with the high standards for privacy and data protection that are a unique feature of the Europrean Union's landmark GDPR regulation (and derivates thereof that apply to most countries in Europe)
 
 all training data has to be shared (either by the model providers themselves or by linking to an existing already open source-licensed dataset.
 This definition is based on the view that, in AI systems, _data is part of the model_ 
