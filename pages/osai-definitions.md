@@ -39,6 +39,8 @@ In Europe, private or unsharable data has no place in open-source AI systems. Op
 
 simplicity 
 
+https://digital-strategy.ec.europa.eu/en/news/commission-launch-digital-commons-edic-support-sovereign-european-digital-infrastructure-and
+
 Aligned with the high standards for privacy and data protection that are a unique feature of the Europrean Union's landmark GDPR regulation (and derivates thereof that apply to most countries in Europe)
 
 all training data has to be shared (either by the model providers themselves or by linking to an existing already open source-licensed dataset.
