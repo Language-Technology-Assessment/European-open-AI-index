@@ -62,17 +62,11 @@ Recent work has shown feasibility and potential of open-source AI. OLMo Trace, A
 
 The Open Source AI defintion for Europe proposed here differs from its counterparts in the US and China and sets Europe on a distinct path.
 
-_It is simple_
+_It is simple._ A clear and simple boundary between open-weight AI and open-source AI is drawn. Open-source AI means open-data AI. Only models meeting these high standard warrant true open-source status. For others, its open-weight. 
 
-A clear and simple boundary between open-weight AI and open-source AI is drawn. Open-source AI means open-data AI. Only models meeting these high standard warrant true open-source status. For others, its open-weight. 
+_Its highest standards for openness allow GDPR aignment._ Meeting the highest openness and transparency standards are the only way to ensure compliance with the continent's strict standards when it comes to privacy protection.
 
-_Its highest standards for openness allow GDPR aignment_ 
-
-Meeting the highest openness and transparency standards are the only way to ensure compliance with the continent's strict standards when it comes to privacy protection.
-
-_It supports open innovation_
-
-In AI, only openness all the way down can fullfil the promise that open source AI will deliver innovation. Like the early open source movement, open source AI is an alternative to he current state-of-the-art dominated by open-weight models build with private data. Open source AI is distinctly public AI, it is AI in the public domain, open to everyone - just like open-source software always was. Organisations from Europe and beyond (e.g. The Swiss AI Inititave's Apertus, Allen AI's OLMo models) show that truly open and public AI is possible. Europe's definition must protect them. 
+_It supports open innovation._ In AI, only openness all the way down can fullfil the promise that open source AI will deliver innovation. Like the early open source movement, open source AI is an alternative to he current state-of-the-art dominated by open-weight models build with private data. Open source AI is distinctly public AI, it is AI in the public domain, open to everyone - just like open-source software always was. Organisations from Europe and beyond (e.g. The Swiss AI Inititave's Apertus, Allen AI's OLMo models) show that truly open and public AI is possible. Europe's definition must protect them. 
  
 
 Public AI by Mozilla 
