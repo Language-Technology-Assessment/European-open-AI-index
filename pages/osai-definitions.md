@@ -51,7 +51,7 @@ Recent work has shown feasibility and potential of open-source AI. OLMo Trace, A
 
 | Feature | Open Weight | China Open Source AI | US Open Source AI  | European Open Source AI |
 | :--- | :--- | :--- | :--- | :--- |
-| Definition by | | Open Atom Foundation | Open Source Initiative | EU AI Office? |
+| Defined by | | Open Atom Foundation | Open Source Initiative | EU AI Office? |
 | Model Weights | Released | Released | Released | Released |
 | Training Code | Not Shared | Fully Shared | Fully Shared | Fully Shared |
 | Open Training pipeline and steps | Withheld | Nice to have | Nice to have | Fully Shared |
