@@ -49,18 +49,18 @@ This definition is based on the view that, in AI systems, _data is part of the m
 
 Recent work has shown feasibility and potential of open-source AI. OLMo Trace, Apertus
 
-| Feature | Open Weights | OSI Open Source AI (defined by the Open Source Initiative) | European Open Source AI (aligned with EU Law) |
-| :--- | :--- | :--- | :--- |
-| Model Weights | Released | Released | Released |
-| Training Code | Not Shared | Fully Shared | Fully Shared |
-| Open Training pipeline and steps | Withheld | Nice to have | Released |
-| Training dataset | Not Shared/Not disclosed | Data sharing encouraged but closed data allowed* | Full open data* |
-| Training Data Composition | Partially/Not Disclosed | Fully Disclosed | Fully Disclosed |
+| Feature | Open Weight | Open Atom Open Source AI (China) | OSI Open Source AI (US) | European Open Source AI |
+| :--- | :--- | :--- | :--- | :--- |
+| Model Weights | Released | Released | Released | Released |
+| Training Code | Not Shared | Fully Shared | Fully Shared | Fully Shared |
+| Open Training pipeline and steps | Withheld | Nice to have | Nice to have | Fully Shared |
+| Training dataset | Not Shared/Not disclosed | Not Shared/Not disclosed* | Data sharing encouraged but closed data allowed* | Fully shared* |
+| Training Data Composition | Partially/Not Disclosed | Fully Disclosed | Fully Disclosed | Fully Disclosed |
 
 
 ### Path towards distincly European AI 
 
-The Open Source AI defintion for Europe proposed here differs from its counterparts in the US and China and sets Europe on a distinct path.
+The European Open Source AI defintion differs from its counterparts in the [US](https://opensource.org/ai/open-source-ai-definition) and [China](https://www.openatom.org/law/licence) and sets Europe on a distinct path.
 
 _It is simple._ A clear and simple boundary between open-weight AI and open-source AI is drawn. Open-source AI means open-data AI. Only models meeting these high standard warrant true open-source status. For others, its open-weight. 
 
