@@ -49,7 +49,7 @@ This definition is based on the view that, in AI systems, _data is part of the m
 
 Recent work has shown feasibility and potential of open-source AI. OLMo Trace, Apertus
 
-| Feature | Open Weight | Open Atom Open Source AI (China) | OSI Open Source AI (US) | European Open Source AI |
+| Feature | Open Weight | Open Source AI in China (Open Atom) | Open Source AI in US (Open Source Initiative) | European Open Source AI |
 | :--- | :--- | :--- | :--- | :--- |
 | Model Weights | Released | Released | Released | Released |
 | Training Code | Not Shared | Fully Shared | Fully Shared | Fully Shared |
