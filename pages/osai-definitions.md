@@ -55,7 +55,7 @@ Recent work has shown feasibility and potential of open-source AI. OLMo Trace, A
 | **Model Weights** | Released | Released | Released | Released |
 | **Training Code** | Not Shared | Fully Shared | Fully Shared | Fully Shared |
 | **Training pipeline** | Withheld | Nice to have | Nice to have | Fully Shared |
-| **Training datas** | Not Shared/Not disclosed | Not Shared/Not disclosed* | Data sharing encouraged but closed data allowed* | Fully shared* |
+| **Training data** | Not Shared/Not disclosed | Not Shared/Not disclosed* | Data sharing encouraged but closed data allowed* | Fully shared* |
 | **Training Data Composition** | Partially/Not Disclosed | Fully Disclosed | Fully Disclosed | Fully Disclosed |
 
 
