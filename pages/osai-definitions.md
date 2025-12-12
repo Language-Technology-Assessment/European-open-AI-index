@@ -31,7 +31,7 @@ Court ruling (German) that clarifies that a piece of data coming out of an LLM s
 
 ### A definition fit for Europe
 
-Designed for maximal simplicity _and_ GDPR alignment
+A European open-source definition should be designed for maximal simplicity _and_ GDPR alignment, serving as a guardrail of innovative technology of and for the public. These radical ideas go back to the very beginning of the open source movement when core pieces of technology of personal computers (Unix kernels) were freed from the shackles of proprietary ownership and made freely available to everyone (for more see, [Open Sources](https://www.oreilly.com/openbook/opensources/book/raymond.html).  
 
 The European Open Source AI definition is modelled on the work of the Open Source Initiative (OSI) that published a US-based definition in 2024: _the Open Source AI Definition 1.0_ (OSAID 1.0). 
 For Europe, a simplified variation of OSAID 1.0 is needed, which is crucially adjusted that enhances alignment with European law: full release of training data.
