@@ -54,7 +54,7 @@ Recent work has shown feasibility and potential of open-source AI. OLMo Trace, A
 | Defined by | | _Open Atom Foundation_ | _Open Source Initiative_ | _EU AI Office?_ |
 | Model Weights | Released | Released | Released | Released |
 | Training Code | Not Shared | Fully Shared | Fully Shared | Fully Shared |
-| Open Training pipeline and steps | Withheld | Nice to have | Nice to have | Fully Shared |
+| *Training pipeline* | Withheld | Nice to have | Nice to have | Fully Shared |
 | Training dataset | Not Shared/Not disclosed | Not Shared/Not disclosed* | Data sharing encouraged but closed data allowed* | Fully shared* |
 | Training Data Composition | Partially/Not Disclosed | Fully Disclosed | Fully Disclosed | Fully Disclosed |
 
