@@ -12,11 +12,21 @@ In Europe, everyone developing and deploying open-source generative AI systems h
 
 ### Current definitions and European regulation 
 
-No clear definition linked to the EU AI Act and or GDPR
+As of 2025, open source AI model builders and providers are left in legal limbo. While open source AI is explicitly mentioned in legal framework such as the EU AI Act and the Cybersecurity act. The European Union's AI Office is yet to clarify which defintions of open source AI applies. Two definitions have been proposed so far, one in China and one in the US. China's Open Atom Foundation has published legal documents that make clear that in China, open source AI refers only to model weights, open data not included. In the US, the Open Source Initiative (OSI) has published their "Open Source AI Definition 1.0", that ,in a nutshell, encourages open data as part of open-source AI but allows private, not open-source-licensed data to be used in OSAI models. In Europe, the issue of whether and to what extend open weights and open data are part of OSAI has not been clarified.
 
-Only a definition proposed by the Open Source Initiative (Palo Alto, US) that does not mandate all training data to be shared. It has become clear that this approach is not in line with recent developments in Europe, where the GDPR has enshrined each person's [eight core rights](https://gdpr-info.eu/chapter-3/) in relation to their data.   
+Distinct from both the US and China, Europe has some the strictest privacy and data protection regulations there are, prominently in form of the General Data Protextion Regulation (GDPR). The only approach to open and transparent AI models in line with such regulation are those that comprehensively share training data that is both appropriately open-source licensed _and_ open for inspection of GDPR compliance. Even in face of the recently proposed deregulations of AI in Europe as part of the Digital Omnibus, the GDPR applies to training data release as part of open source AI. All core rights [eight core rights](https://gdpr-info.eu/chapter-3/) as enshrined in the GDPR remain in place and the only way towards GDPR-compliant open-source AI remains complete transparency. 
 
-Court ruling (German) that clarifies that a piece of data coming out of an LLM still covered by copyright of rights holder
+Court ruling (German) that clarifies that a piece of data coming out of an LLM still covered by copyright of rights holder [find source]
+
+
+|  | Open Weight | China Open Source AI | US Open Source AI  | European Open Source AI |
+| :--- | :--- | :--- | :--- | :--- |
+| Defined by | | _Open Atom Foundation_ | _Open Source Initiative_ | _EU AI Office?_ |
+| **Model Weights** | Released | Released | Released | Released |
+| **Training Code** | Not Shared | Fully Shared | Fully Shared | Fully Shared |
+| **Training Pipeline** | Withheld | Nice to have | Nice to have | Fully Shared |
+| **Training Data** | Not Shared/Not disclosed | Not Shared/Not disclosed* | Data sharing encouraged but closed data allowed* | Fully shared* |
+| **Training Data Composition** | Partially/Not Disclosed | Fully Disclosed | Fully Disclosed | Fully Disclosed |
 
 
 ### A definition fit for Europe
@@ -48,15 +58,6 @@ This definition is based on the view that, in AI systems, _data is part of the m
 
 
 Recent work has shown feasibility and potential of open-source AI. OLMo Trace, Apertus
-
-|  | Open Weight | China Open Source AI | US Open Source AI  | European Open Source AI |
-| :--- | :--- | :--- | :--- | :--- |
-| Defined by | | _Open Atom Foundation_ | _Open Source Initiative_ | _EU AI Office?_ |
-| **Model Weights** | Released | Released | Released | Released |
-| **Training Code** | Not Shared | Fully Shared | Fully Shared | Fully Shared |
-| **Training pipeline** | Withheld | Nice to have | Nice to have | Fully Shared |
-| **Training data** | Not Shared/Not disclosed | Not Shared/Not disclosed* | Data sharing encouraged but closed data allowed* | Fully shared* |
-| **Training Data Composition** | Partially/Not Disclosed | Fully Disclosed | Fully Disclosed | Fully Disclosed |
 
 
 ### Path towards distincly European AI 
