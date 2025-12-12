@@ -31,7 +31,7 @@ Court ruling (German) that clarifies that a piece of data coming out of an LLM s
 
 ### A definition fit for Europe
 
-A European open-source definition should be designed for maximal simplicity _and_ GDPR alignment, serving as a guardrail of innovative technology of and for the public. These radical ideas go back to the very beginning of the open source movement when core pieces of technology of personal computers (Unix kernels) were freed from the shackles of proprietary ownership and made freely available to everyone (for more see, [Open Sources](https://www.oreilly.com/openbook/opensources/book/raymond.html)). Europe is in the best place to carry this spirit over into the era of AI. The European Open Source AI definition picks up the work of the Open Source Initiative (OSI) that published a US-based definition in 2024: _the Open Source AI Definition 1.0_ (OSAID 1.0). For Europe, a simplified variation of OSAID 1.0 is needed, that addresses an issue that has proven divise within the open source AI community: full release of model training data.
+A European open-source definition should be designed for maximal simplicity _and_ GDPR alignment, serving as a guardrail of innovative technology of and for (the public)[https://www.mozillafoundation.org/en/research/library/public-ai/]. These radical ideas go back to the very beginning of the open source movement when core pieces of technology of personal computers (Unix kernels) were freed from the shackles of proprietary ownership and made freely available to everyone (for more see, [Open Sources](https://www.oreilly.com/openbook/opensources/book/raymond.html)). Europe is in the best place to carry this spirit over into the era of AI. The European Open Source AI definition picks up the work of the Open Source Initiative (OSI) that published a US-based definition in 2024: _the Open Source AI Definition 1.0_ (OSAID 1.0). For Europe, a simplified variation of OSAID 1.0 is needed, that addresses an issue that has proven divise within the open source AI community: full release of model training data.
 
 The OSAID 1.0 takes an ambiguous position when it comes to the question whether open data is part of open-source AI or not. The defintion maintains that, while encouraging data releases, withholding training data is possible in some cases. To make this work, training data is broken down into four types, with different requirements of whether data used in the model needs to be shared, "sufficiently documented", or can even be kept under wraps (in the case of "privately-held, unsharable data" (see (OSAID FAQ for more detail)[https://opensource.org/ai/faq]). In the US context of an AI landscape dominated by private corporations this makes sense in light of the OSIs aims to provide a defintion that is ("supported by diverse stakeholders, including private corporations" and "cannot be an empty set")[https://github.com/samj/osaid/blob/main/presentations/2024-09-13-osi_townhall_16.pdf]. At the time, there were simply no sufficiently open models available in the US. Europe is different. Given GDPR requirements, private or unsharable data has no place in open-source AI systems here. Open-source AI is AI of which all training data has to be shared (either by the model providers themselves or by linking to an existing already open source-licensed dataset. Since in AI systems, _data is part of the model_. Open-source AI _is_ public AI.
 
@@ -46,15 +46,12 @@ _Its highest standards for openness allow GDPR alignment._ Meeting the highest o
 _It supports open innovation._ In AI, only openness all the way down can fullfil the promise that open source AI will deliver innovation. Like the early open source movement, open source AI is an alternative to he current state-of-the-art dominated by open-weight models build with private data. Open source AI is distinctly public AI, it is AI in the public domain, open to everyone - just like open-source software always was. Organisations from Europe and beyond (e.g. The Swiss AI Inititave's Apertus, Allen AI's OLMo models) show that truly open and public AI is possible. The European open-source AI definition supports truly open AI technology, safeguards again open-washing, and encourages open innovation. 
 
  ___
+Discuss the definition (here)[https://codeberg.org/AI-technology-assessment/European-open-AI-index/issues/23]. 
 
-Public AI by Mozilla 
-https://www.mozillafoundation.org/en/research/library/public-ai/
+Current issues in open-source AI as public AI in Europe:
 
-AI commons by open future?
-https://openfuture.eu/publication/ai-commons/
+1. AI-ready data governance in Europe
 
-Links: 
-https://opensource.org/ai/open-weights
-https://opensource.org/ai/faq
+(Digital Commons European Digital Infrastructure Consortium (DC-EDIC))[https://digital-strategy.ec.europa.eu/en/news/commission-launch-digital-commons-edic-support-sovereign-european-digital-infrastructure-and]
 
-https://digital-strategy.ec.europa.eu/en/news/commission-launch-digital-commons-edic-support-sovereign-european-digital-infrastructure-and
+(Open Future AI commons report)[https://openfuture.eu/publication/ai-commons/]
