@@ -46,7 +46,9 @@ _Its highest standards for openness allow GDPR alignment._ Meeting the highest o
 _It supports open innovation._ In AI, only openness all the way down can fullfil the promise that open source AI will deliver innovation. Like the early open source movement, open source AI is an alternative to he current state-of-the-art dominated by open-weight models build with private data. Open source AI is distinctly public AI, it is AI in the public domain, open to everyone - just like open-source software always was. Organisations from Europe and beyond (e.g. The Swiss AI Inititave's Apertus, Allen AI's OLMo models) show that truly open and public AI is possible. The European open-source AI definition supports truly open AI technology, safeguards again open-washing, and encourages open innovation. 
 
  ___
-Discuss the definition [here](https://codeberg.org/AI-technology-assessment/European-open-AI-index/issues/23). 
+Join the [discussion](https://codeberg.org/AI-technology-assessment/European-open-AI-index/issues/23). 
+Make you voice heard at the [European AI Office](https://ai-act-service-desk.ec.europa.eu/en/ai-act-service-desk).
+
 
 Current issues in open-source AI as public AI in Europe:
 
