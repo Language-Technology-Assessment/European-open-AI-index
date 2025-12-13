@@ -52,6 +52,8 @@ Current issues in open-source AI as public AI in Europe:
 
 1. AI-ready data governance in Europe
 
+[European Data Union Strategy](https://digital-strategy.ec.europa.eu/en/policies/data-union)
+
 [Digital Commons European Digital Infrastructure Consortium (DC-EDIC)](https://digital-strategy.ec.europa.eu/en/news/commission-launch-digital-commons-edic-support-sovereign-european-digital-infrastructure-and)
 
 [Open Future AI commons report](https://openfuture.eu/publication/ai-commons/)
