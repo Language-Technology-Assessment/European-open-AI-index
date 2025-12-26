@@ -64,7 +64,7 @@ The European Open Source AI defintion differs from its counterparts in the US an
 The European open-source AI definition is designed to include only true open-source AI technology, safeguarding against [open-washing](https://dl.acm.org/doi/10.1145/3630106.3659005). Its legal adoption protects the many, often small, organisations that [already deliver top open models](https://preview.osai-index.eu/the-index).
 
  ___
-Join the [discussion](https://codeberg.org/AI-technology-assessment/European-open-AI-index/issues/23). 
+Join the [discussion](https://codeberg.org/AI-technology-assessment/European-open-AI-index/issues/23) on Codeberg. 
 Make you voice heard at the [European AI Office](https://ai-act-service-desk.ec.europa.eu/en/ai-act-service-desk).
 
 
