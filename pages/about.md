@@ -6,7 +6,7 @@ It is part of the [Centre of Language and Speech Technology, Radboud University,
 ## Founders
 
 ::person{image="/images/headshot-al.jpg" name="Andreas Liesenfeld"}
-__Andreas Liesenfeld__ is co-founder of the index and Assistant Professor at Radboud University where he researches the societal and regulatory implications of emerging language technologies. His current work focuses on technology assessment, open source generative AI, and comparative AI regulation. At the Centre for Language and Speech Technology (CLST), Andreas Liesenfeld is a member of the language technology expertise group and, in collaboration with the Netherlands eScience center, develops open source research software for natural language processing.
+__[Andreas Liesenfeld](https://www.ru.nl/personen/liesenfeld-a "Andreas Liesenfeld")__ is co-founder of the index and Assistant Professor at Radboud University where he researches the societal and regulatory implications of emerging language technologies. His current work focuses on technology assessment, open source generative AI, and comparative AI regulation. At the Centre for Language and Speech Technology (CLST), Andreas Liesenfeld is a member of the language technology expertise group and, in collaboration with the Netherlands eScience center, develops open source research software for natural language processing.
 ::
 
 ::person{image="/images/headshot-md.png" name="Mark Dingemanse"}
