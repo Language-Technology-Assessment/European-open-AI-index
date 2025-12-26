@@ -32,12 +32,12 @@ At its core, the matter is simple: the only way to ensure all [eight core rights
 
 | Feature | Open Weight | OSAI in China | OSAI in the US  | European Open Source AI |
 | :--- | :--- | :--- | :--- | :--- |
-| Defined by | | _Open Atom Foundation_ | _Open Source Initiative_ | *EU AI Office?* |
-| **Model Weights** | Released | Released | Released | _Released_ |
-| **Training Code** | Not Shared | Fully Shared | Fully Shared | _Fully Shared_ |
-| **Training Pipeline** | Withheld | Nice to have | Nice to have | _Fully Shared_ |
-| **Training Data** | Not Shared/Not disclosed | Not Shared/Not disclosed | Encouraged (Closedallowed) | _Fully shared_ |
-| **Data Composition** | Partially/Not Disclosed | Fully Disclosed | Fully Disclosed | _Fully Disclosed_ |
+| Defined by | | _Open Atom Foundation_ | _Open Source Initiative_ | __EU AI Office?__ |
+| **Model Weights** | Released | Released | Released | __Released__ |
+| **Training Code** | Not Shared | Fully Shared | Fully Shared | __Fully Shared__ |
+| **Training Pipeline** | Withheld | Nice to have | Nice to have | __Fully Shared__ |
+| **Training Data** | Not Shared/Not disclosed | Not Shared/Not disclosed | Encouraged (Closed allowed) | __Fully shared__ |
+| **Data Composition** | Partially/Not Disclosed | Fully Disclosed | Fully Disclosed | __Fully Disclosed__ |
 
 
 ### A definition fit for Europe
