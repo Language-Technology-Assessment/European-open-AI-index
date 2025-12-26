@@ -59,7 +59,9 @@ The European Open Source AI defintion differs from its counterparts in the US an
 
 - _It enables GDPR alignment._ Meeting the highest openness and transparency standards is the only way to enable compliance with the continent's outstanding data protection standards. In fact, uniquely high standards for privacy and data protection offer a [competitive edge](https://dataethics.eu/book/), positioning European AI at the forefront of open-source model development.
 
-- _It actually supports innovation._ Despite what open-weight model providers often claim, only open-source AI [actually delivers innovation](https://www.linuxfoundation.org/hubfs/LF%20Research/lfr_market_impact_052025a.pdf). Organisations in Europe and beyond (e.g. The Swiss AI Inititave, Allen Institute for AI) demonstrate the public benefits of open-source AI. The European open-source AI definition is designed to include only true open-source AI technology, safeguarding against [open-washing](https://dl.acm.org/doi/10.1145/3630106.3659005). Its legal adoption protects the many, often small, organisations that [already deliver top open models](https://preview.osai-index.eu/the-index).
+- _It actually supports innovation._ Despite what open-weight model providers often claim, only open-source AI [actually delivers innovation](https://www.linuxfoundation.org/hubfs/LF%20Research/lfr_market_impact_052025a.pdf). Organisations in Europe and beyond (e.g. The Swiss AI Inititave, Allen Institute for AI) demonstrate the public benefits of open-source AI.
+ 
+The European open-source AI definition is designed to include only true open-source AI technology, safeguarding against [open-washing](https://dl.acm.org/doi/10.1145/3630106.3659005). Its legal adoption protects the many, often small, organisations that [already deliver top open models](https://preview.osai-index.eu/the-index).
 
  ___
 Join the [discussion](https://codeberg.org/AI-technology-assessment/European-open-AI-index/issues/23). 
