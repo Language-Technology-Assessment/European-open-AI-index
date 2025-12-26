@@ -8,16 +8,13 @@ status: published
 
 # A European Open Source AI Definition
 
-In Europe, everyone developing and deploying open-source generative AI systems has to navigate two issues: strict requirements for privacy protections laws (in form of the GDPR or its derivatives in e.g. the UK or Switzerland) and unclear regulation of open source AI systems (as included in the EU AI act and the Cyersecurity Act). To make things worse, Europe did not even have an own defintion of open source AI that is aligned with its own laws. Nonetheless, organisations in Europe have made significant contributions to the open source AI ecosystem with The Swiss AI Initiative's "Apertus" models a latest example. Here, we recap the current regulatory situations and propose a European Open Source AI defintion that is both GDPR-aligned and super simple. And the best thing about it: it is already used by some of the leading open source AI models of Europe.
+In Europe, everyone developing and deploying open-source generative AI systems has to navigate two issues: some of the strictest personal data protection laws (in form of the GDPR or its derivatives in e.g. the UK or Switzerland) and unclear regulation of open-source AI systems (e.g. underspecified use of open-source terminology in the EU AI act and the Cyersecurity Act). To make things worse, Europe - unlike the US and China - does not have a definition of open source AI that is aligned with its own laws. This confusing situation on the regulatory side is sharply contrasted by the significant contributions that organisation in Europe contribute the open source AI ecosystem. A latest example of this is the Swiss AI Initiative's "Apertus" model series that achieved an outstanding degree of openness. It's high time to clarify our regulation of open-source AI to unlock the continent's potential to chart an independent way forward. Here, we recap current defintions of open source (generative) AI and propose a European Open Source AI definition that is simple, GDPR-aligned, and uniquely European.
 
 ### Current definitions and European regulation 
 
-As of 2025, open source AI model builders and providers are left in legal limbo. While open source AI is explicitly mentioned in legal framework such as the EU AI Act and the Cybersecurity act. The European Union's AI Office is yet to clarify which defintions of open source AI applies. Two definitions have been proposed so far, one in China and one in the US. China's Open Atom Foundation has published legal documents that make clear that in China, open source AI refers only to model weights, open data not included. In the US, the Open Source Initiative (OSI) has published their "Open Source AI Definition 1.0", that ,in a nutshell, encourages open data as part of open-source AI but allows private, not open-source-licensed data to be used in OSAI models. In Europe, the issue of whether and to what extend open weights and open data are part of OSAI has not been clarified.
+As of early 2026, European open-source AI model builders and providers are still left in legal limbo. While open-source AI is explicitly mentioned in legal framework such as the EU AI Act and the Cybersecurity act. An unresolved key issue is whether open data is part of open-source AI. Two definitions have been proposed so far, one in China and one in the US. China's Open Atom Foundation has published legal documents that make clear that in China, open source AI refers only to model weights, open data not included. In the US, the Open Source Initiative (OSI) has published their "Open Source AI Definition 1.0", that ,in a nutshell, encourages open data as part of open-source AI but allows private, not open-source-licensed data to be used in OSAI models. The European Union's AI Office is yet to clarify which defintions of open source AI applies to us. Or is Europe better off charting its own way forward?
 
-Distinct from both the US and China, Europe has some the strictest privacy and data protection regulations there are, prominently in form of the General Data Protextion Regulation (GDPR). The only approach to open and transparent AI models in line with such regulation are those that comprehensively share training data that is both appropriately open-source licensed _and_ open for inspection of GDPR compliance. Even in face of the recently proposed deregulations of AI in Europe as part of the Digital Omnibus, the GDPR applies to training data release as part of open source AI. All core rights [eight core rights](https://gdpr-info.eu/chapter-3/) as enshrined in the GDPR remain in place and the only way towards GDPR-compliant open-source AI remains complete transparency. 
-
-Court ruling (German) that clarifies that a piece of data coming out of an LLM still covered by copyright of rights holder [find source]
-
+Distinct from both the US and China, Europe has some the strictest privacy and data protection regulations in form of the General Data Protection Regulation (GDPR). If these uniquely European achievements are to be carried over into the age of (open-source) AI, the only working approach to open and transparent AI models is to comprehensively share training data that is both appropriately open-source licensed _and_ open for inspection for GDPR compliance. At its core, the matter is simple: the only way to ensure all [eight core rights](https://gdpr-info.eu/chapter-3/) of people in Europe are granted is in form of complete data transparency.[^1]
 
 |  | Open Weight | China Open Source AI | US Open Source AI  | European Open Source AI |
 | :--- | :--- | :--- | :--- | :--- |
@@ -48,6 +45,12 @@ _It supports open innovation._ In AI, only openness all the way down can fullfil
  ___
 Join the [discussion](https://codeberg.org/AI-technology-assessment/European-open-AI-index/issues/23). 
 Make you voice heard at the [European AI Office](https://ai-act-service-desk.ec.europa.eu/en/ai-act-service-desk).
+
+
+
+References and further readings:
+
+[^1]: This stance has seen increasing support in the form of court rulings that clarify the relationship between generative AI model output and other forms of (training) data, see GEMA vs OpenAI (Nov 2025).
 
 
 Current issues in open-source AI as public AI in Europe:
