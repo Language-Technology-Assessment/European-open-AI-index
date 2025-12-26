@@ -1,13 +1,10 @@
 ---
 title: "Llama and BloomZ: shades of openness"
 description: Comparing two models that claim to be open
-date: 12-10-2024
+date: 2024-10-12
 author: Mark Dingemanse
+status: published
 ---
-# Llama and BloomZ: shades of openness
-<author :author="author"></author>
-<date :date="date"></date>
-
 Generative AI models have many moving parts. This guide provides a survey of the most important openness dimensions by discussing two models both self-billed as "open source". **BloomZ** was introduced by the BigScience Workshop team in May 2023 as an early open source large language model; **Llama 3.1** (Llama for short) was introduced by Facebook Research as “the next generation of our open source large language model”. However, a glance at the openness scores below shows that the models differ quite a lot in terms of overall openness.
 
 ::the-index

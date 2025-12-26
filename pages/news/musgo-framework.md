@@ -6,10 +6,6 @@ date: 2025-07-18
 status: published
 ---
 
-# MusGO: a new openness index for the music domain
-<author :author="author"></author>
-<date :date="date"></date>
-
 We are pleased to see [Opening Up ChatGPT](https://opening-up-chatgpt.github.io), which served as the precursor to the OSAI Index, cited and expanded in [MusGO: A Community-Driven Framework for Assessing Openness in Music-Generative AI](https://arxiv.org/pdf/2507.03599). Inspired by our framework for analysing the openness of large language models, this work by Roser Batlle-Roca and colleagues of the [Music Technology Group](https://www.upf.edu/web/mtg) surveys openness and transparancy in a range of music-generative systems.
 
 ![Screenshot of MusGO leaderboard](/images/musgo-screenshot-july2025.png "MusGO screenshot")

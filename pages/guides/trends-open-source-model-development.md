@@ -5,9 +5,6 @@ date: 2025-06-10
 author: Dick Blankvoort
 status: published
 ---
-# Keeping up with open source model development
-<author :author="author"></author>
-<date :date="date"></date>
 
 At the European Open Source AI Index, we seek to provide a comprehensive overview of transparency within the open-source AI landscape. A significant challenge involved in this is deciding which models to include and which to exclude. Even a cursory glance into the AI space reveals a wealth of AI models competing for recognition, and our index can only include so many before growing cluttered.
 

@@ -5,9 +5,6 @@ date: 2025-08-01
 author: Andreas Liesenfeld
 status: published
 ---
-# BERT: The original sin of open-washing large language models
-<author :author="author"></author>
-<date :date="date"></date>
 
 In late 2018, before large language models (LLMs) became mainstream, Google released a large language model bound to shake up the natural language processing (NLP) research community. 
 The model dramatically improved the state-of-the-art for many benchmarks in the field, trailblazing the upcoming explosion of interest in LLMs. 

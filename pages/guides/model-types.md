@@ -5,9 +5,6 @@ date: 2025-02-25
 author: Dick Blankvoort & Mark Dingemanse
 status: published
 ---
-# An overview of AI model types
-<author :author="author"></author>
-
 In recent years, the field of AI has grown dramatically. Besides the introduction of ChatGPT and the subsequent revolution in text-based LLMs, there has been a revolution of no lesser significance in image-based diffusion models. The surge of new models can make it challenging to see what types of model are available and how current models should be categorized. Here we provide an overview of the most common types of AI models currently available, with the aim of helping the reader to get a better grasp on the AI landscape as a whole.
 
 Throughout this blog post, we provide references to example models in our index, if available, using a grid view.
