@@ -48,12 +48,10 @@ Make you voice heard at the [European AI Office](https://ai-act-service-desk.ec.
 
 
 
-References and further readings:
-
 [^1]: This stance has seen increasing support in the form of court rulings that clarify the relationship between generative AI model output and other forms of (training) data, see GEMA vs OpenAI (Nov 2025).
 
 
-Current European Union Initiatives on open-source AI and AI-ready data:
+More on European open-source AI and AI-ready data in the EU:
 
 1. [European Data Union Strategy](https://digital-strategy.ec.europa.eu/en/policies/data-union)
 
