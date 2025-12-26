@@ -2,7 +2,7 @@
 title: Open Source AI definitions
 description: "Open Source AI definitions"
 author: European Open Source Index
-date: 2025-12-05
+date: 2025-12-27
 status: published
 ---
 
