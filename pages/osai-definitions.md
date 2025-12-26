@@ -20,7 +20,7 @@ As of early 2026, European open-source AI model builders and providers are still
 
 Two definitions have been proposed so far—one in China and one in the US—but neither fits the European context:
 
-- China: The Open Atom Foundation has published legal documents clarifying that in China, open-source AI refers only to model weights; open data is not included.
+- China: The Open Atom Foundation has published [legal documents](https://www.openatom.org/law/licence) clarifying that in China, open-source AI refers only to model weights; open data is not included.
 
 - The US: The Open Source Initiative (OSI) has published the "Open Source AI Definition 1.0." In a nutshell, it encourages open data as part of open-source AI but allows private, non-open-source-licensed data to be used in open-source models.
 
@@ -44,7 +44,7 @@ At its core, the matter is simple: the only way to ensure all [eight core rights
 
 A European open-source definition must be designed for maximal simplicity and GDPR alignment, serving as a guardrail for innovative technology [of and for the public](https://www.mozillafoundation.org/en/research/library/public-ai/). This principle harkens back to the beginning of the open-source movement, when core pieces of complex personal computer technology (Unix kernels) were freed from the shackles of monopolized proprietary ownership and made freely available to everyone (for more, see [Open Sources](https://www.oreilly.com/openbook/opensources/book/raymond.html)). Europe is currently the most promising place to carry this spirit over into the era of AI.
 
-The European Open Source AI definition builds upon the work of the Open Source Initiative (OSI), which published a US-centered definition in 2024: the Open Source AI Definition 1.0 (OSAID 1.0). For Europe, a simplified version of OSAID 1.0 is needed—one that takes a clear stand on an issue that has proven divisive within the open-source AI community: the full release of model training data.
+The European Open Source AI definition builds upon the work of the Open Source Initiative (OSI), which published a US-centered definition in 2024: [the Open Source AI Definition 1.0 (OSAID 1.0)](https://opensource.org/ai/open-source-ai-definition). For Europe, a simplified version of OSAID 1.0 is needed—one that takes a clear stand on an issue that has proven divisive within the open-source AI community: the full release of model training data.
 
 The OSAID 1.0 takes an ambiguous position regarding whether open data is required for open-source AI. The definition encourages open data while allowing training data to be withheld under certain conditions. To make this work, training data is broken down into four types, with different requirements for whether data must be shared, documented, or kept under wraps (as in the case of "privately-held, unsharable data"—see the [OSAID FAQ for more detail](https://opensource.org/ai/faq)).
 
@@ -53,13 +53,13 @@ In the US context of an AI landscape dominated by private firms, this makes sens
 
 ### Path towards distincly European AI 
 
-The European Open Source AI defintion differs from its counterparts in the [US](https://opensource.org/ai/open-source-ai-definition) and [China](https://www.openatom.org/law/licence), setting Europe on a distinct path.
+The European Open Source AI defintion differs from its counterparts in the US and China, setting Europe on a distinct path:
 
-_It is simple._ A clear and simple boundary between open-weight AI and open-source AI is drawn. Open-source AI means full open-data AI. Only models meeting this high standard warrant true open-source status. If data cannot be shared, call it open-weight.  
+- _It is simple._ A clear and simple boundary between open-weight AI and open-source AI is drawn. Open-source AI means full open-data AI. Only models meeting this high standard warrant true open-source status. If data cannot be shared, call it open-weight.  
 
-_It enables GDPR alignment._ Meeting the highest openness and transparency standards is the only way to enable compliance with the continent's outstanding data protection standards. In fact, uniquely high standards for privacy and data protection offer a [competitive edge](https://dataethics.eu/book/), positioning European AI at the forefront of open-source model development.
+- _It enables GDPR alignment._ Meeting the highest openness and transparency standards is the only way to enable compliance with the continent's outstanding data protection standards. In fact, uniquely high standards for privacy and data protection offer a [competitive edge](https://dataethics.eu/book/), positioning European AI at the forefront of open-source model development.
 
-_It actually supports innovation._ Despite what open-weight model providers often claim, only open-source AI [actually delivers innovation](https://www.linuxfoundation.org/hubfs/LF%20Research/lfr_market_impact_052025a.pdf). Organisations in Europe and beyond (e.g. The Swiss AI Inititave, Allen Institute for AI) demonstrate the public benefits of open-source AI. The European open-source AI definition is designed to include only true open-source AI technology, safeguarding against [open-washing](https://dl.acm.org/doi/10.1145/3630106.3659005). Its legal adoption protects the many, often small, organisations that [already deliver top open models](https://preview.osai-index.eu/the-index).
+- _It actually supports innovation._ Despite what open-weight model providers often claim, only open-source AI [actually delivers innovation](https://www.linuxfoundation.org/hubfs/LF%20Research/lfr_market_impact_052025a.pdf). Organisations in Europe and beyond (e.g. The Swiss AI Inititave, Allen Institute for AI) demonstrate the public benefits of open-source AI. The European open-source AI definition is designed to include only true open-source AI technology, safeguarding against [open-washing](https://dl.acm.org/doi/10.1145/3630106.3659005). Its legal adoption protects the many, often small, organisations that [already deliver top open models](https://preview.osai-index.eu/the-index).
 
  ___
 Join the [discussion](https://codeberg.org/AI-technology-assessment/European-open-AI-index/issues/23). 
