@@ -1,7 +1,7 @@
 --- 
 title: Open Source AI definitions
 description: "Open Source AI definitions"
-author: European Open Source Index
+author: Andreas Liesenfeld
 date: 2025-12-27
 status: published
 ---
