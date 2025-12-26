@@ -32,7 +32,7 @@ At its core, the matter is simple: the only way to ensure all [eight core rights
 
 | Feature | Open Weight | OSAI in China | OSAI in the US  | European Open Source AI |
 | :--- | :--- | :--- | :--- | :--- |
-| Defined by | | _Open Atom Foundation_ | _Open Source Initiative_ | __EU AI Office?__ |
+| Defined by | | Open Atom Foundation | Open Source Initiative | __EU AI Office?__ |
 | **Model Weights** | Released | Released | Released | __Released__ |
 | **Training Code** | Not Shared | Fully Shared | Fully Shared | __Fully Shared__ |
 | **Training Pipeline** | Withheld | Nice to have | Nice to have | __Fully Shared__ |
