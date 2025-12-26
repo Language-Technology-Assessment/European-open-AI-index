@@ -12,7 +12,7 @@ In Europe, everyone developing and deploying open-source generative AI systems m
 
 To make matters worse, Europe—unlike the US and China—does not have a definition of open-source AI that is aligned with its own laws. This confusing regulatory landscape stands in sharp contrast to the significant contributions that organizations in Europe make to the open-source AI ecosystem. A recent example of this is the Swiss AI Initiative's "Apertus" model series, which achieved an outstanding degree of openness.
 
-It is high time to clarify our regulation of open-source AI to unlock the continent's potential and chart an independent path forward. Here, we recap current definitions of open-source (generative) AI and propose a European Open Source AI definition that is simple, GDPR-aligned, and uniquely European.
+It is high time to simplify our regulation of open-source AI and come up with a future-proof definition that underpins existing law. Here, we recap current definitions of open-source (generative) AI and propose a European Open Source AI definition that is GDPR-aligned and uniquely European.
 
 ### Current definitions and European regulation 
 
