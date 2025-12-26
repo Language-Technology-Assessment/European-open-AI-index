@@ -8,7 +8,7 @@ status: published
 
 # A European Open Source AI Definition
 
-In Europe, everyone developing and deploying open-source generative AI systems must navigate two challenges: some of the strictest personal data protection laws (in the form of the GDPR or its derivatives in the UK and Switzerland) and unclear regulation regarding open-source AI systems (e.g., underspecified use of open-source terminology in the EU AI Act and the Cybersecurity Act).
+In Europe, everyone developing and deploying open-source generative AI systems must navigate two challenges: some of the strictest personal data protection laws (in the form of the GDPR or its derivatives in the UK and Switzerland) and unclear regulation regarding open-source AI systems (e.g., underspecified use of the term 'open-source' in the EU AI Act and the Cybersecurity Act).
 
 To make matters worse, Europe—unlike the US and China—does not have a definition of open-source AI that is aligned with its own laws. This confusing regulatory landscape stands in sharp contrast to the significant contributions that organizations in Europe make to the open-source AI ecosystem. A recent example of this is the Swiss AI Initiative's "Apertus" model series, which achieved an outstanding degree of openness.
 
