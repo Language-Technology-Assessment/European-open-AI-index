@@ -20,9 +20,9 @@ As of early 2026, European open-source AI model builders and providers are still
 
 Two definitions have been proposed so far—one in China and one in the US—but neither fits the European context:
 
-China: The Open Atom Foundation has published legal documents clarifying that in China, open-source AI refers only to model weights; open data is not included.
+- China: The Open Atom Foundation has published legal documents clarifying that in China, open-source AI refers only to model weights; open data is not included.
 
-The US: The Open Source Initiative (OSI) has published the "Open Source AI Definition 1.0." In a nutshell, this encourages open data as part of open-source AI but allows private, non-open-source-licensed data to be used in OSAI models.
+- The US: The Open Source Initiative (OSI) has published the "Open Source AI Definition 1.0." In a nutshell, it encourages open data as part of open-source AI but allows private, non-open-source-licensed data to be used in open-source models.
 
 The European Union's AI Office has yet to clarify which definition of open-source AI applies to us. Is Europe better off charting its own way forward?
 
@@ -32,7 +32,7 @@ At its core, the matter is simple: the only way to ensure all [eight core rights
 
 | Feature | Open Weight | OSAI in China | OSAI in the US  | European Open Source AI |
 | :--- | :--- | :--- | :--- | :--- |
-| Defined by | | _Open Atom Foundation_ | _Open Source Initiative_ | _EU AI Office?_ |
+| Defined by | | _Open Atom Foundation_ | _Open Source Initiative_ | *EU AI Office?* |
 | **Model Weights** | Released | Released | Released | _Released_ |
 | **Training Code** | Not Shared | Fully Shared | Fully Shared | _Fully Shared_ |
 | **Training Pipeline** | Withheld | Nice to have | Nice to have | _Fully Shared_ |
