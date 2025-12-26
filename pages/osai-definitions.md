@@ -16,7 +16,7 @@ As of early 2026, European open-source AI model builders and providers are still
 
 Distinct from both the US and China, Europe has some the strictest privacy and data protection regulations in form of the General Data Protection Regulation (GDPR). If these uniquely European achievements are to be carried over into the age of (open-source) AI, the only working approach to open and transparent AI models is to comprehensively share training data that is both appropriately open-source licensed _and_ open for inspection for GDPR compliance. At its core, the matter is simple: the only way to ensure all [eight core rights](https://gdpr-info.eu/chapter-3/) of people in Europe are granted is in form of complete data transparency.[^1]
 
-|  | Open Weight | China Open Source AI | US Open Source AI  | European Open Source AI |
+|  | Open Weight | OSAI in China | OSAI in the US  | European Open Source AI |
 | :--- | :--- | :--- | :--- | :--- |
 | Defined by | | _Open Atom Foundation_ | _Open Source Initiative_ | _EU AI Office?_ |
 | **Model Weights** | Released | Released | Released | Released |
