@@ -28,7 +28,7 @@ The European Union's AI Office has yet to clarify which definition of open-sourc
 
 Distinct from both the US and China, Europe has some of the strictest privacy and data protection regulations in the form of the General Data Protection Regulation (GDPR). If these uniquely European achievements are to be carried over into the age of (open-source) AI, the only working approach to open and transparent AI models is to comprehensively share training data that is both appropriately open-source licensed and open for inspection for GDPR compliance.
 
-At its core, the matter is simple: the only way to ensure all [eight core rights](https://gdpr-info.eu/chapter-3/) of people in Europe are granted is through complete data transparency.[^1]
+At its core, the matter is simple: the only way to ensure all [eight core rights](https://www.autoriteitpersoonsgegevens.nl/en/themes/international/international-cooperation/overview-of-gdpr-guidelines#rights-of-data-subjects) of people in Europe are granted is through complete data transparency.[^1]
 
 | Feature | Open Weight | OSAI in China | OSAI in the US  | European Open Source AI |
 | :--- | :--- | :--- | :--- | :--- |
