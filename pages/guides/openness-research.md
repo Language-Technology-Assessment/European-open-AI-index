@@ -3,7 +3,7 @@ title: Open-source supports novel research
 description: (4/5) Part of a series of blog posts on the benefits of open-source AI.
 date: 2026-01-21
 author: Dick Blankvoort
-status: published
+status: unpublished
 ---
 # The benefits of open-source AI: open-source supports novel research
 <author :author="author"></author>
