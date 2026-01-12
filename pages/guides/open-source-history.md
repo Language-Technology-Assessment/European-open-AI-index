@@ -16,4 +16,4 @@ status: draft
 - ChatGPT
 - Perhaps a bit of more modern history?
 
-![Diagram depicting the evolution of LLMs](/images/llm_survey.png "LLM evolutionary tree")
+![Diagram depicting the evolution of LLMs](/images/llm_survey.gif "LLM evolutionary tree")
