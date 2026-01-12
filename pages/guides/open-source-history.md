@@ -3,7 +3,7 @@ title: The history of open-source AI
 description: In which we take a stroll through the history of open-source AI development
 date: 2025-05-26
 author: 
-status: unpublished
+status: draft
 ---
 # The history of open-source AI
 <author :author="author"></author>

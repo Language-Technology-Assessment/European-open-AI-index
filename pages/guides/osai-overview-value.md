@@ -3,7 +3,7 @@ title: Assessing the Representativeness of the OSAI Index
 description: In which we investigate the value of the European Open Source AI index as an overview of the open-source AI landscape
 date: 2025-06-13
 author: Dick Blankvoort
-status: unpublished
+status: draft
 ---
 # Assessing the Representativeness of the OSAI Index
 <author :author="author"></author>

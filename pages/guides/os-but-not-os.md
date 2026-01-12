@@ -2,8 +2,8 @@
 title: 'Open-source' but not open-source - Investigating models without open-source claims
 description: In which we investigate the challenges involved with classifying models which do not describe their open-source status.
 date: 2025-05-26
-author: 
-status: unpublished
+author:
+status: draft
 ---
 # 'Open-source' but not open-source - Investigating models without open-source claims
 <author :author="author"></author>
