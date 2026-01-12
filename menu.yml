@@ -1,6 +1,6 @@
 menu:
   - name: Database
-    link: /the-index
+    link: /database
   - name: News
     link: /news
   - name: Guides
