@@ -7,9 +7,9 @@ status: published
 ---
 
 
-New generative AI models are popping up everywhere and claims about openness abound. When we launched [Opening Up ChatGPT](https://opening-up-chatgpt.github.io/) in July 2023, it was the first global openness index for instruction-tuned large language models. Soon it featured over 50 models from >25 model providers. However, not everyone likes looking at enormous tables with more models and features than you can handle. Often, what people need is specific guidance on the [best models to use in education](/guides/open-llms-education), a comparison of specific models like [Llama and BloomZ](/guides/llama-vs-bloom-openness), or just a quick list of [all models that provide source code as well as scientific documentation](/the-index?type=text&preprint=1&trainingcode=1).
+New generative AI models are popping up everywhere and claims about openness abound. When we launched [Opening Up ChatGPT](https://opening-up-chatgpt.github.io/) in July 2023, it was the first global openness index for instruction-tuned large language models. Soon it featured over 50 models from >25 model providers. However, not everyone likes looking at enormous tables with more models and features than you can handle. Often, what people need is specific guidance on the [best models to use in education](/guides/open-llms-education), a comparison of specific models like [Llama and BloomZ](/guides/llama-vs-bloom-openness), or just a quick list of [all models that provide source code as well as scientific documentation](/database?type=text&preprint=1&trainingcode=1).
 
-We designed the European Open Source AI index to facilitate this form of flexible information sharing. You can check out a growing number of [guides](/#guides), or sift through the [model index](/the-index) using fulltext search and a comprehensive set of filters. We welcome your requests for guides and your suggestions for new models to include or data points to update. [See here](/contribute) for how to contribute.
+We designed the European Open Source AI index to facilitate this form of flexible information sharing. You can check out a growing number of [guides](/#guides), or sift through the [model index](/database) using fulltext search and a comprehensive set of filters. We welcome your requests for guides and your suggestions for new models to include or data points to update. [See here](/contribute) for how to contribute.
 
 Read on to learn about about how to navigate today's Open Source AI landscape. Or just start exploring the index on your own. 
 
@@ -50,7 +50,7 @@ filters:
 ---
 ::
 
-Although text-based LLMs are most numerous, we also include a range of other model types besides [text](/the-index?type=text "Text models in the European Open Source AI Index"): [images](/the-index?type=image "Image models in the European Open Source AI Index"), [code](/the-index?type=code "Code models in the European Open Source AI Index"), [video](/the-index?type=video "Video models in the European Open Source AI Index"), and [audio](/the-index?type=audio "Audio and voice models in the European Open Source AI Index"). 
+Although text-based LLMs are most numerous, we also include a range of other model types besides [text](/database?type=text "Text models in the European Open Source AI Index"): [images](/database?type=image "Image models in the European Open Source AI Index"), [code](/database?type=code "Code models in the European Open Source AI Index"), [video](/database?type=video "Video models in the European Open Source AI Index"), and [audio](/database?type=audio "Audio and voice models in the European Open Source AI Index"). 
 
 ## Further reading
 

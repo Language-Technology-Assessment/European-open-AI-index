@@ -3,7 +3,7 @@ title: Highlighting smaller players
 description: In which we highlight the smaller players and individuals who have nonetheless greatly contributed to the open-source AI ecosystem
 date: 2025-05-26
 author: 
-status: unpublished
+status: draft
 ---
 # Highlighting smaller players
 <author :author="author"></author>

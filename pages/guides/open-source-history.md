@@ -3,7 +3,7 @@ title: The history of open-source AI
 description: In which we take a stroll through the history of open-source AI development
 date: 2025-05-26
 author: 
-status: unpublished
+status: draft
 ---
 # The history of open-source AI
 <author :author="author"></author>
@@ -16,4 +16,4 @@ status: unpublished
 - ChatGPT
 - Perhaps a bit of more modern history?
 
-![Diagram depicting the evolution of LLMs](/images/llm_survey.png "LLM evolutionary tree")
+![Diagram depicting the evolution of LLMs](/images/llm_survey.gif "LLM evolutionary tree")

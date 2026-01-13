@@ -31,4 +31,4 @@ There are also some solutions for educational settings more geared towards point
 
 LM Studio offers tools for a range of users, from novices to developers. For novices, it will be useful to play with some basic settings like temperature and top n sampling, and to test the effect of different system prompts. 
 
-You can browse through our [full index](https://www.osai-index.eu/the-index) or [directly compare OLMo, Amber and Pythia](https://www.osai-index.eu/compare?models=olmo-7b-instruct,amber,pythia-chat-base-7B).
+You can browse through our [full index](https://www.osai-index.eu/database) or [directly compare OLMo, Amber and Pythia](https://www.osai-index.eu/compare?models=olmo-7b-instruct,amber,pythia-chat-base-7B).

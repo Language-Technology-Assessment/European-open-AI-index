@@ -3,7 +3,7 @@ title: Weighting Openness Criteria Across Different AI Domains
 description: How openess criteria is weighted across different domains. 
 date: 2025-08-04
 author: Nityaa Kalra
-status: unpublished
+status: draft
 ---
 
 # Weighting Openness Criteria Across Different AI Domains
