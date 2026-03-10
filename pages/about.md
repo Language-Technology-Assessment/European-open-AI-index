@@ -23,6 +23,10 @@ __Dick Blankvoort__ is a researcher at the Open Source AI Index. His primary int
 __Nityaa Kalra__  is a researcher at the Open Source AI Index. Her interests lie in NLP, explainable AI, and building responsible AI systems. She studies computer science and, as part of her thesis, investigates bias in book recommender systems, examining how thematic and genre biases shape book recommendations. She also teaches Text and Multimedia Mining.
 ::
 
+::person{image="/images/headshot-arg.jpg" name="Arya Rahimi Golkhandan"}
+__Arya Rahimi Golkhandan__  is a researcher at the Open Source AI Index. His research interests are AI literary and the influence of AI on information ecosystems. He studies language science and technology at Radboud University and teaches a course on information science.
+::
+
 ## Contributors
 
 __Adem Kaya__
