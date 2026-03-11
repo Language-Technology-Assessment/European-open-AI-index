@@ -16,15 +16,15 @@ __[Mark Dingemanse](https://markdingemanse.net "Mark Dingemanse")__ is co-founde
 ## Researchers
 
 ::person{image="/images/headshot-db.jpg" name="Dick Blankvoort"}
-__Dick Blankvoort__ is a researcher at the Open Source AI Index. His primary interest lies in the field of Data Science, focusing both on the applications of generative AI and on their mathematical underpinnings. He is a computer science student, currently pursues his internship at OSAI, and teaches Computer Algebra.
+__Dick Blankvoort__ is a researcher at the European Open Source AI Index. His primary interest lies in the field of Data Science, focusing both on the applications of generative AI and on their mathematical underpinnings. He is a computer science student, currently pursues his internship at OSAI, and teaches Computer Algebra.
 ::
 
 ::person{image="/images/headshot-nk.jpg" name="Nityaa Kalra"}
-__Nityaa Kalra__  is a researcher at the Open Source AI Index. Her interests lie in NLP, explainable AI, and building responsible AI systems. She studies computer science and, as part of her thesis, investigates bias in book recommender systems, examining how thematic and genre biases shape book recommendations. She also teaches Text and Multimedia Mining.
+__Nityaa Kalra__  is a researcher at the European Open Source AI Index. Her interests lie in NLP, explainable AI, and building responsible AI systems. She studies computer science and, as part of her thesis, investigates bias in book recommender systems, examining how thematic and genre biases shape book recommendations. She also teaches Text and Multimedia Mining.
 ::
 
 ::person{image="/images/headshot-arg.jpg" name="Arya Rahimi Golkhandan"}
-__Arya Rahimi Golkhandan__  is a researcher at the Open Source AI Index. His research interests are AI literary and the influence of AI on information ecosystems. He studies language science and technology at Radboud University and teaches a course on information science.
+__Arya Rahimi Golkhandan__  is a researcher at the European Open Source AI Index. His research interests are AI literary and the influence of AI on information ecosystems. He studies language science and technology at Radboud University and teaches a course on information science.
 ::
 
 ## Contributors
