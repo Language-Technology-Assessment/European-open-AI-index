@@ -1,28 +1,27 @@
 ---
 title: Assessing data transparency
-description: Why determining data openness for models as a non-expert is challenging
+description: Challenges in determining data openness for models openness
 date: 2026-05-19
 author: Dick Blankvoort
-status: draft
+status: published
 ---
 # Assessing data transparency
 <author :author="author"></author>
 <date :date="date"></date>
 
-'Data openness' as a concept intuitively seems like it should be a binary. A model either shows on which data it was trained, or it does not. There are a few factors which complicate this process, however.
+Intuitively, "data openness" seems like a binary: a model either discloses its training data or it does not. In reality, several factors complicate this assumption.
+First, as reflected in our database, pretraining data and fine-tuning data are distinct. Pretraining relies on massive web scrapes to build latent conceptual representations, while fine-tuning shapes the model into a specific role (e.g., a helpful assistant). Often, a model's fine-tuning data is public while its base data remains proprietary. Because of this, we evaluate these sources separately.
 
-First, and as we already model in our database, there is a difference between the pretraining data of a model and the fine-tuning data of a model. While the former involves large amounts of data scraped from the internet and generally focuses on instilling a latent representation of concepts, the latter focuses on, for instance, tuning this model such that it outputs text in the form of a helpful assistant. When assessing data openness, it is common to discover that the base model data for a model is not disclosed while the fine-tuning data is. As such we choose to account for these sources separately.
+Second, true openness requires transparency across the entire fine-tuning chain. If a model is built atop an already fine-tuned model, all sequential datasets must be disclosed. While this seems obvious, models frequently claim full openness while obscuring crucial parts of their fine-tuning lineage, leading to misleading claims.
+Third, data can be disclosed at different levels, each serving different stakeholder needs. We distinguish four:
 
-Second, any accounting of data openness should take into account data openness for every model in the fine-tuning chain. That is, if a model is fine-tuned further from an already fine-tuned model, both sets of fine-tuning data should be accounted for. Though this might seem obvious, it is far from unusual for models to claim openness while key aspects of their fine-tuning are obscured due to facts such as this, and for such wrongful claims about openness to subsequently be taken up.
+- Data sources list: Primarily useful for rights assessment.
+- Exact data mixture: Primarily useful for theoretical evaluation.
+- Filtering methodology: Primarily useful for replication.
+- The full dataset: Primarily useful for open-source development.
 
-Third, there are different levels to which data can be disclosed, each of which is useful to different stakeholders. We distinguish:
-1. Disclosing a list of data sources used, which is primarily useful for rights assessment.
-2. Disclosing the exact mixture of data which went into the dataset, which is primarily useful for theoretical assessments.
-3. Disclosing an exact description of how data from input data sources was filtered to produce the final dataset, which is primarily useful for replication.
-4. Disclosing the dataset itself, which is primarily useful for further open-source development.
+Ideally, all four would be provided, but this is rare in practice. Our index considers disclosure through any of these vectors as satisfactory, which means an "open-data" model might still lack the specific details a given stakeholder requires.
 
-While in the ideal case data would be disclosed in all of these ways, in practice this rarely happens. In our index we deem it satisfactory if data is disclosed through any of these four vectors, which means that some 'open-data' models may nonetheless be unsatisfactory for specific stakeholders.
+Fourth, true transparency requires examining data provenance, not just surface-level disclosures. Even if a final dataset is open, a lack of information on how that data was collected limits reproducibility and rights assessment. For example, many AI models train on openly licensed datasets that still contain copyrighted material. A rigorous assessment cannot simply take a dataset’s licensing claims at face value.
 
-Fourth, tracking full data openness might necessitate tracking more than just surface-level data disclosures. In particular, in order to make sure that data is handled in a transparent manner, data provenance has to be considered to a certain extent. If a model's final training data is open however either it or its source data sets have no information about *how data is collected*, this might limit reproducibility and rights assessment in meaningful ways. Many modern AI models are, for instance, trained on copyrighted data located within openly-licensed datasets, which means that a proper investigation into the data on which a model was trained must not take the final dataset at its word with regards to data claims.
-
-In general, we find that how one should go about classifying data openness is highly dependent on (1) the types of data which must be disclosed, (2) the models in a given model's fine-tuning chain, (3) the goals for which data is desired to be used, and (4) the underlying data landscape of the model, to the most granular extent possible. As such we caution that, while the data openness values in our index represent a methodologically-grounded best-effort assessment, any party desiring to make use of data openness properties should make their own adjudications about whether the data of 'open-data' models is indeed open enough. 
+Ultimately, classifying data openness depends heavily on the specific data types required, the fine-tuning lineage, the end user's goals, and the granular data landscape. While our index provides a methodologically grounded assessment, anyone relying on "open-data" models should independently verify whether a model's data is truly open enough for their specific use case.
