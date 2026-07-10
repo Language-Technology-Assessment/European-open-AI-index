@@ -1,6 +1,6 @@
 ---
 title: How to assess openness of training data
-description: Challenges in assessing data openness of models at scale and in public
+description: Challenges of independent and evidence-based assessment of data openness
 date: 2026-07-10
 author: Dick Blankvoort
 status: published
