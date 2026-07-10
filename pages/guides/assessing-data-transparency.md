@@ -1,6 +1,6 @@
 ---
-title: Assessing data transparency
-description: Challenges in independently assessing data openness of models
+title: How to assess openness of training data
+description: Challenges in assessing data openness of models at scale and in public
 date: 2026-07-10
 author: Dick Blankvoort
 status: published
