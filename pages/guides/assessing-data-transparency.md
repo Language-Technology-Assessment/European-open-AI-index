@@ -1,7 +1,7 @@
 ---
 title: Assessing data transparency
 description: Challenges in determining data openness for models openness
-date: 2026-05-19
+date: 2026-07-10
 author: Dick Blankvoort
 status: published
 ---
